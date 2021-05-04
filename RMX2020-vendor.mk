@@ -29,5 +29,4 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     EngineerMode \
-    ImsService \
-    HotwordEnrollmentOKGoogleCORTEXM4
+    ImsService
