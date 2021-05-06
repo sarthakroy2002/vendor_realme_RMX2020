@@ -18,6 +18,11 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/realme/RMX2020
 
 PRODUCT_COPY_FILES += \
+    vendor/realme/RMX2020/proprietary/product/vendor_overlay/29/lib/libdpframework.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libdpframework.so \
+    vendor/realme/RMX2020/proprietary/product/vendor_overlay/29/lib/libvpud_vcodec.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libvpud_vcodec.so \
+    vendor/realme/RMX2020/proprietary/product/vendor_overlay/29/lib64/libdpframework.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libdpframework.so
+
+PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/bin/kpoc_charger:$(TARGET_COPY_OUT_SYSTEM)/bin/kpoc_charger \
     vendor/realme/RMX2020/proprietary/product/etc/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml \
     vendor/realme/RMX2020/proprietary/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
