@@ -1,0 +1,21 @@
+##/*************************************************************
+## ** File: - vendor.oppo.hardware.biometrics.fingerprintpay@1.0-service.rc
+## ** VENDOR_EDIT
+## ** Copyright (C), 2016-2020, OPPO Mobile Comm Corp., Ltd 
+## ** 
+## ** Description : 1.0
+## **           This is a common file 
+## ** 
+## ** Version: 1.0
+## ** Date created: 11:00, 2017/12/28
+## ** Author: Ping.Liu@PSW.BSP.Fingerprint.Basic
+## ** 
+## ** ------------------ Revision History: ---------------------
+## **      <author>        <date>                    <desc>
+## **      Ping.Liu        11:00, 2017/12/28      modify for access of sdcard
+## *************************************************************/
+
+service fpay_hal /vendor/bin/hw/vendor.oppo.hardware.biometrics.fingerprintpay@1.0-service
+    class late_start
+    user system
+    group system input sdcard_rw sdcard_r

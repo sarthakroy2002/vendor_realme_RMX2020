@@ -1,0 +1,21 @@
+on post-fs-data
+    exec u:r:engineer_vendor_daemon:s0 radio system -- /vendor/bin/engineer_vendor_shell.sh addRadioFile
+
+    mkdir /mnt/vendor/persist/engineermode
+    chown system system /mnt/vendor/persist/engineermode
+    chmod 0775 /mnt/vendor/persist/engineermode
+    chmod 0644 /mnt/vendor/persist/engineermode/ENG_RESULT
+
+    mkdir /mnt/vendor/persist/camera
+    chown system system /mnt/vendor/persist/camera
+    chmod 0775 /mnt/vendor/persist/camera
+    mkdir /mnt/vendor/persist/camera/dual_calibration
+    chown system system /mnt/vendor/persist/camera/dual_calibration
+    chmod 0775 /mnt/vendor/persist/camera/dual_calibration
+
+on property:vendor.oppo.quit.atm=true
+    setprop persist.vendor.atm.mdmode normal
+    setprop persist.vendor.meta.connecttype usb
+    setprop persist.vendor.service.atci.atm_mode 0
+    stop meta_tst
+

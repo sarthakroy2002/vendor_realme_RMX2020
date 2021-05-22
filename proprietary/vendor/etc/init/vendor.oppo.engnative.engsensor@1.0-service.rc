@@ -1,0 +1,5 @@
+service oppo.engsensor-1-0 /vendor/bin/hw/vendor.oppo.engnative.engsensor@1.0-service
+    class main
+    user system
+    group system
+    interface vendor.oppo.engnative.engsensor@1.0::IEngSensor default

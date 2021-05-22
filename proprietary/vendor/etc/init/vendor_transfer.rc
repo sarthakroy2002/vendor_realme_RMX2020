@@ -1,0 +1,6 @@
+
+service vendortransfer /vendor/bin/hw/vendor_transfer
+    interface vendor.oppo.engnative.transfer@1.0::ITransfer ATMWiFiHidlServer
+    class main
+    disabled
+

@@ -1,0 +1,1509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<filter-conf>
+    <version>20190102</version>
+    <isOpen>1</isOpen>
+    <filter-name>oppo_display_perf_list</filter-name>
+
+    <name>sf.dps.feature</name>
+    <flag>0x464483,0,0,0,0,0,0,0</flag>
+
+    <name>/system/bin/mediaserver</name>
+    <flag>16384,0,0,0,0,0,0,0</flag>
+
+    <name>com.coloros.video</name>
+    <flag>16384,0,0,0,0,0,0,0,0,0</flag>
+
+    <name>com.ss.android.ugc.aweme</name>
+    <flag>0x10000A40,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme.main.MainActivity</scene>
+    <para>0.68,0.01885,0.0685,0.5,0.5,0.0,0.0,0.0</para>
+    <flag>10486784,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme</scene>
+    <para>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</para>
+    <flag>263168,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme.music.ui.MusicDetailActivity</scene>
+    <scene>com.ss.android.ugc.aweme.music.ui.MusicDetailActivity</scene>
+    <para>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.main.MainActivity</scene>
+    <scene>com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.music.ui.MusicDetailActivity</scene>
+    <para>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</para>
+    <flag>2098176,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme.main.MainActivity</scene>
+    <scene>PopupWindow</scene>
+    <para>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme.main.MainActivity</scene>
+    <scene>com.ss.android.ugc.aweme.main.MainActivity</scene>
+    <para>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme.main.MainActivity</scene>
+    <scene>com.ss.android.ugc.aweme.newfollow.ui.VideoFollowFeedDetailActivity</scene>
+    <para>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</para>
+    <flag>2098176,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme.discover.activity.SearchResultActivity</scene>
+    <scene>com.ss.android.ugc.aweme.newfollow.ui.VideoFollowFeedDetailActivity</scene>
+    <para>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</para>
+    <flag>2098176,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme.profile.ui.UserProfileActivity</scene>
+    <scene>com.ss.android.ugc.aweme.newfollow.ui.VideoFollowFeedDetailActivity</scene>
+    <para>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</para>
+    <flag>2098176,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme.detail.ui.DetailActivity</scene>
+    <scene>com.ss.android.ugc.aweme.detail.ui.DetailActivity</scene>
+    <para>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme.main.MainActivity</scene>
+    <scene>com.ss.android.ugc.aweme.detail.ui.DetailActivity</scene>
+    <scene>com.ss.android.ugc.aweme.detail.ui.DetailActivity</scene>
+    <para>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</para>
+    <flag>4195328,0,2,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme.detail.ui.DetailActivity</scene>
+    <scene>com.ss.android.ugc.aweme.detail.ui.DetailActivity</scene>
+    <scene>com.ss.android.ugc.aweme.detail.ui.DetailActivity</scene>
+    <para>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme.detail.ui.DetailActivity</scene>
+    <scene>com.ss.android.ugc.aweme.detail.ui.DetailActivity</scene>
+    <scene>com.ss.android.ugc.aweme.newfollow.ui.VideoFollowFeedDetailActivity</scene>
+    <para>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</para>
+    <flag>2098176,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme.shortvideo.ui.VideoPublishActivity</scene>
+    <scene>com.ss.android.ugc.aweme.shortvideo.ui.VideoPublishPreviewActivity</scene>
+    <para>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</para>
+    <flag>2098176,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme.main.MainActivity</scene>
+    <scene>com.ss.android.ugc.aweme.detail.ui.DetailActivity</scene>
+    <scene>com.ss.android.ugc.aweme.detail.ui.DetailActivity</scene>
+    <scene>com.ss.android.ugc.aweme.detail.ui.DetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</para>
+    <flag>4195328,0,2,0,0,0,0,0</flag>
+    <!--eVppConfig + eSceneFussy-->
+    <scene>com.ss.android.ugc.aweme.main.MainActivity</scene>
+    <scene>com.ss.android.ugc.aweme.main.MainActivity</scene>
+    <scene>com.ss.android.ugc.aweme.detail.ui.DetailActivity</scene>
+    <scene>com.ss.android.ugc.aweme.detail.ui.DetailActivity</scene>
+    <scene>com.ss.android.ugc.aweme.detail.ui.DetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</para>
+    <flag>4195328,0,3,0,0,0,0,0</flag>
+    <!--eVppConfig + eSceneFussy-->
+    <scene>com.ss.android.ugc.aweme.discover.activity.SearchResultActivity</scene>
+    <scene>com.ss.android.ugc.aweme.detail.ui.DetailActivity</scene>
+    <scene>com.ss.android.ugc.aweme.detail.ui.DetailActivity</scene>
+    <scene>com.ss.android.ugc.aweme.detail.ui.DetailActivity</scene>
+    <para>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</para>
+    <flag>4195328,0,2,0,0,0,0,0</flag>
+    <!--eVppConfig + eSceneFussy-->
+    <scene>com.ss.android.ugc.aweme.discover.activity.SearchResultActivity</scene>
+    <scene>com.ss.android.ugc.aweme.profile.ui.UserProfileActivity</scene>
+    <scene>com.ss.android.ugc.aweme.detail.ui.DetailActivity</scene>
+    <scene>com.ss.android.ugc.aweme.detail.ui.DetailActivity</scene>
+    <scene>com.ss.android.ugc.aweme.detail.ui.DetailActivity</scene>
+    <para>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</para>
+    <flag>4195328,0,3,0,0,0,0,0</flag>
+    <!--eVppConfig + eSceneFussy-->
+
+    <name>com.zhiliaoapp.musically</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x40,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme.splash.SplashActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme.splash.SplashActivity</scene>
+    <scene>PopupWindow</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme.splash.SplashActivity</scene>
+    <scene>com.ss.android.ugc.aweme.splash.SplashActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme.profile.ui.UserProfileActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.trill.detail.IDetailActivity</scene>
+    <scene>com.ss.android.ugc.trill.detail.IDetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme.splash.SplashActivity</scene>
+    <scene>com.ss.android.ugc.trill.detail.IDetailActivity</scene>
+    <scene>com.ss.android.ugc.trill.detail.IDetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>4195328,0,2,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme.music.ui.MusicDetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>2098176,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme.music.ui.MusicDetailActivity</scene>
+    <scene>com.ss.android.ugc.aweme.music.ui.MusicDetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme.splash.SplashActivity</scene>
+    <scene>com.ss.android.ugc.aweme.music.ui.MusicDetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>2098176,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme.challenge.ui.ChallengeDetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>2098176,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme.challenge.ui.ChallengeDetailActivity</scene>
+    <scene>com.ss.android.ugc.aweme.challenge.ui.ChallengeDetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme.detail.ui.DetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme.detail.ui.DetailActivity</scene>
+    <scene>com.ss.android.ugc.aweme.detail.ui.DetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme.detail.ui.DetailActivity</scene>
+    <scene>com.ss.android.ugc.aweme.detail.ui.DetailActivity</scene>
+    <scene>com.ss.android.ugc.aweme.detail.ui.DetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme.discover.activity.SearchResultActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+
+    <name>com.ss.android.ugc.trill</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x40,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme.splash.SplashActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme.splash.SplashActivity</scene>
+    <scene>PopupWindow</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme.splash.SplashActivity</scene>
+    <scene>com.ss.android.ugc.aweme.splash.SplashActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme.profile.ui.UserProfileActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.trill.detail.IDetailActivity</scene>
+    <scene>com.ss.android.ugc.trill.detail.IDetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme.splash.SplashActivity</scene>
+    <scene>com.ss.android.ugc.trill.detail.IDetailActivity</scene>
+    <scene>com.ss.android.ugc.trill.detail.IDetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>4195328,0,2,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme.music.ui.MusicDetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>2098176,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme.music.ui.MusicDetailActivity</scene>
+    <scene>com.ss.android.ugc.aweme.music.ui.MusicDetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme.splash.SplashActivity</scene>
+    <scene>com.ss.android.ugc.aweme.music.ui.MusicDetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>2098176,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme.challenge.ui.ChallengeDetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>2098176,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme.challenge.ui.ChallengeDetailActivity</scene>
+    <scene>com.ss.android.ugc.aweme.challenge.ui.ChallengeDetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme.detail.ui.DetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme.detail.ui.DetailActivity</scene>
+    <scene>com.ss.android.ugc.aweme.detail.ui.DetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme.detail.ui.DetailActivity</scene>
+    <scene>com.ss.android.ugc.aweme.detail.ui.DetailActivity</scene>
+    <scene>com.ss.android.ugc.aweme.detail.ui.DetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.aweme.discover.activity.SearchResultActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+
+    <name>video.like</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x40,0,0,0,0,0,0,0</flag>
+    <scene>sg.bigo.live.community.mediashare.detail.VideoDetailActivityV2</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>sg.bigo.live.community.mediashare.detail.VideoDetailActivityV2</scene>
+    <scene>Toast</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>sg.bigo.live.community.mediashare.detail.VideoDetailActivityV2</scene>
+    <scene>sg.bigo.live.community.mediashare.detail.VideoDetailActivityV2</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>sg.bigo.live.community.mediashare.detail.VideoDetailActivityV2</scene>
+    <scene>PopupWindow</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.yy.iheima.startup.MainActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.yy.iheima.startup.MainActivity</scene>
+    <scene>Toast</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>sg.bigo.live.community.mediashare.livesquare.LiveSquareActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>sg.bigo.live.user.UserProfileActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>sg.bigo.live.community.mediashare.livesquare.LiveSquareActivity</scene>
+    <scene>sg.bigo.live.community.mediashare.livesquare.LiveSquareActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>2098176,0,0,0,0,0,0,0</flag>
+    <scene>sg.bigo.live.model.live.LiveVideoViewerActivity</scene>
+    <scene>sg.bigo.live.model.live.LiveVideoViewerActivity</scene>
+    <scene>sg.bigo.live.model.live.LiveVideoViewerActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>sg.bigo.live.model.live.LiveVideoViewerActivity</scene>
+    <scene>sg.bigo.live.model.live.LiveVideoViewerActivity</scene>
+    <scene>sg.bigo.live.model.live.LiveVideoViewerActivity</scene>
+    <scene>sg.bigo.live.model.live.LiveVideoViewerActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>sg.bigo.live.list.follow.live.LiveListActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>sg.bigo.live.list.follow.live.LiveListActivity</scene>
+    <scene>sg.bigo.live.list.follow.live.LiveListActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>sg.bigo.live.community.mediashare.personalpage.UserVideosActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>sg.bigo.live.community.mediashare.topic.MusicTopicActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>sg.bigo.live.community.mediashare.topic.OfficialTopicActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+
+    <name>com.uc.vmate</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x40,0,0,0,0,0,0,0</flag>
+    <scene>com.uc.vmate.ui.MainActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.uc.vmate.ui.ugc.videodetail.VideoDetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.uc.vmate.ui.ugc.videodetail.VideoDetailActivity</scene>
+    <scene>com.uc.vmate.ui.ugc.videodetail.VideoDetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.uc.vmate.ui.ugc.discover.DiscoverFeedActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.uc.vmate.ui.ugc.userinfo.UserInfoActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+
+    <name>com.ss.android.ugc.boom</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x40,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.live.main.MainActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.live.main.MainActivity</scene>
+    <scene>com.ss.android.ugc.live.main.MainActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>2098176,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.live.main.MainActivity</scene>
+    <scene>com.ss.android.ugc.live.detail.DetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>2098176,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.live.main.MainActivity</scene>
+    <scene>com.ss.android.ugc.live.detail.DetailActivity</scene>
+    <scene>PopupWindow</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>4195328,0,2,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.live.main.MainActivity</scene>
+    <scene>com.ss.android.ugc.live.detail.DetailActivity</scene>
+    <scene>com.ss.android.ugc.live.detail.DetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>4195328,0,2,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.live.profile.userprofile.UserProfileActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.live.profile.userprofile.UserProfileActivity</scene>
+    <scene>com.ss.android.ugc.live.detail.DetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>2098176,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.live.profile.userprofile.UserProfileActivity</scene>
+    <scene>com.ss.android.ugc.live.detail.DetailActivity</scene>
+    <scene>com.ss.android.ugc.live.detail.DetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>4195328,0,2,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.live.detail.DetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.live.profile.myprofile.MyProfileActivity</scene>
+    <scene>com.ss.android.ugc.live.detail.DetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>2098176,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.live.profile.myprofile.MyProfileActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+
+    <name>com.smile.gifmaker</name>
+    <flag>0xA40,0,0,0,0,0,0,0</flag>
+    <scene>com.yxcorp.gifshow.HomeActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>2098176,0,0,0,0,0,0,0</flag>
+    <scene>com.yxcorp.gifshow.detail.PhotoDetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>2098176,0,0,0,0,0,0,0</flag>
+    <scene>com.yxcorp.gifshow.HomeActivity</scene>
+    <scene>com.yxcorp.gifshow.detail.PhotoDetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>525312,0,0,0,0,0,0,0</flag>
+    <scene>com.yxcorp.gifshow.HomeActivity</scene>
+    <scene>com.yxcorp.gifshow.detail.PhotoDetailActivity</scene>
+    <scene>com.yxcorp.gifshow.detail.PhotoDetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>4195328,0,2,0,0,0,0,0</flag>
+    <scene>com.yxcorp.gifshow.HomeActivity</scene>
+    <scene>com.yxcorp.gifshow.profile.activity.MyProfileActivity</scene>
+    <scene>com.yxcorp.gifshow.detail.PhotoDetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>2098176,0,2,0,0,0,0,0</flag>
+    <scene>com.yxcorp.gifshow.activity.ReviewActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>2098176,0,0,0,0,0,0,0</flag>
+    <scene>com.yxcorp.gifshow.HomeActivity</scene>
+    <scene>com.yxcorp.gifshow.detail.PhotoDetailActivity</scene>
+    <scene>com.yxcorp.gifshow.profile.activity.UserProfileActivity</scene>
+    <scene>com.yxcorp.gifshow.detail.PhotoDetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>2098176,0,0,0,0,0,0,0</flag>
+
+    <name>com.ss.android.ugc.live</name>
+    <flag>0xA40,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.live.main.MainActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>2098176,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.live.profile.userprofile.UserProfileActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>2098176,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.live.hashtag.union.HashTagUnionActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>2098176,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.live.profile.userprofile.UserProfileActivity</scene>
+    <scene>com.ss.android.ugc.live.detail.DetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>2098176,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.live.profile.userprofile.UserProfileActivity</scene>
+    <scene>com.ss.android.ugc.live.detail.DetailActivity</scene>
+    <scene>com.ss.android.ugc.live.detail.DetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>2098176,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.live.main.MainActivity</scene>
+    <scene>com.ss.android.ugc.live.main.MainActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.live.main.MainActivity</scene>
+    <scene>com.ss.android.ugc.live.detail.DetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>2098176,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.live.detail.DetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.live.detail.DetailActivity</scene>
+    <scene>com.ss.android.ugc.live.detail.DetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.live.main.MainActivity</scene>
+    <scene>com.ss.android.ugc.live.detail.DetailActivity</scene>
+    <scene>com.ss.android.ugc.live.detail.DetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>4195328,0,2,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.live.profile.myprofile_v2.MyProfileActivity</scene>
+    <scene>com.ss.android.ugc.live.detail.DetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>2098176,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.live.hashtag.union.HashTagUnionActivity</scene>
+    <scene>com.ss.android.ugc.live.detail.DetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>2098176,0,0,0,0,0,0,0</flag>
+    <scene>com.ss.android.ugc.live.profile.myprofile.MyProfileActivity</scene>
+    <scene>com.ss.android.ugc.live.detail.DetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>2098176,0,0,0,0,0,0,0</flag>
+
+    <name>com.tencent.weishi</name>
+    <flag>2560,0,0,0,0,0,0,0</flag>
+    <scene>com.tencent.oscar.module.main.MainActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.tencent.oscar.module.material.MaterialDetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.tencent.oscar.module.main.feed.FeedActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.tencent.oscar.module.main.feed.FeedActivity</scene>
+    <scene>com.tencent.oscar.module.main.feed.FeedActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.tencent.oscar.module.main.MainActivity</scene>
+    <scene>Toast</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.tencent.oscar.module.main.MainActivity</scene>
+    <scene>com.tencent.oscar.module.main.MainActivity</scene>
+    <scene>Toast</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.tencent.oscar.module.main.MainActivity</scene>
+    <scene>com.tencent.oscar.module.main.MainActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>com.tencent.oscar.module.main.MainActivity</scene>
+    <scene>com.tencent.oscar.module.main.MainActivity</scene>
+    <scene>com.tencent.oscar.module.main.MainActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.tencent.weishi</scene>
+    <scene>com.tencent.ttpic.qzcamera.plugin.VideoLiteEditorActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>66560,0,0,0,0,0,0,0</flag>
+
+    <name>com.meitu.meipaimv</name>
+    <flag>2560,0,0,1,0,0,0,0</flag>
+    <scene>com.meitu.meipaimv.community</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.06,0.00885,0.0285,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>2098176,0,0,1,0,0,0,0</flag>
+    <scene>com.meitu.meipaimv.community</scene>
+    <scene>Toast</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.06,0.00885,0.0285,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>2098176,0,0,1,0,0,0,0</flag>
+    <scene>com.meitu.meipaimv.community</scene>
+    <scene>AtchDlg</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.06,0.00885,0.0285,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,1,0,0,0,0</flag>
+    <scene>com.meitu.meipaimv.community</scene>
+    <scene>PopupWindow</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.06,0.00885,0.0285,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,1,0,0,0,0</flag>
+    <scene>com.meitu.meipaimv.community.homepage.HomepageActivity</scene>
+    <scene>com.meitu.meipaimv.community.mediadetail.MediaDetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.06,0.00885,0.0285,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>2098176,0,0,1,0,0,0,0</flag>
+    <scene>MediaDetailFeedLineActivity</scene>
+    <scene>VideoFullWatcherActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.06,0.00885,0.0285,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>2098176,0,0,0,0,0,0,0</flag>
+    <scene>com.meitu.meipaimv.community.main.MainActivity</scene>
+    <scene>homepage.v2.HomepageActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.06,0.00885,0.0285,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>2098176,0,0,0,0,0,0,0</flag>
+    <scene>com.meitu.meipaimv.community</scene>
+    <scene>feedline.VideoFullWatcherActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.06,0.00885,0.0285,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>2098176,0,0,0,0,0,0,0</flag>
+    <scene>com.meitu.meipaimv.community.main.MainActivity</scene>
+    <scene>com.meitu.meipaimv.community.main.MainActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.06,0.00885,0.0285,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>1049600,0,0,1,0,0,0,0</flag>
+    <scene>com.meitu.meipaimv.community.main.MainActivity</scene>
+    <scene>com.meitu.meipaimv.community.mediadetail.MediaDetailActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.06,0.00885,0.0285,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>2098176,0,0,1,0,0,0,0</flag>
+    <scene>com.meitu.meipaimv.community</scene>
+    <scene>com.meitu.meipaimv.community</scene>
+    <scene>AtchDlg</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.06,0.00885,0.0285,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>4195328,0,2,1,0,0,0,0</flag>
+    <scene>com.meitu.meipaimv.community</scene>
+    <scene>com.meitu.meipaimv.community</scene>
+    <scene>PopupWindow</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.06,0.00885,0.0285,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>4195328,0,2,1,0,0,0,0</flag>
+
+    <name>com.tencent.tvoem</name>
+    <fps>30,30,30,60,60</fps>
+    <vsync>30,30,30,60,60</vsync>
+    <flag>16,0,0,0,0,0,0,0</flag>
+
+    <name>com.tencent.qqlive</name>
+    <flag>0x28000250,0,0,0,0,0,0,0</flag>
+
+    <name>cn.easyar.sightplus</name>
+    <flag>0,0,0,0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - cn.easyar.sightplus/cn.easyar.sightplus.domain.home.HomeActivity#0</scene>
+    <scene>cn.easyar.sightplus/cn.easyar.sightplus.domain.home.HomeActivity#0</scene>
+    <fps>35,35,35,40,40</fps>
+    <vsync>35,35,35,40,40</vsync>
+    <flag>1,0,0,0,0,0,0,0</flag>
+
+    <name>com.sohu.sohuvideo</name>
+    <fps>30,30,30,60,60</fps>
+    <vsync>30,30,30,60,60</vsync>
+    <flag>16,0,0,0,0,0,0,0</flag>
+
+    <name>com.youku.phone</name>
+    <fps>30,30,30,60,60</fps>
+    <vsync>30,30,30,60,60</vsync>
+    <flag>0x50,0,0,0,0,0,0,0</flag>
+
+    <name>com.tudou.android</name>
+    <fps>30,30,30,60,60</fps>
+    <vsync>30,30,30,60,60</vsync>
+    <flag>16,0,0,0,0,0,0,0</flag>
+
+    <name>com.qiyi.video</name>
+    <flag>0x50,0,0,0,0,0,0,0</flag>
+
+    <name>com.gbits.atm.nearme.gamecenter</name>
+    <fps>30,30,30,60,60</fps>
+    <vsync>30,30,30,60,60</vsync>
+    <flag>1,0,0,0,0,0,0,0</flag>
+
+    <name>com.tencent.mobileqq:video</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0,0,0,0,0,0,0,3</flag>
+    <scene>SurfaceView - com.tencent.mobileqq/com.tencent.av.ui.AVActivity</scene>
+    <scene>com.tencent.mobileqq/com.tencent.av.ui.AVActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0,0,0,0,0,0,0,5</flag>
+
+    <name>com.tencent.tmgp.cf</name>
+    <fps>25,25,25,30,30</fps>
+    <vsync>25,25,25,30,30</vsync>
+    <flag>0,0,0,8,0,0,0,0</flag>
+
+    <name>com.audiocn.kalaok</name>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>com.laoyouzhibo.app</name>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>com.tencent.tmgp.sgame</name>
+    <flag>0x44,0,0,0,0,0,0,0</flag>
+
+    <name>com.netease.my.nearme.gamecenter</name>
+    <fps>30,30,30,30,30</fps>
+    <vsync>30,30,30,30,30</vsync>
+    <flag>1,0,0,0,0,0,0,0</flag>
+
+    <name>com.netease.dhxy.nearme.gamecenter</name>
+    <fps>25,25,25,25,25</fps>
+    <vsync>25,25,25,25,25</vsync>
+    <flag>1,0,0,0,0,0,0,0</flag>
+
+    <name>com.supercell.boombeach</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>1,0,0,0,0,0,0,0</flag>
+
+    <name>com.kiloo.subwaysurf</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,55,55</vsync>
+    <flag>0x41,0,0,0,0,0,0,0</flag>
+
+    <name>com.tencent.tmgp.RunGame</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>1,0,0,0,0,0,0,0</flag>
+
+    <name>com.happyelements.AndroidAnimal</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>1,0,0,0,0,0,0,0</flag>
+
+    <name>com.jiguang.dtszj.nearme.gamecenter</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>1,0,0,0,0,0,0,0</flag>
+
+    <name>com.netease.l10.nearme.gamecenter</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>1,0,0,0,0,0,0,0</flag>
+
+    <name>com.changba</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>com.tencent.karaoke</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0x8000000,0,0,1,0,0,0,0</flag>
+
+    <name>cn.kuwo.sing</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>cn.banshenggua.aichang</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>cn.banshenggua.aichang:aichang</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>sg.bigo.live</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>com.cmcm.live</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>com.cwj.hsing</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>com.anhlt.karaokeonline</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>com.sroksrae.kskara</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>com.machipopo.media17</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>chat.meme.inke</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>chat.meme.china</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>com.asiainno.uplive</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>com.wali.live</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>com.nice.tutulive</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>tv.tutulive.plus</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>com.tencent.mm</name>
+    <flag>0x8000A00,0,0,4,0,1,0,3</flag>
+    <scene>com.tencent.mm</scene>
+    <scene>ui.SnsOnlineVideoActivity</scene>
+    <para>0.36,0.00885,0.0285,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>2098176,0,0,4,0,1,0,3</flag>
+
+    <name>com.tencent.mobileqq</name>
+    <flag>0x8000000,0,0,4,0,0,0,1</flag>
+
+    <name>com.ss.android.article.news</name>
+    <flag>0x1C000000,0,0,0,0,0,0,0</flag>
+
+    <name>cn.lcsw.lcpay</name>
+    <fps>0,0,0,0,0</fps>
+    <vsync>0,0,0,0,0</vsync>
+    <flag>0,0,0,4,0,0,0,1</flag>
+
+    <name>com.soufun</name>
+    <fps>0,0,0,0,0</fps>
+    <vsync>0,0,0,0,0</vsync>
+    <flag>0,0,0,4,0,0,0,1</flag>
+
+    <name>com.zbx.ct.tvzhibo</name>
+    <fps>0,0,0,0,0</fps>
+    <vsync>0,0,0,0,0</vsync>
+    <flag>0,0,0,0,0,1,0,0</flag>
+
+    <name>org.fungo.fungolive</name>
+    <fps>0,0,0,0,0</fps>
+    <vsync>0,0,0,0,0</vsync>
+    <flag>0,0,0,0,0,1,0,0</flag>
+
+    <name>org.fungo.fungoliveallstar</name>
+    <fps>0,0,0,0,0</fps>
+    <vsync>0,0,0,0,0</vsync>
+    <flag>0,0,0,0,0,1,0,0</flag>
+
+    <name>cn.cntv</name>
+    <fps>0,0,0,0,0</fps>
+    <vsync>0,0,0,0,0</vsync>
+    <flag>0,0,0,0,0,1,0,0</flag>
+
+    <name>dopool.player</name>
+    <fps>0,0,0,0,0</fps>
+    <vsync>0,0,0,0,0</vsync>
+    <flag>0,0,0,0,0,1,0,0</flag>
+
+    <name>com.sjdszb.oppova</name>
+    <fps>0,0,0,0,0</fps>
+    <vsync>0,0,0,0,0</vsync>
+    <flag>0,0,0,0,0,1,0,0</flag>
+
+    <name>com.indiatv.livetv</name>
+    <fps>0,0,0,0,0</fps>
+    <vsync>0,0,0,0,0</vsync>
+    <flag>0,0,0,0,0,1,0,0</flag>
+
+    <name>com.nbs.useetv</name>
+    <fps>0,0,0,0,0</fps>
+    <vsync>0,0,0,0,0</vsync>
+    <flag>0,0,0,0,0,1,0,0</flag>
+
+    <name>SmartVolume.Wechat.DB.Level</name>
+    <fps>0,0,0,0,0</fps>
+    <vsync>0,0,0,0,0</vsync>
+    <flag>0,0,0,0,0,19,1,0</flag>
+
+    <name>com.duowan.mobile</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>com.meitu.meipaimv</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>air.tv.douyu.android</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>tv.xiaoka.live</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <!-- dirac game begin -->
+    <name>com.tencent.tmgp.pubgmhd</name>
+    <fps>25,25,25,25,25</fps>
+    <vsync>25,25,25,25,25</vsync>
+    <flag>0x40,0,0,8,0,0,0,0</flag>
+
+    <name>com.tencent.tmgp.pubgm</name>
+    <fps>25,25,25,25,25</fps>
+    <vsync>25,25,25,25,25</vsync>
+    <flag>0,0,0,8,0,0,0,0</flag>
+
+    <name>com.netease.hyxd.nearme.gamecenter</name>
+    <fps>25,25,25,25,25</fps>
+    <vsync>25,25,25,25,25</vsync>
+    <flag>0,0,0,8,0,0,0,0</flag>
+
+    <name>com.netease.hyxd</name>
+    <fps>25,25,25,25,25</fps>
+    <vsync>25,25,25,25,25</vsync>
+    <flag>0,0,0,8,0,0,0,0</flag>
+
+    <name>com.netease.dwrg.nearme.gamecenter</name>
+    <fps>25,25,25,25,25</fps>
+    <vsync>25,25,25,25,25</vsync>
+    <flag>0,0,0,8,0,0,0,0</flag>
+
+    <name>com.tencent.tmgp.dwrg</name>
+    <fps>25,25,25,25,25</fps>
+    <vsync>25,25,25,25,25</vsync>
+    <flag>0,0,0,8,0,0,0,0</flag>
+
+    <name>com.netease.chiji</name>
+    <fps>25,25,25,25,25</fps>
+    <vsync>25,25,25,25,25</vsync>
+    <flag>0,0,0,8,0,0,0,0</flag>
+
+    <name>com.netease.ko</name>
+    <fps>25,25,25,25,25</fps>
+    <vsync>25,25,25,25,25</vsync>
+    <flag>0,0,0,8,0,0,0,0</flag>
+
+    <name>com.tencent.ig</name>
+    <fps>25,25,25,25,25</fps>
+    <vsync>25,25,25,25,25</vsync>
+    <flag>0x40,0,0,8,0,0,0,0</flag>
+
+    <name>com.dts.freefireth</name>
+    <fps>25,25,25,25,25</fps>
+    <vsync>25,25,25,25,25</vsync>
+    <flag>0x40,0,0,8,0,0,0,0</flag>
+
+    <name>com.glu.deerhunt2</name>
+    <fps>25,25,25,25,25</fps>
+    <vsync>25,25,25,25,25</vsync>
+    <flag>0,0,0,8,0,0,0,0</flag>
+
+    <name>com.gameloft.android.ANMP.GloftM5HM</name>
+    <fps>25,25,25,25,25</fps>
+    <vsync>25,25,25,25,25</vsync>
+    <flag>0,0,0,8,0,0,0,0</flag>
+
+    <name>com.gameloft.android.ANMP.GloftNOHM</name>
+    <fps>25,25,25,25,25</fps>
+    <vsync>25,25,25,25,25</vsync>
+    <flag>0,0,0,8,0,0,0,0</flag>
+
+    <name>com.mobile.legends</name>
+    <fps>25,25,25,25,25</fps>
+    <vsync>25,25,25,25,25</vsync>
+    <flag>0,0,0,8,0,0,0,0</flag>
+    <!-- dirac game end -->
+
+    <!-- below is Taiwan -->
+    <!-- 卡戰無雙 - 非一般の競技遊戲 -->
+    <name>com.foyo.hlsg</name>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>1,0,0,0,0,0,0,0</flag>
+
+    <!-- 元素物語 -->
+    <name>tw.sonet.es</name>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>1,0,0,0,0,0,0,0</flag>
+
+    <!-- CHOCO TV -->
+
+    <!-- xiaoying -->
+    <name>com.quvideo.xiaoying</name>
+    <fps>30,30,30,60,60</fps>
+    <vsync>30,30,30,60,60</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+
+    <!-- below is Australia -->
+    <!-- flipdriving -->
+
+    <name>org.videolan.vlc</name>
+    <fps>30,30,30,60,60</fps>
+    <vsync>30,30,30,60,60</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+
+    <!-- below is singopo -->
+    <!-- dentistcutekids -->
+    <name>com.iaw.dentistcutekids</name>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>1,0,0,0,0,0,0,0</flag>
+
+    <!-- connectanimals -->
+    <name>com.firegamestudio.connectanimals</name>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>1,0,0,0,0,0,0,0</flag>
+
+    <!-- mx player -->
+    <name>com.mxtech.videoplayer.ad</name>
+    <fps>30,30,30,60,60</fps>
+    <vsync>30,30,30,60,60</vsync>
+    <flag>0x240,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView</scene>
+    <fps>30,30,30,60,60</fps>
+    <vsync>30,30,30,60,60</vsync>
+    <flag>1040,0,0,0,0,0,0,0</flag>
+
+    <!-- below is newer for india and other countries -->
+
+    <!-- com.outfit7.mytalkingtomfree -->
+    <name>com.outfit7.mytalkingtomfree</name>
+    <fps>35,35,35,45,45</fps>
+    <vsync>35,35,35,45,45</vsync>
+    <flag>1,0,0,0,0,0,0,0</flag>
+
+    <!-- com.supercell.clashofclans -->
+    <name>com.supercell.clashofclans</name>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>1,0,0,0,0,0,0,0</flag>
+
+    <!-- com.king.candycrushsodasaga -->
+    <name>com.king.candycrushsodasaga</name>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>1,0,0,0,0,0,0,0</flag>
+
+    <!-- com.king.candycrushsaga -->
+    <name>com.king.candycrushsaga</name>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>1,0,0,0,0,0,0,0</flag>
+
+    <!-- com.king.candycrushjellysaga -->
+    <name>com.king.candycrushjellysaga</name>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>1,0,0,0,0,0,0,0</flag>
+
+    <!-- com.supercell.hayday -->
+    <name>com.supercell.hayday</name>
+    <fps>35,35,35,40,40</fps>
+    <vsync>35,35,35,40,40</vsync>
+    <flag>1,0,0,0,0,0,0,0</flag>
+
+    <!-- com.kits.projectp -->
+    <name>com.kits.projectp</name>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>1,0,0,0,0,0,0,0</flag>
+
+    <!-- com.miniclip.eightballpool -->
+    <name>com.miniclip.eightballpool</name>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>1,0,0,0,0,0,0,0</flag>
+
+    <!-- com.outfit7.mytalkingangelafree-->
+    <name>com.outfit7.mytalkingangelafree</name>
+    <fps>35,35,35,45,45</fps>
+    <vsync>35,35,35,45,45</vsync>
+    <flag>1,0,0,0,0,0,0,0</flag>
+
+    <!-- com.linecorp.LGGRTHN -->
+    <name>com.linecorp.LGGRTHN</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>1,0,0,0,0,0,0,0</flag>
+
+    <!-- com.king.farmheroessaga -->
+    <name>com.king.farmheroessaga</name>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>1,0,0,0,0,0,0,0</flag>
+
+    <!-- com.mojang.minecraftpe -->
+    <name>com.nextwave.wcc2</name>
+    <fps>35,35,35,40,40</fps>
+    <vsync>35,35,35,40,40</vsync>
+    <flag>1,0,0,0,0,0,0,0</flag>
+
+    <name>com.walnut.strive</name>
+    <fps>40,40,40,50,50</fps>
+    <vsync>40,40,40,50,50</vsync>
+    <flag>1,0,0,0,0,0,0,0</flag>
+
+    <name>com.ea.gp.minions</name>
+    <fps>32,32,32,50,50</fps>
+    <vsync>32,32,32,50,50</vsync>
+    <flag>1,0,0,0,0,0,0,0</flag>
+
+    <name>com.teenpatti.hd.gold</name>
+    <fps>25,25,25,30,30</fps>
+    <vsync>25,25,25,30,30</vsync>
+    <flag>1,0,0,0,0,0,0,0</flag>
+
+    <name>net.peakgames.amy</name>
+    <fps>40,40,40,45,45</fps>
+    <vsync>40,40,40,45,45</vsync>
+    <flag>1,0,0,0,0,0,0,0</flag>
+
+    <name>com.rovio.angrybirdsrio</name>
+    <fps>40,40,40,45,45</fps>
+    <vsync>40,40,40,45,45</vsync>
+    <flag>1,0,0,0,0,0,0,0</flag>
+
+    <name>com.rovio.baba</name>
+    <fps>40,40,40,45,45</fps>
+    <vsync>40,40,40,45,45</vsync>
+    <flag>1,0,0,0,0,0,0,0</flag>
+
+    <name>com.king.petrescuesaga</name>
+    <fps>35,35,35,45,45</fps>
+    <vsync>35,35,35,45,45</vsync>
+    <flag>1,0,0,0,0,0,0,0</flag>
+
+    <name>com.vng.g6.a.zombie</name>
+    <fps>40,40,40,45,45</fps>
+    <vsync>40,40,40,45,45</vsync>
+    <flag>1,0,0,0,0,0,0,0</flag>
+
+    <name>com.prettysimple.criminalcaseandroid</name>
+    <fps>40,40,40,45,45</fps>
+    <vsync>40,40,40,45,45</vsync>
+    <flag>1,0,0,0,0,0,0,0</flag>
+
+    <name>com.fungames.sniper3d</name>
+    <fps>35,35,35,45,45</fps>
+    <vsync>35,35,35,45,45</vsync>
+    <flag>1,0,0,0,0,0,0,0</flag>
+
+    <name>com.games24x7.ultimaterummy.playstore</name>
+    <fps>35,35,35,40,40</fps>
+    <vsync>35,35,35,40,40</vsync>
+    <flag>1,0,0,0,0,0,0,0</flag>
+
+    <name>com.rovio.angrybirds</name>
+    <fps>35,35,35,45,45</fps>
+    <vsync>35,35,35,45,45</vsync>
+    <flag>1,0,0,0,0,0,0,0</flag>
+
+    <name>com.games24x7.teenpatti.playstore</name>
+    <fps>35,35,35,45,45</fps>
+    <vsync>35,35,35,45,45</vsync>
+    <flag>1,0,0,0,0,0,0,0</flag>
+
+    <name>com.nordcurrent.canteenhd</name>
+    <fps>35,35,35,45,45</fps>
+    <vsync>35,35,35,45,45</vsync>
+    <flag>1,0,0,0,0,0,0,0</flag>
+
+    <name>com.junerking.archery</name>
+    <fps>40,40,40,45,45</fps>
+    <vsync>40,40,40,45,45</vsync>
+    <flag>1,0,0,0,0,0,0,0</flag>
+
+    <name>com.midasplayer.apps.bubblewitchsaga2</name>
+    <fps>40,40,40,45,45</fps>
+    <vsync>40,40,40,45,45</vsync>
+    <flag>1,0,0,0,0,0,0,0</flag>
+
+    <name>com.fotoable.fotobeauty</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>134217728,0,0,0,0,0,0,0</flag>
+
+    <name>com.Selfie_Camera.Beauty_Cam_Plus</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>134217728,0,0,0,0,0,0,0</flag>
+
+    <name>com.deepano.scene.scene</name>
+    <flag>536870912,0,0,0,0,0,0,0</flag>
+
+    <name>com.tencent.gallerymanager</name>
+    <flag>536870912,0,0,0,0,0,0,0</flag>
+
+    <name>com.tencent.ttpic</name>
+    <flag>536870912,0,0,0,0,0,0,0</flag>
+
+    <name>com.ea.game.nfs14_row</name>
+    <flag>1073741824,0,0,0,0,0,0,0</flag>
+
+    <name>com.xunmeng.pinduoduo</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x8000000,0,0,0,0,0,0,0</flag>
+
+    <name>com.sankuai.meituan</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x8000000,0,0,0,0,0,0,0</flag>
+
+    <name>com.sina.weibo</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x8000000,0,0,0,0,0,0,0</flag>
+
+    <name>com.achievo.vipshop</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x8000000,0,0,0,0,0,0,0</flag>
+
+    <name>com.taobao.taobao</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x8000000,0,0,0,0,0,0,0</flag>
+
+    <name>com.jingdong.app.mall</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x8000000,0,0,0,0,0,0,0</flag>
+
+    <name>com.UCMobile</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x8000000,0,0,0,0,0,0,0</flag>
+
+    <name>com.oppo.reader</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x8000000,0,0,0,0,0,0,0</flag>
+
+    <name>com.eg.android.AlipayGphone</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x8000000,0,0,0,0,0,0,0</flag>
+
+    <name>com.ss.android.article.video</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x8000000,0,0,0,0,0,0,0</flag>
+
+    <name>cn.wps.moffice_eng</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x8000000,0,0,0,0,0,0,0</flag>
+
+    <name>com.baidu.searchbox</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x8000000,0,0,0,0,0,0,0</flag>
+
+    <name>com.autonavi.minimap</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x8000000,0,0,0,0,0,0,0</flag>
+
+    <name>com.hipu.yidian</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x8000000,0,0,0,0,0,0,0</flag>
+
+    <name>com.kugou.android</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x8000000,0,0,0,0,0,0,0</flag>
+
+    <name>com.Qunar</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x8000000,0,0,0,0,0,0,0</flag>
+
+    <name>com.tencent.qqmusic</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x8000000,0,0,0,0,0,0,0</flag>
+
+    <name>com.tencent.news</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x8000000,0,0,0,0,0,0,0</flag>
+
+    <name>com.shoujiduoduo.ringtone</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x8000000,0,0,0,0,0,0,0</flag>
+
+    <name>com.ximalaya.ting.android</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x8000000,0,0,0,0,0,0,0</flag>
+
+    <name>com.baidu.haokan</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x8000000,0,0,0,0,0,0,0</flag>
+
+    <name>com.android.browser</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x8000000,0,0,0,0,0,0,0</flag>
+
+    <name>com.facebook.katana</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x8000000,0,0,0,0,0,0,0</flag>
+
+    <name>com.facebook.orca</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x8000000,0,0,0,0,0,0,0</flag>
+
+    <name>com.whatsapp</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x8000000,0,0,0,0,0,0,0</flag>
+
+    <name>com.UCMobile.intl</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x8000000,0,0,0,0,0,0,0</flag>
+
+    <name>app.buzz.share</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x8000000,0,0,0,0,0,0,0</flag>
+
+    <name>com.lenovo.anyshare.gps</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x8000000,0,0,0,0,0,0,0</flag>
+
+    <name>com.truecaller</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x8000000,0,0,0,0,0,0,0</flag>
+
+    <name>in.mohalla.sharechat</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x8000000,0,0,0,0,0,0,0</flag>
+
+    <name>com.jio.myjio</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x8000000,0,0,0,0,0,0,0</flag>
+
+    <name>cn.xender</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x8000000,0,0,0,0,0,0,0</flag>
+
+    <name>com.flipkart.android</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x8000000,0,0,0,0,0,0,0</flag>
+
+    <name>com.amazon.mShop.android.shopping</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x8000000,0,0,0,0,0,0,0</flag>
+
+    <name>in.startv.hotstar.lite</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x40,0,0,0,0,0,0,0</flag>
+
+    <name>com.jio.jioplay.tv</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x40,0,0,0,0,0,0,0</flag>
+
+    <name>com.ludo.king</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0x40,0,0,0,0,0,0,0</flag>
+
+</filter-conf>
+

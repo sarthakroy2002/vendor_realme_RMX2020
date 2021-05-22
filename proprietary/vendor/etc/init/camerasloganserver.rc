@@ -1,0 +1,6 @@
+service camerasloganserver /vendor/bin/hw/camerasloganserver
+    class main
+    user cameraserver
+    group camera inet media sdcard_rw system
+    ioprio rt 4
+    writepid /dev/cpuset/foreground/tasks

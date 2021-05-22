@@ -1,0 +1,21 @@
+
+#ifdef VENDOR_EDIT
+#JiaoBo@PSW.CN.WiFi.Basic.Log.1162004, 2019/10/18
+#Add for: mtk coredump related log collection and DCS handle
+#dynamic open wifi core dump
+on property:oppo.wifi.dump.mode=*
+    setprop persist.vendor.connsys.coredump.mode ${oppo.wifi.dump.mode}
+
+on property:vendor.connsys.wifi.dump.status=1
+    start collectWifiCoredumpLog
+
+#collectWifiCoredumpLog service start kernel log collect and zip file to DCS path
+service collectWifiCoredumpLog /vendor/bin/sh /vendor/bin/init.oppo.wifi.debug.sh "collectWifiCoredumpLog"
+    class main
+    user root
+    group root system misc wifi
+    seclabel u:r:rutilsdaemon:s0
+    disabled
+    oneshot
+
+#endif  /* VENDOR_EDIT */

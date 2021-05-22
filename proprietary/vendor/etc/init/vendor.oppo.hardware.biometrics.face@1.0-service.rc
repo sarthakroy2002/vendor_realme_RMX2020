@@ -1,0 +1,20 @@
+service face_hal /vendor/bin/hw/vendor.oppo.hardware.biometrics.face@1.0-service
+    # "class hal" causes a race condition on some devices due to files created
+    # in /data. As a workaround, postpone startup until later in boot once
+    # /data is mounted.
+    class late_start
+    user system
+    group system input
+
+on post-fs-data
+    mkdir /data/vendor_de 0770 system system
+    mkdir /data/vendor_de/0 0770 system system
+    mkdir /data/vendor_de/0/facedata 0770 system system
+    mkdir /data/vendor_de/0/faceunlock 0770 system system
+
+    mkdir /data/vendor_de 0770 system system
+    mkdir /data/vendor_de/0 0770 system system
+    mkdir /data/vendor_de/0/.faceauth 0770 system system
+    mkdir /data/vendor_de/0/.facedldata 0770 system system
+    mkdir /data/vendor_de/0/faceauth 0770 system system
+    mkdir /data/vendor_de/0/facedldata 0770 system system

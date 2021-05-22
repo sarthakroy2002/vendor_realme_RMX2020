@@ -1,0 +1,136 @@
+service set_logd_buffer_service /vendor/bin/self-init set_logd_buffer
+    user root
+    oneshot
+    disabled
+    seclabel u:r:rutilsdaemon:s0
+
+on property:ro.oppo.logd.resize=1 && property:sys.boot_completed=1
+   start set_logd_buffer_service
+
+#ifdef ODM_WT_EDIT
+#Lei.Fan@ODM_WT.AD.Fingerprint,bugId 2639525,2019/12/13,add fingerprint build version for vts
+service prop-adap-core /vendor/bin/self-init core
+    class core
+    user root
+    oneshot
+service prop-adap-main /vendor/bin/self-init main
+    class main
+    user root
+    oneshot
+service media-resource-reconciliation /vendor/bin/self-init reconcile_media_resource
+    user root
+    oneshot
+    disabled
+service prop-adap-core-gsi /vendor/bin/self-init gsicore
+    class core
+    user root
+    group root system radio
+    oneshot
+
+service prop-adap-main-gsi /vendor/bin/self-init gsimain
+    class main
+    user root
+    group root system radio
+    oneshot
+#endif ODM_WT_EDIT
+
+#ifdef VENDOR_EDIT
+#Haoran.Zhang@Tech.CTS.1626045, 2018/12/24, Add for Android G VTS test
+
+#product mount
+on post-fs-data
+
+   mkdir /data/vendor/euclid 0771 system system
+   mkdir /data/vendor/euclid/product 0771 system system
+   mkdir /mnt/vendor/oppo_product 0771 system system
+   mkdir /mnt/vendor/oppo_version 0771 system system
+   mkdir /data/vendor/euclid/custom 0771 system system
+   mkdir /data/vendor/euclid/engineering 0771 system system
+   mkdir /data/vendor/euclid/version 0771 system system
+   mount ext4 loop@/vendor/euclid/product.img  /data/vendor/euclid/product ro
+   start overlay_mount_euclid
+   start mount_euclid
+
+
+#trigger version mount , fingerprint prop set
+service mount_euclid /vendor/bin/self-init mount_euclid
+    user root
+    oneshot
+    disabled
+
+service overlay_mount_euclid /vendor/bin/self-init overlay_mount_euclid
+    user root
+    oneshot
+    disabled
+    seclabel u:r:rutilsdaemon:s0
+#ifdef ODM_WT_EDIT
+#Lei.Fan@ODM_WT.AD.Fingerprint,bugId 2639525,2019/12/13,add fingerprint build version for vts
+##version mount
+#on property:ro.vendor.version_variant=*
+#   mount ext4 loop@/vendor/euclid/version.${ro.vendor.version_variant}.img  /data/vendor/euclid/version ro
+on property:ro.vendor.oppo.fingerprint=*
+    setprop ro.vendor.build.fingerprint ${ro.vendor.oppo.fingerprint}
+    setprop ro.odm.build.fingerprint ${ro.vendor.oppo.fingerprint}
+on property:ro.vendor.oppo.product.manufacturer=*
+    setprop ro.product.vendor.manufacturer ${ro.vendor.oppo.product.manufacturer}
+    setprop ro.product.odm.manufacturer ${ro.vendor.oppo.product.manufacturer}
+on property:ro.vendor.oppo.product.model=*
+    setprop ro.product.vendor.model ${ro.vendor.oppo.product.model}
+    setprop ro.product.odm.model ${ro.vendor.oppo.product.model}
+on property:ro.vendor.oppo.product.brand=*
+    setprop ro.product.vendor.brand ${ro.vendor.oppo.product.brand}
+    setprop ro.product.odm.brand ${ro.vendor.oppo.product.brand}
+on property:ro.vendor.oppo.product.name=*
+    setprop ro.product.vendor.name ${ro.vendor.oppo.product.name}
+    setprop ro.product.odm.name ${ro.vendor.oppo.product.name}
+on property:ro.vendor.oppo.product.device=*
+    setprop ro.product.vendor.device ${ro.vendor.oppo.product.device}
+    setprop ro.product.odm.device ${ro.vendor.oppo.product.device}
+on property:ro.vendor.oppo.product.incremental=*
+    setprop ro.vendor.build.version.incremental ${ro.vendor.oppo.product.incremental}
+    setprop ro.odm.build.version.incremental ${ro.vendor.oppo.product.incremental}
+on property:ro.vendor.oppo.radio.multisim.config=*
+    setprop persist.radio.multisim.config ${ro.vendor.oppo.radio.multisim.config}
+on property:ro.vendor.version_variant=*
+    setprop ro.vendor.gsi.build.flavor ${ro.vendor.version_variant}
+#endif
+#endif
+
+#ifdef VENDOR_EDIT
+#Haiping.Zhong@AD.CTS.0, 2019/11/30, Add for Android Q VTS fingerprint
+on property:ro.vendor.gsi.version_variant=*
+    setprop ro.vendor.gsi.build.flavor aosp_arm64-user
+    mount ext4 /dev/block/mapper/oppo_product  /mnt/vendor/oppo_product ro
+    mount ext4 /dev/block/mapper/version.${ro.vendor.gsi.version_variant}  /mnt/vendor/oppo_version ro
+    mount ext4 /dev/block/mapper/oppo_product  /data/vendor/euclid/product ro
+    mount ext4 /dev/block/mapper/version.${ro.vendor.gsi.version_variant}  /data/vendor/euclid/version ro
+#endif
+
+#trigger fingerprint prop setting. this *.oppo property keys must also be added into vendor_property_contexts
+#on property:ro.vendor.build.fingerprint.oppo=*
+#   setprop ro.vendor.build.fingerprint ${ro.vendor.build.fingerprint.oppo}
+#on property:ro.product.vendor.manufacturer.oppo=*
+#   setprop ro.product.vendor.manufacturer ${ro.product.vendor.manufacturer.oppo}
+#on property:ro.product.vendor.model.oppo=*
+#   setprop ro.product.vendor.model ${ro.product.vendor.model.oppo}
+#on property:ro.product.vendor.brand.oppo=*
+#   setprop ro.product.vendor.brand ${ro.product.vendor.brand.oppo}
+#on property:ro.product.vendor.name.oppo=*
+#   setprop ro.product.vendor.name ${ro.product.vendor.name.oppo}
+#on property:ro.product.vendor.device.oppo=*
+#   setprop ro.product.vendor.device ${ro.product.vendor.device.oppo}
+#endif ODM_WT_EDIT
+on property:ro.odm.build.fingerprint.oppo=*
+   setprop ro.odm.build.fingerprint ${ro.odm.build.fingerprint.oppo}
+on property:ro.product.odm.manufacturer.oppo=*
+   setprop ro.product.odm.manufacturer ${ro.product.odm.manufacturer.oppo}
+on property:ro.product.odm.model.oppo=*
+   setprop ro.product.odm.model ${ro.product.odm.model.oppo}
+on property:ro.product.odm.brand.oppo=*
+   setprop ro.product.odm.brand ${ro.product.odm.brand.oppo}
+on property:ro.product.odm.name.oppo=*
+   setprop ro.product.odm.name ${ro.product.odm.name.oppo}
+on property:ro.product.odm.device.oppo=*
+   setprop ro.product.odm.device ${ro.product.odm.device.oppo}
+#endif
+

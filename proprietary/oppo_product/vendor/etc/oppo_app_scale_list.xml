@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<filter-conf>
+    <version>2018011712</version>
+    <isOpen>1</isOpen>
+    <filter-name>oppo_app_scale_list</filter-name>
+    <!--Old list-->
+    <game>
+        <PackageName>com.imangi.templerun2</PackageName>
+        <scale>1.5</scale>
+    </game>
+    <game>
+        <PackageName>com.kiloo.subwaysurf</PackageName>
+        <scale>1.5</scale>
+    </game>
+    <game>
+        <PackageName>com.netease.dhxy.nearme.gamecenter</PackageName>
+        <scale>1.3333</scale>
+    </game>
+    <game>
+        <PackageName>org.cocos2d.fishingjoy3</PackageName>
+        <scale>1.5</scale>
+    </game>
+    <game>
+        <PackageName>com.gbits.atm.nearme.gamecenter</PackageName>
+        <scale>1.3333</scale>
+    </game>
+    <game>
+        <PackageName>com.nextwave.wcc2</PackageName>
+        <scale>1.5</scale>
+    </game>
+
+    <!--new list-->
+    <game>
+        <NewPackageName>com.tencent.tmgp.sgame</NewPackageName>
+        <Newscale>1.5</Newscale>
+    </game>
+    <game>
+        <NewPackageName>com.ngame.allstar.eu</NewPackageName>
+        <Newscale>1.5</Newscale>
+    </game>
+    <game>
+        <NewPackageName>com.garena.game.kgid</NewPackageName>
+        <Newscale>1.5</Newscale>
+    </game>
+    <game>
+        <NewPackageName>com.garena.game.kges</NewPackageName>
+        <Newscale>1.5</Newscale>
+    </game>
+    <game>
+        <NewPackageName>com.garena.game.kgcn</NewPackageName>
+        <Newscale>1.5</Newscale>
+    </game>
+    <game>
+        <NewPackageName>com.garena.game.kgvntest</NewPackageName>
+        <Newscale>1.5</Newscale>
+    </game>
+    <game>
+        <NewPackageName>com.garena.game.kgsam</NewPackageName>
+        <Newscale>1.5</Newscale>
+    </game>
+    <game>
+        <NewPackageName>com.garena.game.kgvn</NewPackageName>
+        <Newscale>1.5</Newscale>
+    </game>
+    <game>
+        <NewPackageName>com.garena.game.kgth</NewPackageName>
+        <Newscale>1.5</Newscale>
+    </game>
+    <game>
+        <NewPackageName>com.netmarble.penta</NewPackageName>
+        <Newscale>1.5</Newscale>
+    </game>
+    <game>
+        <NewPackageName>com.garena.game.kgtw</NewPackageName>
+        <Newscale>1.5</Newscale>
+    </game>
+
+    <!--gift name begin-->
+    <giftopen>1</giftopen>
+    <game>
+        <giftname>com.happyelements.AndroidAnimal</giftname>
+        <giftpara>0x13 0x00 0.5 0.32 0.48 30 60</giftpara>
+    </game><!-- #id = 2 , 60fps: 84% -->
+
+    <!-- this game will remove from white list bug:1889074 app start slow 2543.33ms
+    <game>
+        <giftname>com.mfp.jelly.oppo</giftname>
+        <giftpara>0x13 0x00 0.50 0.69 0.66 30 60</giftpara>
+    </game>
+    -->
+    <!-- #id = 7 , 60fps: 72.48% -->
+
+    <game>
+        <giftname>com.brianbaek.popstar</giftname>
+        <giftpara>0x1b 0x05 0.5 0.32 0.48 30 60</giftpara>
+    </game><!-- #id = 22 , 60fps: 73.13% -->
+
+    <game>
+        <giftname>wb.gc.xmxx.zxb</giftname>
+        <giftpara>0x13 0x00 0.5 0.32 0.48 30 60</giftpara>
+    </game><!-- #id = 24 , 60fps: 88.87% -->
+
+    <game>
+        <giftname>com.carrot.iceworld</giftname>
+        <giftpara>0x13 0x00 0.5 0.32 0.48 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.rovio.angrybirds.op</giftname>
+        <giftpara>0x13 0x0c 0.5 0.32 0.48 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.ty.fishing.nearme.gamecenter</giftname>
+        <giftpara>0x1b 0x05 0.50 0.50 0.53 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.jiami.quickmj.nearme.gamecenter</giftname>
+        <giftpara>0x13 0x00 0.46 0.32 0.48 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.tencent.qqgame.xq</giftname>
+        <giftpara>0x13 0x00 0.5 0.32 0.48 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.ustwo.monumentvalleyzz</giftname>
+        <giftpara>0x1b 0x05 0.5 0.32 0.48 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.teayelp.whereareyou</giftname>
+        <giftpara>0x1b 0x01 0.56 0.32 0.48 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.sparklingsociety.cias.oppo</giftname>
+        <giftpara>0x13 0x00 0.5 0.32 0.48 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.maoxian.myzoo</giftname>
+        <giftpara>0x13 0x00 0.5 0.32 0.48 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.scmjzrb.nearme.gamecenter</giftname>
+        <giftpara>0x13 0x00 0.5 0.32 0.48 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.zengame.ttmjscb.nearme.gamecenter</giftname>
+        <giftpara>0x13 0x00 0.5 0.32 0.48 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.k7k7.shengjihd.nearme.gamecenter</giftname>
+        <giftpara>0x13 0x00 0.5 0.32 0.48 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.JohnCullen.loop</giftname>
+        <giftpara>0x13 0x00 0.5 0.32 0.48 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.minus.lovershouse</giftname>
+        <giftpara>0x13 0x00 0.5 0.32 0.48 45 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.esenthel.rts</giftname>
+        <giftpara>0x13 0x00 0.20 0.32 0.48 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.wedobest.xiangqi.nearme.gamecenter</giftname>
+        <giftpara>0x13 0x00 0.5 0.32 0.48 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.tencent.game.SSGame</giftname>
+        <giftpara>0x1b 0x01 0.50 0.60 0.70 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.zzlt.pet.oppo</giftname>
+        <giftpara>0x13 0x00 0.5 0.32 0.48 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.sinyee.babybus.duibi</giftname>
+        <giftpara>0x13 0x00 0.5 0.32 0.48 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.arthisoft.princessnailart</giftname>
+        <giftpara>0x13 0x00 0.6 0.32 0.48 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.cdbabyjoy.pinyin</giftname>
+        <giftpara>0x13 0x00 0.5 0.32 0.48 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.outfit7.mytalkingtomfree.nearme.gamecenter</giftname>
+        <giftpara>0x13 0x00 0.5 0.32 0.48 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.east2west.monzo.nearme.gamecenter</giftname>
+        <giftpara>0x13 0x00 0.5 0.32 0.48 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.supercell.clashofclans.nearme.gamecenter</giftname>
+        <giftpara>0x13 0x04 0.75 0.99 0.99 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.supercell.clashofclans</giftname>
+        <giftpara>0x13 0x04 0.75 0.99 0.99 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.supercell.clashroyale.nearme.gamecenter</giftname>
+        <giftpara>0x13 0x04 0.75 0.99 0.99 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.supercell.clashroyale</giftname>
+        <giftpara>0x13 0x04 0.75 0.99 0.99 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.supercell.boombeach.nearme.gamecenter</giftname>
+        <giftpara>0x13 0x04 0.75 0.99 0.99 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.supercell.boombeach</giftname>
+        <giftpara>0x13 0x04 0.75 0.99 0.99 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.pape.nuannew.nearme.gamecenter</giftname>
+        <giftpara>0x13 0x00 0.53 0.36 0.36 30 60</giftpara>
+    </game>
+
+    <!-- this game no significant effect
+    <game>
+        <giftname>com.kiloo.subwaysurf</giftname>
+        <giftpara>0x13 0x00 0.01 0.01 0.01 30 60</giftpara>
+    </game>
+    -->
+    <!--(35 games add)gift name end-->
+</filter-conf>
+

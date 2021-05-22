@@ -1,0 +1,13 @@
+#!/vendor/bin/sh
+
+# Note:
+# 1. index of 1-n(n=arraySize-1) is for specific sar setting;
+# 2. index of 0 is for disabling sar.
+sarIdx=`getprop odm.wifi.sar.idx`
+if [ -z "$sarIdx" ];then
+    sarIdx=0
+fi
+echo sarIdx=$sarIdx
+/vendor/bin/iwpriv wlan0 driver "set_pwr_ctrl OppoSar $sarIdx"
+
+

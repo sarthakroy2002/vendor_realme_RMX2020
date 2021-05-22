@@ -1,0 +1,4 @@
+service ktv-hal-1-0 /vendor/bin/hw/vendor.oppo.hardware.ktv@1.0-service
+    class hal
+    user audioserver
+    group audio media
