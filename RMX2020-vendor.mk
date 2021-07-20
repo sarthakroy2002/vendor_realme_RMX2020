@@ -2077,7 +2077,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib/hw/vendor.oppo.hardware.ktv@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.oppo.hardware.ktv@1.0-impl.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/hw/vendor.oppo.hardware.oiface@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.oppo.hardware.oiface@1.0-impl.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.default.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib/hw/vulkan.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.mt6768.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/modules/bt_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/bt_drv.ko \
     vendor/realme/RMX2020/proprietary/vendor/lib/modules/fmradio_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/fmradio_drv.ko \
     vendor/realme/RMX2020/proprietary/vendor/lib/modules/fpsgo.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/fpsgo.ko \
@@ -2419,7 +2418,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib64/hw/vendor.oppo.hardware.ktv@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.oppo.hardware.ktv@1.0-impl.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/hw/vendor.oppo.hardware.oiface@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.oppo.hardware.oiface@1.0-impl.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.default.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib64/hw/vulkan.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.mt6768.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/interfaces.customNvService@1.0-adapter-helper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/interfaces.customNvService@1.0-adapter-helper.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/interfaces.customNvService@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/interfaces.customNvService@1.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/interfaces.factoryAta@1.0-adapter-helper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/interfaces.factoryAta@1.0-adapter-helper.so \
