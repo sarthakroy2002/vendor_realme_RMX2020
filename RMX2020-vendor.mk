@@ -2085,6 +2085,15 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib/hw/vendor.oppo.hardware.oiface@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.oppo.hardware.oiface@1.0-impl.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.default.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/hw/vulkan.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.mt6768.so \
+    vendor/realme/RMX2020/proprietary/vendor/lib/modules/bt_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/bt_drv.ko \
+    vendor/realme/RMX2020/proprietary/vendor/lib/modules/fmradio_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/fmradio_drv.ko \
+    vendor/realme/RMX2020/proprietary/vendor/lib/modules/fpsgo.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/fpsgo.ko \
+    vendor/realme/RMX2020/proprietary/vendor/lib/modules/gps_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/gps_drv.ko \
+    vendor/realme/RMX2020/proprietary/vendor/lib/modules/met.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/met.ko \
+    vendor/realme/RMX2020/proprietary/vendor/lib/modules/udc_lib.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/udc_lib.ko \
+    vendor/realme/RMX2020/proprietary/vendor/lib/modules/wlan_drv_gen4m.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wlan_drv_gen4m.ko \
+    vendor/realme/RMX2020/proprietary/vendor/lib/modules/wmt_chrdev_wifi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wmt_chrdev_wifi.ko \
+    vendor/realme/RMX2020/proprietary/vendor/lib/modules/wmt_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wmt_drv.ko \
     vendor/realme/RMX2020/proprietary/vendor/lib/libBnMtkCodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libBnMtkCodec.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libDR.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDR.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libDiracAPI_SHARED.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDiracAPI_SHARED.so \
