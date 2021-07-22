@@ -1946,6 +1946,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/euclid_build.prop:$(TARGET_COPY_OUT_VENDOR)/euclid_build.prop \
     vendor/realme/RMX2020/proprietary/vendor/firmware/BT_FW.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/BT_FW.cfg \
     vendor/realme/RMX2020/proprietary/vendor/firmware/WIFI_RAM_CODE_soc1_0_1a_1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/WIFI_RAM_CODE_soc1_0_1a_1.bin \
+    vendor/realme/RMX2020/proprietary/vendor/firmware/WIFI_RAM_CODE_soc1_0_1a_1:$(TARGET_COPY_OUT_VENDOR)/firmware/WIFI_RAM_CODE_soc1_0_1a_1 \
     vendor/realme/RMX2020/proprietary/vendor/firmware/WMT_SOC.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/WMT_SOC.cfg \
     vendor/realme/RMX2020/proprietary/vendor/firmware/catcher_filter_1_ulwctg_n.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/catcher_filter_1_ulwctg_n.bin \
     vendor/realme/RMX2020/proprietary/vendor/firmware/customfilter/catcher_filter_1_ulwctg_n_FullLog.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/customfilter/catcher_filter_1_ulwctg_n_FullLog.bin \
