@@ -216,7 +216,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/etc/.tp/thermal.off.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.off.conf \
     vendor/realme/RMX2020/proprietary/vendor/etc/DSM.xml:$(TARGET_COPY_OUT_VENDOR)/etc/DSM.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/DSM_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/DSM_config.xml \
-    vendor/realme/RMX2020/proprietary/vendor/etc/a2dp_in_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_in_audio_policy_configuration.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/aee-config:$(TARGET_COPY_OUT_VENDOR)/etc/aee-config \
     vendor/realme/RMX2020/proprietary/vendor/etc/agps_profiles_conf2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/agps_profiles_conf2.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/apdb/APDB_MT6768_S01__W1952:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6768_S01__W1952 \
@@ -1384,12 +1383,10 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/oppo6771_19597/VolumeGainMap_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/oppo6771_19597/VolumeGainMap_ParamUnitDesc.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/oppo6771_19597/Volume_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/oppo6771_19597/Volume_AudioParam.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/oppo6771_19597/Volume_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/oppo6771_19597/Volume_ParamUnitDesc.xml \
-    vendor/realme/RMX2020/proprietary/vendor/etc/audio_policy_configuration_bluetooth_legacy_hal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration_bluetooth_legacy_hal.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/aurisys_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/aurisys_config_sia.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config_sia.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/aurisys_param/Speech_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_param/Speech_AudioParam.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/aurisys_param/sixth_param.txt:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_param/sixth_param.txt \
-    vendor/realme/RMX2020/proprietary/vendor/etc/bluetooth_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_audio_policy_configuration.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/camera/Arc_wdc_calib.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/Arc_wdc_calib.bin \
     vendor/realme/RMX2020/proprietary/vendor/etc/camera/M_Attribute_Gender_Age_1.0.model.hardcode:$(TARGET_COPY_OUT_VENDOR)/etc/camera/M_Attribute_Gender_Age_1.0.model.hardcode \
     vendor/realme/RMX2020/proprietary/vendor/etc/camera/attribute.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/attribute.model \
