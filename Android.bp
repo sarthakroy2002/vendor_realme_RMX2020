@@ -53,6 +53,12 @@ dex_import {
 	jars: ["proprietary/framework/com.nxp.nfc.jar"],
 }
 
+dex_import {
+	name: "mtk-wifi-service",
+	owner: "realme",
+	jars: ["proprietary/framework/mtk-wifi-service.jar"],
+}
+
 prebuilt_etc_xml {
 	name: "vendor.mediatek.hardware.dplanner@2.0-service",
 	owner: "realme",

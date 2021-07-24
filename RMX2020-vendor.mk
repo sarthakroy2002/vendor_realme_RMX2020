@@ -2900,6 +2900,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     NXPNfcNci \
+    mtk-wifi-service \
     SoterService \
     EmCamera \
     SensorHub \
