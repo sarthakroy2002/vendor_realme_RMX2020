@@ -44,11 +44,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/app/mcRegistry/511ead0a000000000000000000000000.tabin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/511ead0a000000000000000000000000.tabin \
     vendor/realme/RMX2020/proprietary/vendor/bin/OppoKeybox:$(TARGET_COPY_OUT_VENDOR)/bin/OppoKeybox \
     vendor/realme/RMX2020/proprietary/vendor/bin/TBaseDeviceBinding:$(TARGET_COPY_OUT_VENDOR)/bin/TBaseDeviceBinding \
-    vendor/realme/RMX2020/proprietary/vendor/bin/aee_aedv:$(TARGET_COPY_OUT_VENDOR)/bin/aee_aedv \
-    vendor/realme/RMX2020/proprietary/vendor/bin/aee_aedv64:$(TARGET_COPY_OUT_VENDOR)/bin/aee_aedv64 \
-    vendor/realme/RMX2020/proprietary/vendor/bin/aee_archivev:$(TARGET_COPY_OUT_VENDOR)/bin/aee_archivev \
-    vendor/realme/RMX2020/proprietary/vendor/bin/aee_dumpstatev:$(TARGET_COPY_OUT_VENDOR)/bin/aee_dumpstatev \
-    vendor/realme/RMX2020/proprietary/vendor/bin/aeev:$(TARGET_COPY_OUT_VENDOR)/bin/aeev \
     vendor/realme/RMX2020/proprietary/vendor/bin/atcid:$(TARGET_COPY_OUT_VENDOR)/bin/atcid \
     vendor/realme/RMX2020/proprietary/vendor/bin/audiocmdservice_atci:$(TARGET_COPY_OUT_VENDOR)/bin/audiocmdservice_atci \
     vendor/realme/RMX2020/proprietary/vendor/bin/autobt:$(TARGET_COPY_OUT_VENDOR)/bin/autobt \
@@ -219,7 +214,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/etc/.tp/thermal.off.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.off.conf \
     vendor/realme/RMX2020/proprietary/vendor/etc/DSM.xml:$(TARGET_COPY_OUT_VENDOR)/etc/DSM.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/DSM_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/DSM_config.xml \
-    vendor/realme/RMX2020/proprietary/vendor/etc/aee-config:$(TARGET_COPY_OUT_VENDOR)/etc/aee-config \
     vendor/realme/RMX2020/proprietary/vendor/etc/agps_profiles_conf2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/agps_profiles_conf2.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/apdb/APDB_MT6768_S01__W1952:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6768_S01__W1952 \
     vendor/realme/RMX2020/proprietary/vendor/etc/apdb/APDB_MT6768_S01__W1952_ENUM:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6768_S01__W1952_ENUM \
@@ -1511,8 +1505,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/etc/fstab.enableswap:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.enableswap \
     vendor/realme/RMX2020/proprietary/vendor/etc/fstab.mt6768:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.mt6768 \
     vendor/realme/RMX2020/proprietary/vendor/etc/fstb.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/fstb.cfg \
-    vendor/realme/RMX2020/proprietary/vendor/etc/init/aee_aedv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/aee_aedv.rc \
-    vendor/realme/RMX2020/proprietary/vendor/etc/init/aee_aedv64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/aee_aedv64.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/android.hardware.audio@5.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio@5.0-service-mediatek.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/android.hardware.configstore@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.configstore@1.1-service.rc \
