@@ -2869,7 +2869,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/odm/etc/vintf/manifest_ss_nfc.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_ss_nfc.xml \
     vendor/realme/RMX2020/proprietary/vendor/oppo/ck.fs:$(TARGET_COPY_OUT_VENDOR)/oppo/ck.fs \
     vendor/realme/RMX2020/proprietary/vendor/oppo/recovery_rootcheck:$(TARGET_COPY_OUT_VENDOR)/oppo/recovery_rootcheck \
-    vendor/realme/RMX2020/proprietary/vendor/recovery-from-boot.p:$(TARGET_COPY_OUT_VENDOR)/recovery-from-boot.p \
     vendor/realme/RMX2020/proprietary/vendor/res/images/lcd_test_00.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_00.png \
     vendor/realme/RMX2020/proprietary/vendor/res/images/lcd_test_01.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_01.png \
     vendor/realme/RMX2020/proprietary/vendor/res/images/lcd_test_02.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_02.png \
