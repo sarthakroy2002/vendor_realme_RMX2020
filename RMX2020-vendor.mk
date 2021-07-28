@@ -41,12 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/lib64/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_cap.so \
     vendor/realme/RMX2020/proprietary/lib64/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_capenc.so \
     vendor/realme/RMX2020/proprietary/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
-    vendor/realme/RMX2020/proprietary/oppo_product/vendor/etc/oppo_app_scale_list.xml:$(TARGET_COPY_OUT_SYSTEM)/oppo_product/vendor/etc/oppo_app_scale_list.xml \
-    vendor/realme/RMX2020/proprietary/oppo_product/vendor/etc/oppo_display_perf_list.xml:$(TARGET_COPY_OUT_SYSTEM)/oppo_product/vendor/etc/oppo_display_perf_list.xml \
-    vendor/realme/RMX2020/proprietary/oppo_product/vendor/etc/oppo_rc_bottom.png:$(TARGET_COPY_OUT_SYSTEM)/oppo_product/vendor/etc/oppo_rc_bottom.png \
-    vendor/realme/RMX2020/proprietary/oppo_product/vendor/etc/oppo_rc_left.png:$(TARGET_COPY_OUT_SYSTEM)/oppo_product/vendor/etc/oppo_rc_left.png \
-    vendor/realme/RMX2020/proprietary/oppo_product/vendor/etc/oppo_rc_right.png:$(TARGET_COPY_OUT_SYSTEM)/oppo_product/vendor/etc/oppo_rc_right.png \
-    vendor/realme/RMX2020/proprietary/oppo_product/vendor/etc/oppo_rc_top.png:$(TARGET_COPY_OUT_SYSTEM)/oppo_product/vendor/etc/oppo_rc_top.png \
     vendor/realme/RMX2020/proprietary/vendor/app/EmCamera/lib/arm64/libem_camera_jni.so:$(TARGET_COPY_OUT_VENDOR)/app/EmCamera/lib/arm64/libem_camera_jni.so \
     vendor/realme/RMX2020/proprietary/vendor/app/SensorHub/lib/arm64/libem_sensor_jni.so:$(TARGET_COPY_OUT_VENDOR)/app/SensorHub/lib/arm64/libem_sensor_jni.so \
     vendor/realme/RMX2020/proprietary/vendor/app/mcRegistry/020f0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/020f0000000000000000000000000000.drbin \
@@ -2903,11 +2897,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/odm/etc/vintf/manifest_ss_nfc.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_ss_nfc.xml \
     vendor/realme/RMX2020/proprietary/vendor/oppo/ck.fs:$(TARGET_COPY_OUT_VENDOR)/oppo/ck.fs \
     vendor/realme/RMX2020/proprietary/vendor/oppo/recovery_rootcheck:$(TARGET_COPY_OUT_VENDOR)/oppo/recovery_rootcheck \
-    vendor/realme/RMX2020/proprietary/vendor/res/images/lcd_test_00.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_00.png \
-    vendor/realme/RMX2020/proprietary/vendor/res/images/lcd_test_01.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_01.png \
-    vendor/realme/RMX2020/proprietary/vendor/res/images/lcd_test_02.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_02.png \
-    vendor/realme/RMX2020/proprietary/vendor/res/sound/ringtone.wav:$(TARGET_COPY_OUT_VENDOR)/res/sound/ringtone.wav \
-    vendor/realme/RMX2020/proprietary/vendor/res/sound/testpattern1.wav:$(TARGET_COPY_OUT_VENDOR)/res/sound/testpattern1.wav \
     vendor/realme/RMX2020/proprietary/vendor/ro.prop:$(TARGET_COPY_OUT_VENDOR)/ro.prop \
     vendor/realme/RMX2020/proprietary/vendor/rw.prop:$(TARGET_COPY_OUT_VENDOR)/rw.prop
 
