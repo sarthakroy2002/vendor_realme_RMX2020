@@ -2297,6 +2297,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib/modules/wmt_chrdev_wifi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wmt_chrdev_wifi.ko \
     vendor/realme/RMX2020/proprietary/vendor/lib/modules/wmt_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wmt_drv.ko \
     vendor/realme/RMX2020/proprietary/vendor/lib/monet_hlt_custfront_gc5035_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/monet_hlt_custfront_gc5035_tuning.so \
+    vendor/realme/RMX2020/proprietary/vendor/lib/monet_hlt_front_gc5035B_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/monet_hlt_front_gc5035B_tuning.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/monet_hlt_depth_ov02a1b_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/monet_hlt_depth_ov02a1b_tuning.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/monet_hlt_front_gc5035_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/monet_hlt_front_gc5035_tuning.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/monet_hlt_macro_gc2375h_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/monet_hlt_macro_gc2375h_tuning.so \
@@ -2760,6 +2761,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/monet_hlt_custfront_gc5035_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/monet_hlt_custfront_gc5035_IdxMgr.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/monet_hlt_custfront_gc5035_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/monet_hlt_custfront_gc5035_tuning.so \
+    vendor/realme/RMX2020/proprietary/vendor/lib64/monet_hlt_front_gc5035B_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/monet_hlt_front_gc5035B_IdxMgr.so \
+    vendor/realme/RMX2020/proprietary/vendor/lib64/monet_hlt_front_gc5035B_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/monet_hlt_front_gc5035B_tuning.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/monet_hlt_depth_ov02a1b_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/monet_hlt_depth_ov02a1b_IdxMgr.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/monet_hlt_depth_ov02a1b_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/monet_hlt_depth_ov02a1b_tuning.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/monet_hlt_front_gc5035_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/monet_hlt_front_gc5035_IdxMgr.so \
