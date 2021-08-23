@@ -2253,7 +2253,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib/libswresample.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswresample.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libswscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswscale.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsysenv.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib/libtextclassifier_hash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtextclassifier_hash.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libtflite_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtflite_mtk.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libtflite_mtk_static.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtflite_mtk_static.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libthermalalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalalgo.so \
@@ -2740,7 +2739,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libswresample.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswresample.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libswscale.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswscale.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsysenv.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib64/libtextclassifier_hash.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtextclassifier_hash.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libtflite_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtflite_mtk.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libtflite_mtk_static.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtflite_mtk_static.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libthha.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthha.so \
