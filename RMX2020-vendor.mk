@@ -1723,9 +1723,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.trustonic.tee@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee@1.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.trustonic.teeregistry@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.teeregistry@1.0.so \
     vendor/realme/RMX2020/proprietary/vendor/odm/etc/vintf/manifest_dsds_nfc.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_dsds_nfc.xml \
-    vendor/realme/RMX2020/proprietary/vendor/odm/etc/vintf/manifest_ss_nfc.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_ss_nfc.xml \
-    vendor/realme/RMX2020/proprietary/vendor/oppo/ck.fs:$(TARGET_COPY_OUT_VENDOR)/oppo/ck.fs \
-    vendor/realme/RMX2020/proprietary/vendor/oppo/recovery_rootcheck:$(TARGET_COPY_OUT_VENDOR)/oppo/recovery_rootcheck
+    vendor/realme/RMX2020/proprietary/vendor/odm/etc/vintf/manifest_ss_nfc.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_ss_nfc.xml
 
 PRODUCT_PACKAGES += \
     libem_support_jni \
