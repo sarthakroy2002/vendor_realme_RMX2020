@@ -91,7 +91,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/bin/em_hidl:$(TARGET_COPY_OUT_VENDOR)/bin/em_hidl \
     vendor/realme/RMX2020/proprietary/vendor/bin/epdg_wod:$(TARGET_COPY_OUT_VENDOR)/bin/epdg_wod \
     vendor/realme/RMX2020/proprietary/vendor/bin/exp_lock:$(TARGET_COPY_OUT_VENDOR)/bin/exp_lock \
-    vendor/realme/RMX2020/proprietary/vendor/bin/factory:$(TARGET_COPY_OUT_VENDOR)/bin/factory \
     vendor/realme/RMX2020/proprietary/vendor/bin/factoryAta:$(TARGET_COPY_OUT_VENDOR)/bin/factoryAta \
     vendor/realme/RMX2020/proprietary/vendor/bin/fsync:$(TARGET_COPY_OUT_VENDOR)/bin/fsync \
     vendor/realme/RMX2020/proprietary/vendor/bin/fuelgauged:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged \
@@ -176,7 +175,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/bin/mcDriverDaemon:$(TARGET_COPY_OUT_VENDOR)/bin/mcDriverDaemon \
     vendor/realme/RMX2020/proprietary/vendor/bin/md_monitor:$(TARGET_COPY_OUT_VENDOR)/bin/md_monitor \
     vendor/realme/RMX2020/proprietary/vendor/bin/md_monitor_ctrl:$(TARGET_COPY_OUT_VENDOR)/bin/md_monitor_ctrl \
-    vendor/realme/RMX2020/proprietary/vendor/bin/meta_tst:$(TARGET_COPY_OUT_VENDOR)/bin/meta_tst \
     vendor/realme/RMX2020/proprietary/vendor/bin/mnld:$(TARGET_COPY_OUT_VENDOR)/bin/mnld \
     vendor/realme/RMX2020/proprietary/vendor/bin/mrdump_tool:$(TARGET_COPY_OUT_VENDOR)/bin/mrdump_tool \
     vendor/realme/RMX2020/proprietary/vendor/bin/mtk_agpsd:$(TARGET_COPY_OUT_VENDOR)/bin/mtk_agpsd \
@@ -432,7 +430,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/etc/ecc_list_OP17.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP17.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/ecc_list_OP18.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP18.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/ecc_list_OP20.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP20.xml \
-    vendor/realme/RMX2020/proprietary/vendor/etc/factory.ini:$(TARGET_COPY_OUT_VENDOR)/etc/factory.ini \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/android.hardware.audio@5.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio@5.0-service-mediatek.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
