@@ -25,16 +25,6 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
-	name: "NXPNfcNci",
-	owner: "realme",
-	apk: "proprietary/app/NXPNfcNci/NXPNfcNci.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-}
-
-android_app_import {
 	name: "SoterService",
 	owner: "realme",
 	apk: "proprietary/app/SoterService/SoterService.apk",
@@ -86,12 +76,6 @@ android_app_import {
 		enabled: false,
 	},
 	soc_specific: true,
-}
-
-dex_import {
-	name: "com.nxp.nfc",
-	owner: "realme",
-	jars: ["proprietary/framework/com.nxp.nfc.jar"],
 }
 
 dex_import {

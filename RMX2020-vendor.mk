@@ -10,7 +10,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/bin/iwpriv:$(TARGET_COPY_OUT_SYSTEM)/bin/iwpriv \
     vendor/realme/RMX2020/proprietary/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM)/bin/vtservice \
     vendor/realme/RMX2020/proprietary/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.vtservice.rc \
-    vendor/realme/RMX2020/proprietary/etc/nfcee_access.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/nfcee_access.xml \
     vendor/realme/RMX2020/proprietary/lib/libcomutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcomutils.so \
     vendor/realme/RMX2020/proprietary/lib/libem_support_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libem_support_jni.so \
     vendor/realme/RMX2020/proprietary/lib/libimsma.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimsma.so \
@@ -105,9 +104,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-service.trustonic:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.0-service.trustonic \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/android.hardware.memtrack@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.memtrack@1.0-service \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-mtk-neuron:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.3-service-mtk-neuron \
-    vendor/realme/RMX2020/proprietary/vendor/bin/hw/android.hardware.nfc@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.nfc@1.2-service \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/android.hardware.secure_element@1.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.secure_element@1.0-service-mediatek \
-    vendor/realme/RMX2020/proprietary/vendor/bin/hw/android.hardware.secure_element@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.secure_element@1.1-service \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/android.hardware.sensors@2.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@2.0-service-mediatek \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/android.hardware.usb@1.1-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.1-service-mediatek \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/android.hardware.wifi@1.0-service-lazy-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.wifi@1.0-service-lazy-mediatek \
@@ -133,7 +130,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/vendor.oppo.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.oppo.hardware.biometrics.fingerprint@2.1-service \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/vendor.oppo.hardware.cryptoeng@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.oppo.hardware.cryptoeng@1.0-service \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/vendor.oppo.hardware.hypnus@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.oppo.hardware.hypnus@1.0-service \
-    vendor/realme/RMX2020/proprietary/vendor/bin/hw/vendor.oppo.hardware.nfc@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.oppo.hardware.nfc@1.0-service \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/vendor.silead.hardware.fingerprintext@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.silead.hardware.fingerprintext@1.0-service \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/vendor.trustonic.soter@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.trustonic.soter@1.0-service \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/vendor.trustonic.tee@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.trustonic.tee@1.0-service \
@@ -217,7 +213,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/bin/wpa_cli:$(TARGET_COPY_OUT_VENDOR)/bin/wpa_cli \
     vendor/realme/RMX2020/proprietary/vendor/data/misc/ProjectConfig.mk:$(TARGET_COPY_OUT_VENDOR)/data/misc/ProjectConfig.mk \
     vendor/realme/RMX2020/proprietary/vendor/data/misc/pdc.txt:$(TARGET_COPY_OUT_VENDOR)/data/misc/pdc.txt \
-    vendor/realme/RMX2020/proprietary/vendor/data/misc/pdc_no_nfc.txt:$(TARGET_COPY_OUT_VENDOR)/data/misc/pdc_no_nfc.txt \
     vendor/realme/RMX2020/proprietary/vendor/etc/.tp/.ht120.mtc:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.ht120.mtc \
     vendor/realme/RMX2020/proprietary/vendor/etc/.tp/.thermal_policy_00:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.thermal_policy_00 \
     vendor/realme/RMX2020/proprietary/vendor/etc/.tp/.thermal_policy_03:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.thermal_policy_03 \
@@ -437,9 +432,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service.trustonic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service.trustonic.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/android.hardware.memtrack@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.memtrack@1.0-service.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc \
-    vendor/realme/RMX2020/proprietary/vendor/etc/init/android.hardware.nfc@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.nfc@1.2-service.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/android.hardware.secure_element@1.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.0-service-mediatek.rc \
-    vendor/realme/RMX2020/proprietary/vendor/etc/init/android.hardware.secure_element@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.1-service.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/android.hardware.sensors@2.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@2.0-service-mediatek.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/android.hardware.usb@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.1-service-mediatek.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service-lazy-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service-lazy-mediatek.rc \
@@ -505,7 +498,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/vendor.oppo.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oppo.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/vendor.oppo.hardware.cryptoeng@1.0-service_FDE.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oppo.hardware.cryptoeng@1.0-service_FDE.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/vendor.oppo.hardware.hypnus@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oppo.hardware.hypnus@1.0-service.rc \
-    vendor/realme/RMX2020/proprietary/vendor/etc/init/vendor.oppo.hardware.nfc@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oppo.hardware.nfc@1.0-service.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/vendor.silead.hardware.fingerprintext@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.silead.hardware.fingerprintext@1.0-service.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/vendor.trustonic.soter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.trustonic.soter@1.0-service.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/vendor.trustonic.tee@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.trustonic.tee@1.0-service.rc \
@@ -526,10 +518,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/thawte.der:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/thawte.der \
     vendor/realme/RMX2020/proprietary/vendor/etc/ipsec/ssl/openssl.cnf:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ssl/openssl.cnf \
     vendor/realme/RMX2020/proprietary/vendor/etc/ipsec/strongswan.conf:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/strongswan.conf \
-    vendor/realme/RMX2020/proprietary/vendor/etc/libese-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libese-nxp.conf \
-    vendor/realme/RMX2020/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
-    vendor/realme/RMX2020/proprietary/vendor/etc/libnfc-nxp-pnscr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp-pnscr.conf \
-    vendor/realme/RMX2020/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/realme/RMX2020/proprietary/vendor/etc/mmigroup/CommonConf.json:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/CommonConf.json \
     vendor/realme/RMX2020/proprietary/vendor/etc/mmigroup/CommonParam.json:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/CommonParam.json \
     vendor/realme/RMX2020/proprietary/vendor/etc/mmigroup/MMIGroupADBCmdTest.json:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/MMIGroupADBCmdTest.json \
@@ -553,82 +541,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/etc/mmigroup/spk.wav:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/spk.wav \
     vendor/realme/RMX2020/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
     vendor/realme/RMX2020/proprietary/vendor/etc/ncf_pack.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/ncf_pack.ncf \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/com.oppo.nfc_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/com.oppo.nfc_feature.xml \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc-mtp-SN100.conf_19065:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc-mtp-SN100.conf_19065 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc-mtp-SN100.conf_19066:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc-mtp-SN100.conf_19066 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc-mtp-SN100.conf_19081:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc-mtp-SN100.conf_19081 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc-mtp-SN100.conf_19101:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc-mtp-SN100.conf_19101 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc-mtp-SN100.conf_19125:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc-mtp-SN100.conf_19125 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc-mtp-SN100.conf_19165:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc-mtp-SN100.conf_19165 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc-mtp-SN100.conf_19501:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc-mtp-SN100.conf_19501 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc-mtp-SN100.conf_19521:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc-mtp-SN100.conf_19521 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc-nci.conf_18073:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc-nci.conf_18073 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc-nci.conf_19065:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc-nci.conf_19065 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc-nci.conf_19066:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc-nci.conf_19066 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc-nci.conf_19081:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc-nci.conf_19081 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc-nci.conf_19101:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc-nci.conf_19101 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc-nci.conf_19125:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc-nci.conf_19125 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc-nci.conf_19165:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc-nci.conf_19165 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc-nci.conf_19354:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc-nci.conf_19354 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc-nci.conf_19501:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc-nci.conf_19501 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc-nci.conf_19521:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc-nci.conf_19521 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc-nci.conf_19742:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc-nci.conf_19742 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc-nci.conf_19748:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc-nci.conf_19748 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc-nxp.conf_18073:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc-nxp.conf_18073 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc-nxp.conf_19354:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc-nxp.conf_19354 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc-nxp.conf_19742:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc-nxp.conf_19742 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc-nxp.conf_19748:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc-nxp.conf_19748 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc-nxp_RF.conf_18073:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc-nxp_RF.conf_18073 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc-nxp_RF.conf_19354:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc-nxp_RF.conf_19354 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc-nxp_RF.conf_19742:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc-nxp_RF.conf_19742 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc-nxp_RF.conf_19748:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc-nxp_RF.conf_19748 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_beijing_config.conf_18073:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_beijing_config.conf_18073 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_beijing_config.conf_19065:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_beijing_config.conf_19065 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_beijing_config.conf_19066:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_beijing_config.conf_19066 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_beijing_config.conf_19081:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_beijing_config.conf_19081 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_beijing_config.conf_19101:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_beijing_config.conf_19101 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_beijing_config.conf_19125:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_beijing_config.conf_19125 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_beijing_config.conf_19165:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_beijing_config.conf_19165 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_beijing_config.conf_19354:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_beijing_config.conf_19354 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_beijing_config.conf_19501:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_beijing_config.conf_19501 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_beijing_config.conf_19521:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_beijing_config.conf_19521 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_changchun_config.conf_19165:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_changchun_config.conf_19165 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_chongqing_config.conf_19081:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_chongqing_config.conf_19081 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_chongqing_config.conf_19165:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_chongqing_config.conf_19165 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_default_config.conf_19081:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_default_config.conf_19081 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_default_config.conf_19165:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_default_config.conf_19165 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_guangzhou_config.conf_18073:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_guangzhou_config.conf_18073 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_guangzhou_config.conf_19065:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_guangzhou_config.conf_19065 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_guangzhou_config.conf_19066:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_guangzhou_config.conf_19066 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_guangzhou_config.conf_19081:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_guangzhou_config.conf_19081 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_guangzhou_config.conf_19101:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_guangzhou_config.conf_19101 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_guangzhou_config.conf_19125:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_guangzhou_config.conf_19125 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_guangzhou_config.conf_19165:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_guangzhou_config.conf_19165 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_guangzhou_config.conf_19354:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_guangzhou_config.conf_19354 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_guangzhou_config.conf_19501:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_guangzhou_config.conf_19501 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_guangzhou_config.conf_19521:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_guangzhou_config.conf_19521 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_menjincard_config.conf_19101:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_menjincard_config.conf_19101 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_menjincard_config.conf_19125:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_menjincard_config.conf_19125 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_nanning_config.conf_19081:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_nanning_config.conf_19081 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_nanning_config.conf_19165:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_nanning_config.conf_19165 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_shanghai_config.conf_19081:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_shanghai_config.conf_19081 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_shenzhen_config.conf_18073:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_shenzhen_config.conf_18073 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_shenzhen_config.conf_19065:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_shenzhen_config.conf_19065 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_shenzhen_config.conf_19066:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_shenzhen_config.conf_19066 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_shenzhen_config.conf_19081:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_shenzhen_config.conf_19081 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_shenzhen_config.conf_19101:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_shenzhen_config.conf_19101 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_shenzhen_config.conf_19125:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_shenzhen_config.conf_19125 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_shenzhen_config.conf_19165:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_shenzhen_config.conf_19165 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_shenzhen_config.conf_19354:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_shenzhen_config.conf_19354 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_shenzhen_config.conf_19501:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_shenzhen_config.conf_19501 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_shenzhen_config.conf_19521:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_shenzhen_config.conf_19521 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_suzhou_config.conf_19081:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_suzhou_config.conf_19081 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_taizhou_config.conf_19165:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_taizhou_config.conf_19165 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_xiamen_config.conf_19081:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_xiamen_config.conf_19081 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_xiamen_config.conf_19125:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_xiamen_config.conf_19125 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_xiamen_config.conf_19165:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_xiamen_config.conf_19165 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/libnfc_zhengzhou_config.conf_19081:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_zhengzhou_config.conf_19081 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/nfc/nfc_conf_ref:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/nfc_conf_ref \
     vendor/realme/RMX2020/proprietary/vendor/etc/permissions/com.fingerprints.fpmmi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.fingerprints.fpmmi.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/permissions/vendor-oppo-engnative-engineer.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-oppo-engnative-engineer.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/permissions/vendor-oppo-engnative-engsensor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-oppo-engnative-engsensor.xml \
@@ -805,7 +717,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/etc/sn100u_bootup.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_bootup.pnscr \
     vendor/realme/RMX2020/proprietary/vendor/etc/sn100u_ese_disableIso.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_ese_disableIso.pnscr \
     vendor/realme/RMX2020/proprietary/vendor/etc/sn100u_ese_disableIsoRead.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_ese_disableIsoRead.pnscr \
-    vendor/realme/RMX2020/proprietary/vendor/etc/sn100u_nfcon.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_nfcon.pnscr \
     vendor/realme/RMX2020/proprietary/vendor/etc/sn100u_pnx_chr.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_chr.pnscr \
     vendor/realme/RMX2020/proprietary/vendor/etc/sn100u_pnx_cui.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_cui.pnscr \
     vendor/realme/RMX2020/proprietary/vendor/etc/sn100u_pnx_ese_3.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_3.pnscr \
@@ -880,8 +791,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib/egl/libGLES_meow.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_meow.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/egl/libMEOW_trace.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_trace.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/ese_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/ese_client.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib/ese_spi_nxp.so:$(TARGET_COPY_OUT_VENDOR)/lib/ese_spi_nxp.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib/hal_libnfc.so:$(TARGET_COPY_OUT_VENDOR)/lib/hal_libnfc.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/hw/android.hardware.audio.effect@5.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio.effect@5.0-impl.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/hw/android.hardware.audio@5.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@5.0-impl-mediatek.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/hw/android.hardware.bluetooth.audio@2.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth.audio@2.0-impl-mediatek.so \
@@ -1136,7 +1045,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib/libwo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwo.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwpa_client.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib/ls_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/ls_client.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/modules/bt_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/bt_drv.ko \
     vendor/realme/RMX2020/proprietary/vendor/lib/modules/fmradio_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/fmradio_drv.ko \
@@ -1192,9 +1100,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.2.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.3.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib/vendor.nxp.eventprocessor@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.nxp.eventprocessor@1.0.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib/vendor.nxp.nxpese@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.nxp.nxpese@1.0.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib/vendor.nxp.nxpnfc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.nxp.nxpnfc@1.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/vendor.oppo.hardware.camera.slogan@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.oppo.hardware.camera.slogan@1.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/vendor.oppo.hardware.hypnus@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.oppo.hardware.hypnus@1.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/android.frameworks.fingerprintservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.frameworks.fingerprintservice@1.0.so \
@@ -1204,8 +1109,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib64/egl/libGLES_meow.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_meow.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/egl/libMEOW_trace.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_trace.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/ese_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ese_client.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib64/ese_spi_nxp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ese_spi_nxp.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib64/hal_libnfc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hal_libnfc.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/hw/android.hardware.audio.effect@5.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio.effect@5.0-impl.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/hw/android.hardware.audio@5.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@5.0-impl-mediatek.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/hw/android.hardware.bluetooth.audio@2.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth.audio@2.0-impl-mediatek.so \
@@ -1607,7 +1510,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpa_client.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libwpfa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpfa.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib64/ls_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ls_client.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/monet_hlt_custfront_gc5035_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/monet_hlt_custfront_gc5035_IdxMgr.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/monet_hlt_custfront_gc5035_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/monet_hlt_custfront_gc5035_tuning.so \
@@ -1698,9 +1600,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.mediatek.hardware.wifi.hostapd@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.wifi.hostapd@2.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.wifi.supplicant@2.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.wifi.supplicant@2.1.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.nxp.eventprocessor@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.nxp.eventprocessor@1.0.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.nxp.nxpese@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.nxp.nxpese@1.0.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.nxp.nxpnfc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.nxp.nxpnfc@1.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.oppo.engnative.engineer@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.engnative.engineer@1.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.oppo.engnative.engsensor@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.engnative.engsensor@1.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.oppo.engnative.transfer@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.engnative.transfer@1.0.so \
@@ -1709,26 +1608,21 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.oppo.hardware.commondcs@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.hardware.commondcs@1.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.oppo.hardware.cryptoeng@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.hardware.cryptoeng@1.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.oppo.hardware.hypnus@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.hardware.hypnus@1.0.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.oppo.hardware.nfc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.hardware.nfc@1.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.oppo.hardware.wifi.hostapd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.hardware.wifi.hostapd@1.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.oppo.hardware.wifi.supplicant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.hardware.wifi.supplicant@1.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.qti.hardware.soter@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.soter@1.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.silead.hardware.fingerprintext@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.silead.hardware.fingerprintext@1.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.trustonic.tee.tui@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee.tui@1.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.trustonic.tee@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee@1.0.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.trustonic.teeregistry@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.teeregistry@1.0.so \
-    vendor/realme/RMX2020/proprietary/vendor/odm/etc/vintf/manifest_dsds_nfc.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_dsds_nfc.xml \
-    vendor/realme/RMX2020/proprietary/vendor/odm/etc/vintf/manifest_ss_nfc.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_ss_nfc.xml
+    vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.trustonic.teeregistry@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.teeregistry@1.0.so
 
 PRODUCT_PACKAGES += \
     libem_support_jni \
-    NXPNfcNci \
     SoterService \
     EngineerMode \
     ImsService \
     EmCamera \
     SensorHub \
-    com.nxp.nfc \
     mediatek-common \
     mediatek-framework \
     mediatek-ims-base \
