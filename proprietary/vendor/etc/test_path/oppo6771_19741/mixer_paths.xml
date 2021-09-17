@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<mixer>
+    <path name="MainMic_ReceiverEn">
+        <ctl name="Audio_MicSource1_Setting" value="ADC1" />
+        <ctl name="Audio_ADC_1_Switch" value="On" />
+        <ctl name="Audio_ADC_2_Switch" value="On" />
+        <ctl name="Audio_Preamp1_Switch" value="IN_ADC1" />
+        <ctl name="Audio_Preamp2_Switch" value="IN_ADC1" />
+        <ctl name="Audio_PGA1_Setting" value="18Db" />
+        <ctl name="Voice_Amp_Switch" value="On" />
+        <ctl name="Handset_PGA_GAIN" value="2Db" />
+    </path>
+    <path name="MainMic_ReceiverDis">
+        <ctl name="Audio_ADC_1_Switch" value="Off" />
+        <ctl name="Audio_ADC_2_Switch" value="Off" />
+        <ctl name="Audio_Preamp1_Switch" value="OPEN" />
+        <ctl name="Audio_Preamp2_Switch" value="OPEN" />
+        <ctl name="Voice_Amp_Switch" value="Off" />
+    </path>
+
+    <path name="RefMic2RcvLoopbackTestEn">
+        <ctl name="Audio_MicSource1_Setting" value="ADC1" />
+        <ctl name="Audio_ADC_1_Switch" value="On" />
+        <ctl name="Audio_ADC_2_Switch" value="On" />
+        <ctl name="Audio_Preamp1_Switch" value="IN_ADC3" />
+        <ctl name="Audio_Preamp2_Switch" value="IN_ADC3" />
+        <ctl name="Voice_Amp_Switch" value="On" />
+    </path>
+    <path name="RefMic2RcvLoopbackTestDis">
+        <ctl name="Audio_ADC_1_Switch" value="Off" />
+        <ctl name="Audio_ADC_2_Switch" value="Off" />
+        <ctl name="Audio_Preamp1_Switch" value="OPEN" />
+        <ctl name="Audio_Preamp2_Switch" value="OPEN" />
+        <ctl name="Voice_Amp_Switch" value="Off" />
+    </path>
+
+    <path name="PhoneMic_HpEn">
+        <ctl name="Audio_MicSource1_Setting" value="ADC1" />
+        <ctl name="Audio_ADC_1_Switch" value="On" />
+        <ctl name="Audio_ADC_2_Switch" value="On" />
+        <ctl name="Audio_Preamp1_Switch" value="IN_ADC1" />
+        <ctl name="Audio_Preamp2_Switch" value="IN_ADC3" />
+        <ctl name="Audio_PGA1_Setting" value="18Db" />
+        <ctl name="Audio_PGA2_Setting" value="18Db" />
+        <ctl name="Audio_Amp_R_Switch" value="On" />
+        <ctl name="Audio_Amp_L_Switch" value="On" />
+        <ctl name="Audio_HP_Switch" value="On" />
+        <ctl name="Headset_PGAL_GAIN" value="4Db" />
+        <ctl name="Headset_PGAR_GAIN" value="4Db" />
+    </path>
+
+    <path name="PhoneMic_HpDis">
+        <ctl name="Audio_ADC_1_Switch" value="Off" />
+        <ctl name="Audio_ADC_2_Switch" value="Off" />
+        <ctl name="Audio_Preamp1_Switch" value="OPEN" />
+        <ctl name="Audio_Preamp2_Switch" value="OPEN" />
+        <ctl name="Audio_Amp_R_Switch" value="Off" />
+        <ctl name="Audio_Amp_L_Switch" value="Off" />
+        <ctl name="Audio_HP_Switch" value="Off" />
+    </path>
+    <path name="MainMic_HpLEn">
+        <ctl name="Audio_MicSource1_Setting" value="ADC1" />
+        <ctl name="Audio_ADC_1_Switch" value="On" />
+        <ctl name="Audio_ADC_2_Switch" value="On" />
+        <ctl name="Audio_Preamp1_Switch" value="IN_ADC1" />
+        <ctl name="Audio_Preamp2_Switch" value="IN_ADC3" />
+        <ctl name="Audio_PGA1_Setting" value="18Db" />
+        <ctl name="Audio_PGA2_Setting" value="18Db" />
+    </path>
+    <path name="MainMic_HpLDis">
+        <ctl name="Audio_Preamp1_Switch" value="OPEN" />
+        <ctl name="Audio_Preamp2_Switch" value="OPEN" />
+        <ctl name="Audio_ADC_1_Switch" value="Off" />
+        <ctl name="Audio_ADC_2_Switch" value="Off" />
+    </path>
+    <path name="RefMic_HpREn">
+        <ctl name="Audio_MicSource1_Setting" value="ADC1" />
+	<ctl name="Audio_ADC_1_Switch" value="On" />
+	<ctl name="Audio_ADC_2_Switch" value="On" />
+	<ctl name="Audio_Preamp1_Switch" value="IN_ADC3" />
+	<ctl name="Audio_Preamp2_Switch" value="IN_ADC3" />
+	<ctl name="Audio_PGA2_Setting" value="18Db" />
+	<ctl name="Audio_Amp_R_Switch" value="On" />
+	<ctl name="Audio_Amp_L_Switch" value="On" />
+	<ctl name="Audio_HP_Switch" value="On" />
+	<ctl name="Headset_Left_Right_Sel" value="LeftOff" />
+	<ctl name="Headset_PGAR_GAIN" value="4Db" />
+    </path>
+    <path name="RefMic_HpRDis">
+	<ctl name="Audio_ADC_1_Switch" value="Off" />
+	<ctl name="Audio_ADC_2_Switch" value="Off" />
+	<ctl name="Audio_Preamp1_Switch" value="OPEN" />
+	<ctl name="Audio_Preamp2_Switch" value="OPEN" />
+	<ctl name="Audio_Amp_R_Switch" value="Off" />
+	<ctl name="Audio_Amp_L_Switch" value="Off" />
+	<ctl name="Audio_HP_Switch" value="Off" />
+    </path>
+    <path name="MainMic_SpeakerEn">
+    </path>
+    <path name="MainMic_SpeakerDis">
+    </path>
+    <path name="RefMic_SpeakerEn">
+	<ctl name="Audio_MicSource1_Setting" value="ADC1" />
+	<ctl name="Audio_ADC_1_Switch" value="On" />
+	<ctl name="Audio_ADC_2_Switch" value="On" />
+	<ctl name="Audio_Preamp1_Switch" value="IN_ADC3" />
+	<ctl name="Audio_Preamp2_Switch" value="IN_ADC3" />
+	<ctl name="Audio_PGA2_Setting" value="12Db" />
+	<ctl name="TFA98XX Volume" value="20" />
+        <ctl name="mono Profile" value="MUSIC_48000" />
+        <ctl name="Audio_I2S1_Setting" value="On" />
+        <ctl name="Audio_i2s0_hd_Switch" value="On" />
+        <ctl name="Audio_i2s0_SideGen_Switch" value="On48000" />
+    </path>
+    <path name="RefMic_SpeakerDis">
+	<ctl name="Audio_ADC_1_Switch" value="Off" />
+	<ctl name="Audio_ADC_2_Switch" value="Off" />
+	<ctl name="Audio_Preamp1_Switch" value="OPEN" />
+	<ctl name="Audio_Preamp2_Switch" value="OPEN" />
+	<ctl name="TFA98XX Volume" value="0" />
+        <ctl name="Audio_i2s0_SideGen_Switch" value="Off" />
+        <ctl name="Audio_i2s0_hd_Switch" value="Off" />
+        <ctl name="Audio_I2S1_Setting" value="Off" />
+    </path>
+
+    <path name="HpMic_ReceiverEn">
+        <ctl name="Audio_MicSource1_Setting" value="ADC2" />
+        <ctl name="Audio_ADC_1_Switch" value="On" />
+        <ctl name="Audio_ADC_2_Switch" value="On" />
+        <ctl name="Audio_Preamp1_Switch" value="IN_ADC2" />
+        <ctl name="Audio_Preamp2_Switch" value="IN_ADC2" />
+        <ctl name="Audio_PGA1_Setting" value="18Db" />
+        <ctl name="Voice_Amp_Switch" value="On" />
+        <ctl name="Handset_PGA_GAIN" value="2Db" />
+    </path>
+    <path name="HpMic_ReceiverDis">
+        <ctl name="Audio_ADC_1_Switch" value="Off" />
+        <ctl name="Audio_ADC_2_Switch" value="Off" />
+        <ctl name="Audio_Preamp1_Switch" value="OPEN" />
+        <ctl name="Audio_Preamp2_Switch" value="OPEN" />
+        <ctl name="Voice_Amp_Switch" value="Off" />
+    </path>
+
+    <path name="HpMic_HpEn">
+        <ctl name="Audio_MicSource1_Setting" value="ADC2" />
+        <ctl name="Audio_ADC_1_Switch" value="On" />
+        <ctl name="Audio_ADC_2_Switch" value="On" />
+        <ctl name="Audio_Preamp1_Switch" value="IN_ADC2" />
+        <ctl name="Audio_Preamp2_Switch" value="IN_ADC2" />
+        <ctl name="Audio_PGA1_Setting" value="18Db" />
+        <ctl name="Audio_Amp_R_Switch" value="On" />
+        <ctl name="Audio_Amp_L_Switch" value="On" />
+        <ctl name="Audio_HP_Switch" value="On" />
+        <ctl name="Headset_PGAL_GAIN" value="4Db" />
+        <ctl name="Headset_PGAR_GAIN" value="4Db" />
+    </path>
+
+    <path name="HpMic_HpDis">
+        <ctl name="Audio_ADC_1_Switch" value="Off" />
+        <ctl name="Audio_ADC_2_Switch" value="Off" />
+        <ctl name="Audio_Preamp1_Switch" value="OPEN" />
+        <ctl name="Audio_Preamp2_Switch" value="OPEN" />
+        <ctl name="Audio_Amp_R_Switch" value="Off" />
+        <ctl name="Audio_Amp_L_Switch" value="Off" />
+        <ctl name="Audio_HP_Switch" value="Off" />
+    </path>
+
+    <path name="HpMic_SpeakerEn">
+        <ctl name="Audio_MicSource1_Setting" value="ADC2" />
+        <ctl name="Audio_ADC_1_Switch" value="On" />
+        <ctl name="Audio_ADC_2_Switch" value="On" />
+        <ctl name="Audio_Preamp1_Switch" value="IN_ADC2" />
+        <ctl name="Audio_Preamp2_Switch" value="IN_ADC2" />
+        <ctl name="Audio_PGA1_Setting" value="18Db" />
+        <ctl name="TFA98XX Volume" value="40" />
+        <ctl name="mono Profile" value="MUSIC_48000" />
+        <ctl name="Audio_I2S1_Setting" value="On" />
+        <ctl name="Audio_i2s0_hd_Switch" value="On" />
+        <ctl name="Audio_i2s0_SideGen_Switch" value="On48000" />
+    </path>
+    <path name="HpMic_SpeakerDis">
+        <ctl name="Audio_ADC_1_Switch" value="Off" />
+        <ctl name="Audio_ADC_2_Switch" value="Off" />
+        <ctl name="Audio_Preamp1_Switch" value="OPEN" />
+        <ctl name="Audio_Preamp2_Switch" value="OPEN" />
+        <ctl name="TFA98XX Volume" value="0" />
+        <ctl name="Audio_i2s0_SideGen_Switch" value="Off" />
+        <ctl name="Audio_i2s0_hd_Switch" value="Off" />
+        <ctl name="Audio_I2S1_Setting" value="Off" />
+    </path>
+
+    <path name="Receiver_ForceEn">
+        <ctl name="Voice_Amp_Switch" value="On" />
+        <ctl name="Handset_PGA_GAIN" value="2Db" />
+    </path>
+    <path name="Receiver_ForceDis">
+        <ctl name="Voice_Amp_Switch" value="Off" />
+    </path>
+
+    <path name="Speaker_ForceEn">
+        <ctl name="Audio_I2S1_Setting" value="On" />
+        <ctl name="Audio_i2s0_hd_Switch" value="On" />
+        <ctl name="Audio_i2s0_SideGen_Switch" value="On44100" />
+        <ctl name="mono Profile" value="MUSIC_44100" />
+    </path>
+    <path name="Speaker_ForceDis">
+        <ctl name="Audio_i2s0_SideGen_Switch" value="Off" />
+        <ctl name="Audio_i2s0_hd_Switch" value="Off" />
+        <ctl name="Audio_I2S1_Setting" value="Off" />
+    </path>
+    <path name="SingleMicTest_MainEn">
+        <ctl name="Audio_MicSource1_Setting" value="ADC1" />
+        <ctl name="Audio_ADC_1_Switch" value="On" />
+        <ctl name="Audio_ADC_2_Switch" value="On" />
+        <ctl name="Audio_Preamp1_Switch" value="IN_ADC1" />
+        <ctl name="Audio_Preamp2_Switch" value="IN_ADC1" />
+        <ctl name="Audio_PGA1_Setting" value="18Db" />
+    </path>
+    <path name="SingleMicTest_MainDis">
+        <ctl name="Audio_ADC_1_Switch" value="Off" />
+        <ctl name="Audio_ADC_2_Switch" value="Off" />
+        <ctl name="Audio_Preamp1_Switch" value="OPEN" />
+        <ctl name="Audio_Preamp2_Switch" value="OPEN" />
+    </path>
+
+    <path name="SingleMicTest_RefEn">
+
+        <ctl name="Audio_MicSource1_Setting" value="ADC1" />
+        <ctl name="Audio_ADC_1_Switch" value="On" />
+        <ctl name="Audio_ADC_2_Switch" value="On" />
+        <ctl name="Audio_Preamp1_Switch" value="IN_ADC3" />
+        <ctl name="Audio_Preamp2_Switch" value="IN_ADC3" />
+        <ctl name="Audio_PGA2_Setting" value="18Db" />
+    </path>
+    <path name="SingleMicTest_RefDis">
+        <ctl name="Audio_ADC_1_Switch" value="Off" />
+        <ctl name="Audio_ADC_2_Switch" value="Off" />
+        <ctl name="Audio_Preamp1_Switch" value="OPEN" />
+        <ctl name="Audio_Preamp2_Switch" value="OPEN" />
+    </path>
+
+    <path name="ReceiverEn">
+        <ctl name="Voice_Amp_Switch" value="On" />
+    </path>
+    <path name="ReceiverDis">
+        <ctl name="Voice_Amp_Switch" value="Off" />
+    </path>
+    <path name="SpeakerProfile">
+        <ctl name="mono Profile" value="MUSIC_48000" />
+        <ctl name="Audio_I2S1_Setting" value="On" />
+        <ctl name="Audio_i2s0_hd_Switch" value="On" />
+        <ctl name="Audio_i2s0_SideGen_Switch" value="On48000" />
+    </path>
+    <path name="EngineerModeReceiverTestEn">
+        <ctl name="Voice_Amp_Switch" value="On" />
+        <ctl name="Handset_PGA_GAIN" value="2Db" />
+    </path>
+    <path name="EngineerModeReceiverTestDis">
+        <ctl name="Voice_Amp_Switch" value="Off" />
+    </path>
+
+    <path name="NoneTestEn">
+    </path>
+    <path name="NoneTestDis">
+    </path>
+    <settings name="playcard" value="0" />
+    <settings name="playdevice" value="7" />
+    <settings name="playspkdevice" value="7" />
+    <settings name="loopbackcard" value="0" />
+    <settings name="loopbackdevice" value="3" />
+    <settings name="spkdevice" value="31" />
+    <settings name="headphonedevice" value="30" />
+    <settings name="wavefilepath" value="/storage/emulated/0/spk.wav" />
+    <settings name="wave112filepath" value="/vendor/etc/file112.wav" />
+    <settings name="loopback_mictype" value="loopbacktest=main,sec" />
+</mixer>

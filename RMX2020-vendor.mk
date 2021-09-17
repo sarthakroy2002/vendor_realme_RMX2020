@@ -733,6 +733,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/etc/spk.wav:$(TARGET_COPY_OUT_VENDOR)/etc/spk.wav \
     vendor/realme/RMX2020/proprietary/vendor/etc/spn-conf-op09.xml:$(TARGET_COPY_OUT_VENDOR)/etc/spn-conf-op09.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/test_path/common/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/test_path/common/mixer_paths.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/test_path/oppo6771_19741/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/test_path/oppo6771_19741/mixer_paths.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/virtual-spn-conf-by-efgid1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efgid1.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/virtual-spn-conf-by-efpnn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efpnn.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/virtual-spn-conf-by-efspn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efspn.xml \
