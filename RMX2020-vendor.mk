@@ -785,9 +785,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib/hw/audio.usb.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.usb.mt6768.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/hw/audio_policy.stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio_policy.stub.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/hw/dfps.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/dfps.mt6768.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib/hw/gatekeeper.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.default.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib/hw/gatekeeper.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.mt6768.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib/hw/gatekeeper.oppo6769.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.oppo6769.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gps.default.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.default.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/hw/kmsetkey.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/kmsetkey.default.so \
@@ -1277,9 +1274,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib64/hw/audio.usb.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.usb.mt6768.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/hw/audio_policy.stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio_policy.stub.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/hw/dfps.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/dfps.mt6768.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib64/hw/gatekeeper.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.default.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib64/hw/gatekeeper.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.mt6768.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib64/hw/gatekeeper.oppo6769.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.oppo6769.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.default.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.default.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/hw/hwcomposer.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.mt6768.so \
