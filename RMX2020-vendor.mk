@@ -1240,7 +1240,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.6.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.6.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/victor_s5k3p9sp_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/victor_s5k3p9sp_mipi_raw_IdxMgr.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/victor_s5k3p9sp_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/victor_s5k3p9sp_mipi_raw_tuning.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib/vndk/libstagefright_omx.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libstagefright_omx.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/android.hardware.audio.common-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common-util.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/android.hardware.audio.common@6.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common@6.0-util.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/android.hardware.graphics.composer@2.1-resources.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.composer@2.1-resources.so \
