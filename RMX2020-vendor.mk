@@ -208,9 +208,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/bin/getconf:$(TARGET_COPY_OUT_VENDOR)/bin/getconf \
     vendor/realme/RMX2020/proprietary/vendor/bin/gsm0710muxd:$(TARGET_COPY_OUT_VENDOR)/bin/gsm0710muxd \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-mediatek \
-    vendor/realme/RMX2020/proprietary/vendor/bin/hw/android.hardware.configstore@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.configstore@1.1-service \
-    vendor/realme/RMX2020/proprietary/vendor/bin/hw/android.hardware.drm@1.3-service.clearkey:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.3-service.clearkey \
-    vendor/realme/RMX2020/proprietary/vendor/bin/hw/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.3-service.widevine \
+    vendor/realme/RMX2020/proprietary/vendor/bin/hw/android.hardware.drm@1.4-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.4-service.widevine \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/android.hardware.gnss@2.1-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss@2.1-service-mediatek \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/android.hardware.graphics.composer@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.composer@2.1-service \
@@ -643,8 +641,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Vodafone.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Vodafone.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/android.hardware.configstore@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.configstore@1.1-service.rc \
-    vendor/realme/RMX2020/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.clearkey.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.clearkey.rc \
-    vendor/realme/RMX2020/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
+    vendor/realme/RMX2020/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.widevine.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/android.hardware.gnss@2.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.1-service-mediatek.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.1-service.rc \
@@ -1342,8 +1339,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib/libwebrtc_audio_preprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwebrtc_audio_preprocessing.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libwo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwo.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libdrmclearkeyplugin.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib/mediadrm/libmockdrmcryptoplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libmockdrmcryptoplugin.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/modules/bt_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/bt_drv.ko \
     vendor/realme/RMX2020/proprietary/vendor/lib/modules/fmradio_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/fmradio_drv.ko \
@@ -1849,8 +1844,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libwifi-hal-mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal-mtk.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libwo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwo.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libdrmclearkeyplugin.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libmockdrmcryptoplugin.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/monet_hlt_custfront_gc5035_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/monet_hlt_custfront_gc5035_IdxMgr.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/monet_hlt_custfront_gc5035_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/monet_hlt_custfront_gc5035_tuning.so \
@@ -1969,7 +1962,6 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi.hostapd \
     android.hardware.wifi@1.0-service \
     lights-mtk-default \
-    manifest_android.hardware.drm@1.3-service.clearkey \
-    manifest_android.hardware.drm@1.3-service.widevine \
+    manifest_android.hardware.drm@1.4-service.widevine \
     vendor.mediatek.hardware.dplanner@2.0-service \
     vibrator-mtk-default
