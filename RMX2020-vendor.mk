@@ -1621,19 +1621,8 @@ PRODUCT_PACKAGES += \
     libem_support_jni \
     SoterService \
     EngineerMode \
-    ImsService \
     EmCamera \
     SensorHub \
-    mediatek-common \
-    mediatek-framework \
-    mediatek-ims-base \
-    mediatek-ims-common \
-    mediatek-ims-extension-plugin \
-    mediatek-ims-legacy \
-    mediatek-ims-wwop-common \
-    mediatek-telecom-common \
-    mediatek-telephony-base \
-    mediatek-telephony-common \
     android.hardware.neuralnetworks@1.3-service-mtk-gpu \
     manifest_android.hardware.drm@1.4-service.widevine \
     vendor.mediatek.hardware.dplanner@2.0-service \
