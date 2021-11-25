@@ -1237,6 +1237,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.4.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.5.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.6.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.6.so \
+    vendor/realme/RMX2020/proprietary/vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/victor_s5k3p9sp_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/victor_s5k3p9sp_mipi_raw_IdxMgr.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/victor_s5k3p9sp_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/victor_s5k3p9sp_mipi_raw_tuning.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/android.hardware.audio.common-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common-util.so \
@@ -1759,6 +1760,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.wifi.supplicant@2.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.wifi.supplicant@2.1.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.wifi.supplicant@2.2.so \
+    vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.oplus.hardware.wifi.supplicant@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.wifi.supplicant@2.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.trustonic.tee.tui@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee.tui@1.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.trustonic.tee@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee@1.0.so \
