@@ -10,6 +10,110 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so \
     vendor/realme/RMX2020/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
     vendor/realme/RMX2020/proprietary/odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_device/audio_device.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_device/audio_device.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_device/common/audio_device.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_device/common/audio_device.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/AudioParamOptions.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/AudioParamOptions.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/BtInfo_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/BtInfo_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/BtInfo_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/BtInfo_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/HpImpedance_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/HpImpedance_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/HpImpedance_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/HpImpedance_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/MicInfo_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/MicInfo_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/MicInfo_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/MicInfo_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/PlaybackACF_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/PlaybackACF_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/PlaybackACF_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/PlaybackACF_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/PlaybackDRC_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/PlaybackDRC_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/PlaybackDRC_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/PlaybackDRC_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/PlaybackHCF_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/PlaybackHCF_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/PlaybackHCF_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/PlaybackHCF_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/PlaybackVolAna_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/PlaybackVolAna_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/PlaybackVolAna_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/PlaybackVolAna_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/PlaybackVolDigi_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/PlaybackVolDigi_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/PlaybackVolDigi_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/PlaybackVolDigi_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/PlaybackVolUI_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/PlaybackVolUI_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/PlaybackVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/PlaybackVolUI_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/Playback_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/Playback_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/Playback_ParamTreeView.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/Playback_ParamTreeView.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/Playback_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/Playback_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/RecordDMNR_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/RecordDMNR_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/RecordDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/RecordDMNR_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/RecordFIR_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/RecordFIR_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/RecordFIR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/RecordFIR_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/RecordUI_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/RecordUI_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/RecordUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/RecordUI_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/RecordVolUI_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/RecordVolUI_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/RecordVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/RecordVolUI_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/RecordVol_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/RecordVol_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/RecordVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/RecordVol_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/Record_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/Record_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/Record_ParamTreeView.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/Record_ParamTreeView.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/Record_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/Record_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/RingbackVolUI_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/RingbackVolUI_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/RingbackVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/RingbackVolUI_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/RingbackVol_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/RingbackVol_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/RingbackVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/RingbackVol_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/SmartPa_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/SmartPa_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/SmartPa_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/SmartPa_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/SoundEnhancement_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/SoundEnhancement_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/SoundEnhancement_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/SoundEnhancement_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/SpeechDMNR_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/SpeechDMNR_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/SpeechDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/SpeechDMNR_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/SpeechEchoRef_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/SpeechEchoRef_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/SpeechEchoRef_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/SpeechEchoRef_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/SpeechGeneral_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/SpeechGeneral_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/SpeechGeneral_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/SpeechGeneral_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/SpeechMagiClarity_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/SpeechMagiClarity_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/SpeechMagiClarity_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/SpeechMagiClarity_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/SpeechNetwork_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/SpeechNetwork_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/SpeechNetwork_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/SpeechNetwork_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/SpeechUI_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/SpeechUI_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/SpeechUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/SpeechUI_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/SpeechVolUI_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/SpeechVolUI_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/SpeechVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/SpeechVolUI_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/SpeechVol_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/SpeechVol_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/SpeechVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/SpeechVol_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/Speech_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/Speech_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/Speech_ParamTreeView.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/Speech_ParamTreeView.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/Speech_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/Speech_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/USBCall_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/USBCall_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/USBCall_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/USBCall_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/USBDevice_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/USBDevice_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/USBDevice_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/USBDevice_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/UplinkConfiguration_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/UplinkConfiguration_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/UplinkConfiguration_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/UplinkConfiguration_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/VOW_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VOW_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/VOW_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VOW_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/VoIPDMNR_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VoIPDMNR_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/VoIPDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VoIPDMNR_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/VoIPGeneral_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VoIPGeneral_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/VoIPGeneral_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VoIPGeneral_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/VoIPUI_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VoIPUI_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/VoIPUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VoIPUI_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/VoIPVolUI_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VoIPVolUI_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/VoIPVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VoIPVolUI_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/VoIPVol_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VoIPVol_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/VoIPVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VoIPVol_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/VoIP_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VoIP_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/VoIP_ParamTreeView.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VoIP_ParamTreeView.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/VoIP_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VoIP_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/VoIPv2DMNR_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VoIPv2DMNR_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/VoIPv2DMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VoIPv2DMNR_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/VoIPv2General_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VoIPv2General_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/VoIPv2General_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VoIPv2General_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/VoIPv2UI_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VoIPv2UI_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/VoIPv2UI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VoIPv2UI_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/VoIPv2_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VoIPv2_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/VoIPv2_ParamTreeView.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VoIPv2_ParamTreeView.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/VoIPv2_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VoIPv2_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/VolumeGainMapUL_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VolumeGainMapUL_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/VolumeGainMapUL_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VolumeGainMapUL_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/VolumeGainMap_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VolumeGainMap_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/VolumeGainMap_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VolumeGainMap_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/Volume_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/Volume_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_param/Volume_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/Volume_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/aurisys_config/aurisys_config.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/aurisys_config/aurisys_config.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/oplus_audio_features.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/oplus_audio_features.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/test_path/common/mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/test_path/common/mixer_paths.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/audio/test_path/mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/test_path/mixer_paths.xml \
     vendor/realme/RMX2020/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/realme/RMX2020/proprietary/odm/lib/hw/fingerprint.goodix_G2.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G2.default.so \
     vendor/realme/RMX2020/proprietary/odm/lib/hw/fingerprint.goodix_G3.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G3.default.so \
@@ -32,8 +136,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/odm/lib64/hw/fingerprint.goodix_G6.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G6.default.so \
     vendor/realme/RMX2020/proprietary/odm/lib64/hw/fingerprint.silead.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.silead.default.so \
     vendor/realme/RMX2020/proprietary/odm/lib64/libRbsFlow_cap.so:$(TARGET_COPY_OUT_ODM)/lib64/libRbsFlow_cap.so \
-    vendor/realme/RMX2020/proprietary/odm/lib64/libormshalclient.so:$(TARGET_COPY_OUT_ODM)/lib64/libormshalclient.so \
     vendor/realme/RMX2020/proprietary/odm/lib64/libmxmafa.so:$(TARGET_COPY_OUT_ODM)/lib64/libmxmafa.so \
+    vendor/realme/RMX2020/proprietary/odm/lib64/libormshalclient.so:$(TARGET_COPY_OUT_ODM)/lib64/libormshalclient.so \
     vendor/realme/RMX2020/proprietary/odm/lib64/sensors.virtual.so:$(TARGET_COPY_OUT_ODM)/lib64/sensors.virtual.so \
     vendor/realme/RMX2020/proprietary/odm/lib64/vendor.oplus.hardware.appradio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.appradio@1.0.so \
     vendor/realme/RMX2020/proprietary/odm/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so \
@@ -254,6 +358,104 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/etc/armnn_app.config:$(TARGET_COPY_OUT_VENDOR)/etc/armnn_app.config \
     vendor/realme/RMX2020/proprietary/vendor/etc/asd/class.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/asd/class.tflite \
     vendor/realme/RMX2020/proprietary/vendor/etc/asd/detect.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/asd/detect.tflite \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/AudioParamOptions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/BtInfo_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/BtInfo_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/BtInfo_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/BtInfo_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/HpImpedance_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/HpImpedance_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/HpImpedance_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/HpImpedance_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/MicInfo_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/MicInfo_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/MicInfo_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/MicInfo_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/PlaybackACF_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackACF_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/PlaybackACF_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackACF_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/PlaybackDRC_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackDRC_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/PlaybackDRC_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackDRC_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/PlaybackHCF_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackHCF_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/PlaybackHCF_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackHCF_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/PlaybackVolAna_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolAna_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/PlaybackVolAna_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolAna_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/PlaybackVolDigi_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolDigi_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/PlaybackVolDigi_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolDigi_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/PlaybackVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolUI_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/PlaybackVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolUI_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/Playback_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Playback_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/Playback_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Playback_ParamTreeView.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/Playback_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Playback_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/RecordDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordDMNR_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/RecordDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordDMNR_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/RecordFIR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordFIR_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/RecordFIR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordFIR_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/RecordUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordUI_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/RecordUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordUI_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/RecordVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVolUI_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/RecordVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVolUI_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/RecordVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVol_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/RecordVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVol_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/Record_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Record_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/Record_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Record_ParamTreeView.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/Record_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Record_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/RingbackVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RingbackVolUI_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/RingbackVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RingbackVolUI_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/RingbackVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RingbackVol_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/RingbackVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RingbackVol_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/SoundEnhancement_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SoundEnhancement_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/SoundEnhancement_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SoundEnhancement_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/SpeechDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechDMNR_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/SpeechDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechDMNR_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/SpeechEchoRef_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechEchoRef_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/SpeechEchoRef_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechEchoRef_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/SpeechGeneral_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechGeneral_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/SpeechGeneral_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechGeneral_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/SpeechMagiClarity_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechMagiClarity_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/SpeechMagiClarity_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechMagiClarity_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/SpeechNetwork_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechNetwork_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/SpeechNetwork_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechNetwork_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/SpeechUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechUI_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/SpeechUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechUI_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/SpeechVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVolUI_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/SpeechVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVolUI_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/SpeechVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVol_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/SpeechVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVol_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/Speech_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Speech_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/Speech_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Speech_ParamTreeView.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/Speech_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Speech_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/USBCall_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/USBCall_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/USBCall_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/USBCall_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/USBDevice_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/USBDevice_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/USBDevice_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/USBDevice_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/UplinkConfiguration_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/UplinkConfiguration_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/UplinkConfiguration_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/UplinkConfiguration_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/VoIPDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPDMNR_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/VoIPDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPDMNR_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/VoIPGeneral_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPGeneral_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/VoIPGeneral_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPGeneral_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/VoIPUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPUI_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/VoIPUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPUI_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/VoIPVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVolUI_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/VoIPVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVolUI_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/VoIPVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVol_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/VoIPVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVol_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/VoIP_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIP_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/VoIP_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIP_ParamTreeView.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/VoIP_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIP_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/VoIPv2DMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2DMNR_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/VoIPv2DMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2DMNR_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/VoIPv2General_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2General_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/VoIPv2General_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2General_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/VoIPv2UI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2UI_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/VoIPv2UI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2UI_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/VoIPv2_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/VoIPv2_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2_ParamTreeView.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/VoIPv2_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/VoWDspAec_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWDspAec_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/VoWDspAec_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWDspAec_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/VoWHwVad_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWHwVad_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/VoWHwVad_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWHwVad_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/VolumeGainMapUL_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMapUL_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/VolumeGainMapUL_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMapUL_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/VolumeGainMap_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMap_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/Volume_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/Volume_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_ParamUnitDesc.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/audio_policy_configuration_bluetooth_legacy_hal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration_bluetooth_legacy_hal.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/aurisys_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/aurisys_param/Speech_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_param/Speech_AudioParam.xml \
@@ -1746,11 +1948,11 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.4.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.5.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.6.so \
+    vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.mediatek.hardware.wifi.hostapd@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.wifi.hostapd@2.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.wifi.supplicant@2.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.wifi.supplicant@2.1.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.wifi.supplicant@2.2.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.oplus.hardware.wifi.supplicant@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.wifi.supplicant@2.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.trustonic.tee.tui@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee.tui@1.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.trustonic.tee@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee@1.0.so \
