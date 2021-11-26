@@ -121,6 +121,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/odm/lib/hw/fingerprint.goodix_G6.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G6.default.so \
     vendor/realme/RMX2020/proprietary/odm/lib/hw/fingerprint.silead.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.silead.default.so \
     vendor/realme/RMX2020/proprietary/odm/lib/libRbsFlow_cap.so:$(TARGET_COPY_OUT_ODM)/lib/libRbsFlow_cap.so \
+    vendor/realme/RMX2020/proprietary/odm/lib/libsl_fp_impl.so:$(TARGET_COPY_OUT_ODM)/lib/libsl_fp_impl.so \
     vendor/realme/RMX2020/proprietary/odm/lib/libormshalclient.so:$(TARGET_COPY_OUT_ODM)/lib/libormshalclient.so \
     vendor/realme/RMX2020/proprietary/odm/lib/sensors.virtual.so:$(TARGET_COPY_OUT_ODM)/lib/sensors.virtual.so \
     vendor/realme/RMX2020/proprietary/odm/lib/vendor.oplus.hardware.appradio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.appradio@1.0.so \
@@ -136,6 +137,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/odm/lib64/hw/fingerprint.goodix_G6.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G6.default.so \
     vendor/realme/RMX2020/proprietary/odm/lib64/hw/fingerprint.silead.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.silead.default.so \
     vendor/realme/RMX2020/proprietary/odm/lib64/libRbsFlow_cap.so:$(TARGET_COPY_OUT_ODM)/lib64/libRbsFlow_cap.so \
+    vendor/realme/RMX2020/proprietary/odm/lib64/libsl_fp_impl.so:$(TARGET_COPY_OUT_ODM)/lib64/libsl_fp_impl.so \
     vendor/realme/RMX2020/proprietary/odm/lib64/libmxmafa.so:$(TARGET_COPY_OUT_ODM)/lib64/libmxmafa.so \
     vendor/realme/RMX2020/proprietary/odm/lib64/libormshalclient.so:$(TARGET_COPY_OUT_ODM)/lib64/libormshalclient.so \
     vendor/realme/RMX2020/proprietary/odm/lib64/sensors.virtual.so:$(TARGET_COPY_OUT_ODM)/lib64/sensors.virtual.so \
