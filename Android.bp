@@ -33,18 +33,18 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.wifi@1.0-service",
+	name: "lights-mtk-default",
 	owner: "realme",
-	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml",
+	src: "proprietary/vendor/etc/vintf/manifest/lights-mtk-default.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
 }
 
 prebuilt_etc_xml {
-	name: "lights-mtk-default",
+	name: "manifest",
 	owner: "realme",
-	src: "proprietary/vendor/etc/vintf/manifest/lights-mtk-default.xml",
+	src: "proprietary/vendor/etc/vintf/manifest/manifest.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,

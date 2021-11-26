@@ -121,8 +121,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/odm/lib/hw/fingerprint.goodix_G6.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G6.default.so \
     vendor/realme/RMX2020/proprietary/odm/lib/hw/fingerprint.silead.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.silead.default.so \
     vendor/realme/RMX2020/proprietary/odm/lib/libRbsFlow_cap.so:$(TARGET_COPY_OUT_ODM)/lib/libRbsFlow_cap.so \
-    vendor/realme/RMX2020/proprietary/odm/lib/libsl_fp_impl.so:$(TARGET_COPY_OUT_ODM)/lib/libsl_fp_impl.so \
     vendor/realme/RMX2020/proprietary/odm/lib/libormshalclient.so:$(TARGET_COPY_OUT_ODM)/lib/libormshalclient.so \
+    vendor/realme/RMX2020/proprietary/odm/lib/libsl_fp_impl.so:$(TARGET_COPY_OUT_ODM)/lib/libsl_fp_impl.so \
     vendor/realme/RMX2020/proprietary/odm/lib/sensors.virtual.so:$(TARGET_COPY_OUT_ODM)/lib/sensors.virtual.so \
     vendor/realme/RMX2020/proprietary/odm/lib/vendor.oplus.hardware.appradio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.appradio@1.0.so \
     vendor/realme/RMX2020/proprietary/odm/lib/vendor.oplus.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.biometrics.fingerprint@2.1.so \
@@ -136,11 +136,11 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/odm/lib64/hw/fingerprint.goodix_G5.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G5.default.so \
     vendor/realme/RMX2020/proprietary/odm/lib64/hw/fingerprint.goodix_G6.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G6.default.so \
     vendor/realme/RMX2020/proprietary/odm/lib64/hw/fingerprint.silead.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.silead.default.so \
-    vendor/realme/RMX2020/proprietary/odm/lib64/libegis_hal.so:$(TARGET_COPY_OUT_ODM)/lib64/libegis_hal.so \
     vendor/realme/RMX2020/proprietary/odm/lib64/libRbsFlow_cap.so:$(TARGET_COPY_OUT_ODM)/lib64/libRbsFlow_cap.so \
-    vendor/realme/RMX2020/proprietary/odm/lib64/libsl_fp_impl.so:$(TARGET_COPY_OUT_ODM)/lib64/libsl_fp_impl.so \
+    vendor/realme/RMX2020/proprietary/odm/lib64/libegis_hal.so:$(TARGET_COPY_OUT_ODM)/lib64/libegis_hal.so \
     vendor/realme/RMX2020/proprietary/odm/lib64/libmxmafa.so:$(TARGET_COPY_OUT_ODM)/lib64/libmxmafa.so \
     vendor/realme/RMX2020/proprietary/odm/lib64/libormshalclient.so:$(TARGET_COPY_OUT_ODM)/lib64/libormshalclient.so \
+    vendor/realme/RMX2020/proprietary/odm/lib64/libsl_fp_impl.so:$(TARGET_COPY_OUT_ODM)/lib64/libsl_fp_impl.so \
     vendor/realme/RMX2020/proprietary/odm/lib64/sensors.virtual.so:$(TARGET_COPY_OUT_ODM)/lib64/sensors.virtual.so \
     vendor/realme/RMX2020/proprietary/odm/lib64/vendor.oplus.hardware.appradio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.appradio@1.0.so \
     vendor/realme/RMX2020/proprietary/odm/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so \
@@ -223,8 +223,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/android.hardware.thermal@2.0-service.mtk:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.thermal@2.0-service.mtk \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/android.hardware.usb@1.1-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.1-service-mediatek \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/android.hardware.vibrator-service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.vibrator-service.mediatek \
-    vendor/realme/RMX2020/proprietary/vendor/bin/hw/android.hardware.wifi@1.0-service-lazy:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.wifi@1.0-service-lazy \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/camerahalserver:$(TARGET_COPY_OUT_VENDOR)/bin/hw/camerahalserver \
+    vendor/realme/RMX2020/proprietary/vendor/bin/hw/hostapd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/hostapd \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/mtkfusionrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mtkfusionrild \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/power_native_test_v_1_0:$(TARGET_COPY_OUT_VENDOR)/bin/hw/power_native_test_v_1_0 \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/power_native_test_v_1_1:$(TARGET_COPY_OUT_VENDOR)/bin/hw/power_native_test_v_1_1 \
@@ -240,6 +240,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.pq@2.2-service \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/vendor.trustonic.tee@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.trustonic.tee@1.1-service \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/vtservice_hidl:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vtservice_hidl \
+    vendor/realme/RMX2020/proprietary/vendor/bin/hw/wpa_supplicant:$(TARGET_COPY_OUT_VENDOR)/bin/hw/wpa_supplicant \
     vendor/realme/RMX2020/proprietary/vendor/bin/i2cdetect:$(TARGET_COPY_OUT_VENDOR)/bin/i2cdetect \
     vendor/realme/RMX2020/proprietary/vendor/bin/i2cdump:$(TARGET_COPY_OUT_VENDOR)/bin/i2cdump \
     vendor/realme/RMX2020/proprietary/vendor/bin/i2cget:$(TARGET_COPY_OUT_VENDOR)/bin/i2cget \
@@ -654,7 +655,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@2.0-service.mtk.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/android.hardware.usb@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.1-service-mediatek.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/android.hardware.wifi.supplicant-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi.supplicant-service.rc \
-    vendor/realme/RMX2020/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service-lazy.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/atcid.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atcid.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/audiocmdservice_atci.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/audiocmdservice_atci.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/bootperf.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/bootperf.rc \
@@ -664,6 +664,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/fuelgauged_nvram_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_nvram_init.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/gsm0710muxd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gsm0710muxd.rc \
+    vendor/realme/RMX2020/proprietary/vendor/etc/init/hostapd.android.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hostapd.android.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/init.bip.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.bip.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/init.cccifsd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccifsd.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/init.cccimdinit.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccimdinit.rc \
@@ -1338,6 +1339,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib/libwapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwapi.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libwebrtc_audio_preprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwebrtc_audio_preprocessing.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libwo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwo.so \
+    vendor/realme/RMX2020/proprietary/vendor/lib/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwpa_client.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/modules/bt_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/bt_drv.ko \
@@ -1840,8 +1842,10 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libverno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libverno.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libwapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwapi.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libwebrtc_audio_preprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwebrtc_audio_preprocessing.so \
+    vendor/realme/RMX2020/proprietary/vendor/lib64/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libwifitest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifitest.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libwo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwo.so \
+    vendor/realme/RMX2020/proprietary/vendor/lib64/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpa_client.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/monet_hlt_custfront_gc5035_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/monet_hlt_custfront_gc5035_IdxMgr.so \
@@ -1959,8 +1963,8 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1 \
     android.hardware.neuralnetworks@1.3-service-mtk-gpu \
     android.hardware.wifi.hostapd \
-    android.hardware.wifi@1.0-service \
     lights-mtk-default \
+    manifest \
     manifest_android.hardware.drm@1.4-service.widevine \
     vendor.mediatek.hardware.dplanner@2.0-service \
     vibrator-mtk-default
