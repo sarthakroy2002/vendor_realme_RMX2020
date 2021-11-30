@@ -15,7 +15,6 @@ service hostapd /vendor/bin/hw/hostapd
     interface android.hardware.wifi.hostapd@1.0::IHostapd default
     interface android.hardware.wifi.hostapd@1.1::IHostapd default
     interface android.hardware.wifi.hostapd@1.2::IHostapd default
-    interface vendor.mediatek.hardware.wifi.hostapd@2.0::IHostapd default
     class main
     capabilities NET_ADMIN NET_RAW
     user wifi
