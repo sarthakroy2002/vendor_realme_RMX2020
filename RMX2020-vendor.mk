@@ -1359,16 +1359,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwpa_client.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib/modules/bt_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/bt_drv.ko \
-    vendor/realme/RMX2020/proprietary/vendor/lib/modules/fmradio_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/fmradio_drv.ko \
-    vendor/realme/RMX2020/proprietary/vendor/lib/modules/fpsgo.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/fpsgo.ko \
-    vendor/realme/RMX2020/proprietary/vendor/lib/modules/gps_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/gps_drv.ko \
-    vendor/realme/RMX2020/proprietary/vendor/lib/modules/kheaders.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/kheaders.ko \
-    vendor/realme/RMX2020/proprietary/vendor/lib/modules/met.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/met.ko \
-    vendor/realme/RMX2020/proprietary/vendor/lib/modules/udc_lib.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/udc_lib.ko \
-    vendor/realme/RMX2020/proprietary/vendor/lib/modules/wlan_drv_gen4m.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wlan_drv_gen4m.ko \
-    vendor/realme/RMX2020/proprietary/vendor/lib/modules/wmt_chrdev_wifi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wmt_chrdev_wifi.ko \
-    vendor/realme/RMX2020/proprietary/vendor/lib/modules/wmt_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wmt_drv.ko \
     vendor/realme/RMX2020/proprietary/vendor/lib/monet_hlt_custfront_gc5035_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/monet_hlt_custfront_gc5035_IdxMgr.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/monet_hlt_custfront_gc5035_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/monet_hlt_custfront_gc5035_tuning.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/monet_hlt_depth_ov02a1b_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/monet_hlt_depth_ov02a1b_IdxMgr.so \
