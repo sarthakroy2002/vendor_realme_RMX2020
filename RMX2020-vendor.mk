@@ -696,6 +696,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/init.cccimdinit.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccimdinit.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/init.cccirpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccirpcd.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/init.md_apps.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.md_apps.rc \
+    vendor/realme/RMX2020/proprietary/vendor/etc/init/init.pn8x.nfc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.pn8x.nfc.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/init.thermal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermal.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/init.thermal_manager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermal_manager.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/init.thermalloadalgod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermalloadalgod.rc \
@@ -1293,6 +1294,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib/libopus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libopus.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libperfctl_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfctl_vendor.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libpixelflinger.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpixelflinger.so \
+    vendor/realme/RMX2020/proprietary/vendor/lib/libpn553_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn553_fw.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libpowerhal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpowerhal.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libpowerhalwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpowerhalwrap_vendor.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libpq_cust_base.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpq_cust_base.so \
@@ -1399,6 +1401,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib/monetx_shengtai_wide_ov8856_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/monetx_shengtai_wide_ov8856_tuning.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/monetx_truly_main_s5kgm1sp_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/monetx_truly_main_s5kgm1sp_IdxMgr.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/monetx_truly_main_s5kgm1sp_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/monetx_truly_main_s5kgm1sp_tuning.so \
+    vendor/realme/RMX2020/proprietary/vendor/lib/nfc_nci.pn54x.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/nfc_nci.pn54x.default.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/pascala_hlt_front_s5k4h7_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/pascala_hlt_front_s5k4h7_IdxMgr.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/pascala_hlt_front_s5k4h7_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/pascala_hlt_front_s5k4h7_tuning.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/pascala_shengtai_macro_ov02b10_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/pascala_shengtai_macro_ov02b10_IdxMgr.so \
@@ -1895,6 +1898,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib64/monetx_truly_main_s5kgm1sp_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/monetx_truly_main_s5kgm1sp_IdxMgr.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/monetx_truly_main_s5kgm1sp_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/monetx_truly_main_s5kgm1sp_tuning.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so \
+    vendor/realme/RMX2020/proprietary/vendor/lib64/nfc_nci.pn54x.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci.pn54x.default.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/pascala_hlt_front_s5k4h7_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/pascala_hlt_front_s5k4h7_IdxMgr.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/pascala_hlt_front_s5k4h7_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/pascala_hlt_front_s5k4h7_tuning.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/pascala_shengtai_macro_ov02b10_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/pascala_shengtai_macro_ov02b10_IdxMgr.so \
