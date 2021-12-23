@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/lib/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvcodec_cap.so \
     vendor/realme/RMX2020/proprietary/lib/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvcodec_capenc.so \
     vendor/realme/RMX2020/proprietary/lib/libvt_avsync.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvt_avsync.so \
+    vendor/realme/RMX2020/proprietary/system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/realme/RMX2020/proprietary/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so \
     vendor/realme/RMX2020/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
     vendor/realme/RMX2020/proprietary/lib64/libmtk_vt_wrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtk_vt_wrapper.so \
@@ -31,6 +32,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/lib64/libmtkperf_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkperf_client.so \
     vendor/realme/RMX2020/proprietary/lib64/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_cap.so \
     vendor/realme/RMX2020/proprietary/lib64/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_capenc.so \
+    vendor/realme/RMX2020/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/realme/RMX2020/proprietary/odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service \
     vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_device/audio_device.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_device/audio_device.xml \
     vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_device/common/audio_device.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_device/common/audio_device.xml \
@@ -177,14 +179,28 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/odm/lib64/vendor.oplus.hardware.commondcs@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.commondcs@1.0.so \
     vendor/realme/RMX2020/proprietary/odm/lib64/vendor.oplus.hardware.orms@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.orms@1.0.so \
     vendor/realme/RMX2020/proprietary/odm/lib64/vendor.oplus.hardware.radio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.radio@1.0.so \
+    vendor/realme/RMX2020/proprietary/odm/vendor/app/mcRegistry/030b0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/030b0000000000000000000000000000.drbin \
+    vendor/realme/RMX2020/proprietary/odm/vendor/app/mcRegistry/030b0000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/030b0000000000000000000000000000.tlbin \
+    vendor/realme/RMX2020/proprietary/odm/vendor/app/mcRegistry/030c0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/030c0000000000000000000000000000.drbin \
+    vendor/realme/RMX2020/proprietary/odm/vendor/app/mcRegistry/030c0000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/030c0000000000000000000000000000.tlbin \
+    vendor/realme/RMX2020/proprietary/odm/vendor/app/mcRegistry/030f0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/030f0000000000000000000000000000.drbin \
+    vendor/realme/RMX2020/proprietary/odm/vendor/app/mcRegistry/030f0000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/030f0000000000000000000000000000.tlbin \
+    vendor/realme/RMX2020/proprietary/odm/vendor/app/mcRegistry/04320000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/04320000000000000000000000000000.tlbin \
+    vendor/realme/RMX2020/proprietary/odm/vendor/app/mcRegistry/05060000000000000000000000000000.tabin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/05060000000000000000000000000000.tabin \
+    vendor/realme/RMX2020/proprietary/odm/vendor/app/mcRegistry/05070000000000000000000000000000.drbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/05070000000000000000000000000000.drbin \
+    vendor/realme/RMX2020/proprietary/odm/vendor/app/mcRegistry/070f0000000000000000000000000a0a.tlbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/070f0000000000000000000000000a0a.tlbin \
+    vendor/realme/RMX2020/proprietary/odm/vendor/app/mcRegistry/08010203000000000000000000000000.tabin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/08010203000000000000000000000000.tabin \
+    vendor/realme/RMX2020/proprietary/odm/vendor/app/mcRegistry/08080000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/08080000000000000000000000000000.tlbin \
+    vendor/realme/RMX2020/proprietary/odm/vendor/app/mcRegistry/09070000000000000000000000000000.drbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/09070000000000000000000000000000.drbin \
+    vendor/realme/RMX2020/proprietary/odm/vendor/app/mcRegistry/09080000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/09080000000000000000000000000000.tlbin \
+    vendor/realme/RMX2020/proprietary/odm/vendor/app/mcRegistry/09150000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/09150000000000000000000000000000.tlbin \
+    vendor/realme/RMX2020/proprietary/odm/vendor/app/mcRegistry/511ead0a000000000000000000000000.tabin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/511ead0a000000000000000000000000.tabin \
     vendor/realme/RMX2020/proprietary/system_ext/lib/vendor.mediatek.hardware.audio@6.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.audio@6.1.so \
     vendor/realme/RMX2020/proprietary/system_ext/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
     vendor/realme/RMX2020/proprietary/system_ext/lib/vendor.oplus.hardware.camera.slogan@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.oplus.hardware.camera.slogan@1.0.so \
     vendor/realme/RMX2020/proprietary/system_ext/lib/vendor.oplus.hardware.displaypanelfeature@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.oplus.hardware.displaypanelfeature@1.0.so \
-    vendor/realme/RMX2020/proprietary/system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/realme/RMX2020/proprietary/system_ext/lib64/vendor.mediatek.hardware.audio@6.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.audio@6.1.so \
     vendor/realme/RMX2020/proprietary/system_ext/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
-    vendor/realme/RMX2020/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/realme/RMX2020/proprietary/system_ext/lib64/vendor.oplus.hardware.camera.slogan@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.oplus.hardware.camera.slogan@1.0.so \
     vendor/realme/RMX2020/proprietary/system_ext/lib64/vendor.oplus.hardware.displaypanelfeature@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.oplus.hardware.displaypanelfeature@1.0.so \
     vendor/realme/RMX2020/proprietary/vendor/app/mcRegistry/020b0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/020b0000000000000000000000000000.drbin \
