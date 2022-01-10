@@ -5,6 +5,36 @@
 soong_namespace {
 }
 
+cc_prebuilt_library_shared {
+	name: "libem_support_jni",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/lib/libem_support_jni.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/lib64/libem_support_jni.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+}
+
+android_app_import {
+	name: "EngineerMode",
+	owner: "realme",
+	apk: "proprietary/priv-app/EngineerMode/EngineerMode.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
 prebuilt_etc_xml {
 	name: "android.hardware.neuralnetworks@1.3-service-mtk-gpu",
 	owner: "realme",
