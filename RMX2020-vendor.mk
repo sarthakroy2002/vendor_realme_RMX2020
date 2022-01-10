@@ -1868,6 +1868,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib64/victor_s5k3p9sp_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/victor_s5k3p9sp_mipi_raw_tuning.so
 
 PRODUCT_PACKAGES += \
+    libem_support_jni \
+    EngineerMode \
     android.hardware.neuralnetworks@1.3-service-mtk-gpu \
     android.hardware.wifi.hostapd \
     manifest \
