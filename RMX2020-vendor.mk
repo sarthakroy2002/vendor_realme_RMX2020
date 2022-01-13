@@ -1874,5 +1874,8 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi.hostapd \
     manifest \
     manifest_android.hardware.drm@1.4-service.widevine \
+    oplus_appradio_device_manifest \
+    oplus_radio_device_manifest \
+    power-mtk-default \
     vendor.mediatek.hardware.dplanner@2.0-service \
     vibrator-mtk-default
