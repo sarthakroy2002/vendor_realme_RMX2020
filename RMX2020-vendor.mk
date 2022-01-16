@@ -635,6 +635,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/yuanqi-2.2s.cube.rgb.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/yuanqi-2.2s.cube.rgb.bin \
     vendor/realme/RMX2020/proprietary/vendor/etc/camera/gasryuv.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/gasryuv.model \
     vendor/realme/RMX2020/proprietary/vendor/etc/camera/merged_model_post:$(TARGET_COPY_OUT_VENDOR)/etc/camera/merged_model_post \
+    vendor/realme/RMX2020/proprietary/vendor/etc/diracmobile.config:$(TARGET_COPY_OUT_VENDOR)/etc/diracmobile.config \
     vendor/realme/RMX2020/proprietary/vendor/etc/ecc_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/ecc_list_OP01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP01.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/ecc_list_OP02.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP02.xml \
@@ -1129,6 +1130,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib/libcustom_nvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcustom_nvram.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libcvface_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvface_api.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libcvsd_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvsd_mtk.so \
+    vendor/realme/RMX2020/proprietary/vendor/lib/libDiracAPI_SHARED.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDiracAPI_SHARED.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpframework.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libeffecthal.base.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeffecthal.base.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libfeature.face.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeature.face.so \
@@ -1346,6 +1348,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib/pascali_hlt_front_s5k4h7_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/pascali_hlt_front_s5k4h7_tuning.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/pascali_qtech_main_ov13b10_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/pascali_qtech_main_ov13b10_IdxMgr.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/pascali_qtech_main_ov13b10_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/pascali_qtech_main_ov13b10_tuning.so \
+    vendor/realme/RMX2020/proprietary/vendor/lib/soundfx/libdirac.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdirac.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/vendor.mediatek.hardware.audio@6.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@6.1.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.bgservice@1.0.so \
