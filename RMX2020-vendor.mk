@@ -1873,6 +1873,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libem_support_jni \
     EngineerMode \
+    vendor.mediatek.hardware.gpu@1.0-service \
     android.hardware.neuralnetworks@1.3-service-mtk-gpu \
     android.hardware.wifi.hostapd \
     manifest \
