@@ -6,6 +6,63 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
+	name: "libaudio_param_parser-sys",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/lib/libaudio_param_parser-sys.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/lib64/libaudio_param_parser-sys.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libaudiotoolkit",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/lib/libaudiotoolkit.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/lib64/libaudiotoolkit.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libem_audio_jni",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/lib/libem_audio_jni.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/lib64/libem_audio_jni.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libem_support_jni",
 	owner: "realme",
 	strip: {
@@ -17,6 +74,25 @@ cc_prebuilt_library_shared {
 		},
 		android_arm64: {
 			srcs: ["proprietary/lib64/libem_support_jni.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.mediatek.hardware.audio@5.1",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/lib/vendor.mediatek.hardware.audio@5.1.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/lib64/vendor.mediatek.hardware.audio@5.1.so"],
 		},
 	},
 	compile_multilib: "both",
