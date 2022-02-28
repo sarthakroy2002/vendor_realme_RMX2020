@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<audio_config>
+	<feature name="OPLUS_KTV_PCM_SELECT" config="KTV_DL_5_UL_7"/>
+        <feature name="OPLUS_RECORD_MODE_SWITCH" config="NOTSUPPORT"/>
+</audio_config>
