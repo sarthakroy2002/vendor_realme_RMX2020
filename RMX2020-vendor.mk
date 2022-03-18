@@ -840,6 +840,11 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/firmware/customfilter/catcher_filter_1_ulwctg_n__Default.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/customfilter/catcher_filter_1_ulwctg_n__Default.bin \
     vendor/realme/RMX2020/proprietary/vendor/firmware/customfilter/catcher_filter_1_ulwctg_n_meta.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/customfilter/catcher_filter_1_ulwctg_n_meta.bin \
     vendor/realme/RMX2020/proprietary/vendor/firmware/em_filter_1_ulwctg_n.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/em_filter_1_ulwctg_n.bin \
+    vendor/realme/RMX2020/proprietary/vendor/firmware/emmc/HYNIX-hB8aP>.bin_crc.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/emmc/HYNIX-hB8aP>.bin_crc.bin \
+    vendor/realme/RMX2020/proprietary/vendor/firmware/emmc/HYNIX-hC8aP>.bin_crc.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/emmc/HYNIX-hC8aP>.bin_crc.bin \
+    vendor/realme/RMX2020/proprietary/vendor/firmware/emmc/HYNIX-hC9aP3.bin_crc.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/emmc/HYNIX-hC9aP3.bin_crc.bin \
+    vendor/realme/RMX2020/proprietary/vendor/firmware/emmc/SAMSUNG-DD68MB.bin_crc.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/emmc/SAMSUNG-DD68MB.bin_crc.bin \
+    vendor/realme/RMX2020/proprietary/vendor/firmware/emmc/SAMSUNG-DH6DAB.bin_crc.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/emmc/SAMSUNG-DH6DAB.bin_crc.bin \
     vendor/realme/RMX2020/proprietary/vendor/firmware/emmc/move_target_emmc_fw_to_opporeserve1.sh:$(TARGET_COPY_OUT_VENDOR)/firmware/emmc/move_target_emmc_fw_to_opporeserve1.sh \
     vendor/realme/RMX2020/proprietary/vendor/firmware/fm_cust.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/fm_cust.cfg \
     vendor/realme/RMX2020/proprietary/vendor/firmware/gt1151_default_firmware1.img:$(TARGET_COPY_OUT_VENDOR)/firmware/gt1151_default_firmware1.img \
@@ -870,6 +875,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/firmware/tp/19741/xl_auo_ilitek.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19741/xl_auo_ilitek.ini \
     vendor/realme/RMX2020/proprietary/vendor/firmware/tp/19741/xl_auo_ilitek_oppo_signed.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19741/xl_auo_ilitek_oppo_signed.bin \
     vendor/realme/RMX2020/proprietary/vendor/firmware/txpowerctrl.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/txpowerctrl.cfg \
+    vendor/realme/RMX2020/proprietary/vendor/firmware/txpowerctrl_19741.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/txpowerctrl_19741.cfg \
+    vendor/realme/RMX2020/proprietary/vendor/firmware/txpowerctrl_19747.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/txpowerctrl_19747.cfg \
     vendor/realme/RMX2020/proprietary/vendor/firmware/ufs/SAMSUNG-KM8V7001JM-B810.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ufs/SAMSUNG-KM8V7001JM-B810.bin \
     vendor/realme/RMX2020/proprietary/vendor/firmware/ufs/move_target_ufs_fw_to_opporeserve1.sh:$(TARGET_COPY_OUT_VENDOR)/firmware/ufs/move_target_ufs_fw_to_opporeserve1.sh \
     vendor/realme/RMX2020/proprietary/vendor/firmware/wifi.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi.cfg \
