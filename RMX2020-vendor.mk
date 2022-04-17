@@ -636,8 +636,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/etc/mmigroup/spk.wav:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/spk.wav \
     vendor/realme/RMX2020/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
     vendor/realme/RMX2020/proprietary/vendor/etc/ncf_pack.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/ncf_pack.ncf \
-    vendor/realme/RMX2020/proprietary/vendor/etc/permissions/com.fingerprints.fpmmi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.fingerprints.fpmmi.xml \
-    vendor/realme/RMX2020/proprietary/vendor/etc/permissions/vendor-oppo-hardware.cryptoeng.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-oppo-hardware.cryptoeng.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/power_whitelist_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/power_whitelist_cfg.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/00673b5b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/00673b5b.0 \
     vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/04f60c28.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/04f60c28.0 \
