@@ -800,7 +800,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts_supl/lab/ef4b31e6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/ef4b31e6.0 \
     vendor/realme/RMX2020/proprietary/vendor/etc/security/ck.fs:$(TARGET_COPY_OUT_VENDOR)/etc/security/ck.fs \
     vendor/realme/RMX2020/proprietary/vendor/etc/security/pl.fs:$(TARGET_COPY_OUT_VENDOR)/etc/security/pl.fs \
-    vendor/realme/RMX2020/proprietary/vendor/etc/self_init_config/common/self_init_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/self_init_config/common/self_init_config.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
     vendor/realme/RMX2020/proprietary/vendor/etc/smsdbvisitor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/smsdbvisitor.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/sn100u_bootup.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_bootup.pnscr \
