@@ -182,7 +182,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/app/mcRegistry/09080000000000000000000000000001.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/09080000000000000000000000000001.tlbin \
     vendor/realme/RMX2020/proprietary/vendor/app/mcRegistry/09190000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/09190000000000000000000000000000.tlbin \
     vendor/realme/RMX2020/proprietary/vendor/app/mcRegistry/511ead0a000000000000000000000000.tabin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/511ead0a000000000000000000000000.tabin \
-    vendor/realme/RMX2020/proprietary/vendor/bin/OppoKeybox:$(TARGET_COPY_OUT_VENDOR)/bin/OppoKeybox \
     vendor/realme/RMX2020/proprietary/vendor/bin/TBaseDeviceBinding:$(TARGET_COPY_OUT_VENDOR)/bin/TBaseDeviceBinding \
     vendor/realme/RMX2020/proprietary/vendor/bin/atcid:$(TARGET_COPY_OUT_VENDOR)/bin/atcid \
     vendor/realme/RMX2020/proprietary/vendor/bin/audiocmdservice_atci:$(TARGET_COPY_OUT_VENDOR)/bin/audiocmdservice_atci \
@@ -236,8 +235,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.nvram@1.1-service \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.pq@2.2-service \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/vendor.oppo.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.oppo.hardware.biometrics.fingerprint@2.1-service \
-    vendor/realme/RMX2020/proprietary/vendor/bin/hw/vendor.oppo.hardware.cryptoeng@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.oppo.hardware.cryptoeng@1.0-service \
-    vendor/realme/RMX2020/proprietary/vendor/bin/hw/vendor.oppo.hardware.hypnus@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.oppo.hardware.hypnus@1.0-service \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/vendor.silead.hardware.fingerprintext@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.silead.hardware.fingerprintext@1.0-service \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/vendor.trustonic.tee@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.trustonic.tee@1.0-service \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/vendor.trustonic.teeregistry@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.trustonic.teeregistry@1.0-service \
@@ -538,8 +535,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/fuelgauged_nvram_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_nvram_init.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/gsm0710muxd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gsm0710muxd.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/hostapd.android.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hostapd.android.rc \
-    vendor/realme/RMX2020/proprietary/vendor/etc/init/hw/init.oppo.reserve.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.oppo.reserve.rc \
-    vendor/realme/RMX2020/proprietary/vendor/etc/init/hw/init.oppo.vendor.motor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.oppo.vendor.motor.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/init.bip.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.bip.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/init.bt_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.bt_drv.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/init.cccifsd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccifsd.rc \
@@ -548,7 +543,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/init.fmradio_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fmradio_drv.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/init.gps_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps_drv.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/init.md_apps.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.md_apps.rc \
-    vendor/realme/RMX2020/proprietary/vendor/etc/init/init.oppo.connectivity.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.oppo.connectivity.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/init.pn8x.nfc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.pn8x.nfc.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/init.pn8x.se.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.pn8x.se.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/init.thermal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermal.rc \
@@ -589,8 +583,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/vendor.oppo.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oppo.hardware.biometrics.fingerprint@2.1-service.rc \
-    vendor/realme/RMX2020/proprietary/vendor/etc/init/vendor.oppo.hardware.cryptoeng@1.0-service_FDE.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oppo.hardware.cryptoeng@1.0-service_FDE.rc \
-    vendor/realme/RMX2020/proprietary/vendor/etc/init/vendor.oppo.hardware.hypnus@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oppo.hardware.hypnus@1.0-service.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/vendor.silead.hardware.fingerprintext@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.silead.hardware.fingerprintext@1.0-service.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/vendor.trustonic.tee@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.trustonic.tee@1.0-service.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/vendor.trustonic.teeregistry@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.trustonic.teeregistry@1.0-service.rc \
@@ -1002,7 +994,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib/libhevce_sb.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhevce_sb.ca7.android.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libhwm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwm.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libhydra.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhydra.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib/libhypnusclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhypnusclient.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libion_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_mtk.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libion_ulit.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_ulit.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libipsec_ims_shr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libipsec_ims_shr.so \
@@ -1162,7 +1153,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.3.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/vendor.oppo.hardware.camera.slogan@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.oppo.hardware.camera.slogan@1.0.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib/vendor.oppo.hardware.hypnus@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.oppo.hardware.hypnus@1.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/android.frameworks.fingerprintservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.frameworks.fingerprintservice@1.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/egl/libGLES_meow.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_meow.so \
@@ -1392,7 +1382,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libhevce_sb.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhevce_sb.ca7.android.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libhwm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwm.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libhydra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhydra.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib64/libhypnusclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhypnusclient.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libifcutils_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libifcutils_mtk.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libimageio.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimageio.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libimageio_plat_drv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimageio_plat_drv.so \
@@ -1653,12 +1642,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.mediatek.hardware.wifi.hostapd@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.wifi.hostapd@2.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.wifi.supplicant@2.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.wifi.supplicant@2.1.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.oppo.engnative.transfer@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.engnative.transfer@1.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.oppo.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.hardware.biometrics.fingerprint@2.1.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.oppo.hardware.camera.slogan@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.hardware.camera.slogan@1.0.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.oppo.hardware.commondcs@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.hardware.commondcs@1.0.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.oppo.hardware.cryptoeng@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.hardware.cryptoeng@1.0.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.oppo.hardware.hypnus@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.hardware.hypnus@1.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.oppo.hardware.wifi.hostapd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.hardware.wifi.hostapd@1.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.oppo.hardware.wifi.supplicant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.hardware.wifi.supplicant@1.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.silead.hardware.fingerprintext@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.silead.hardware.fingerprintext@1.0.so \
