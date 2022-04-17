@@ -853,8 +853,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/firmware/txpowerctrl.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/txpowerctrl.cfg \
     vendor/realme/RMX2020/proprietary/vendor/firmware/txpowerctrl_19741.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/txpowerctrl_19741.cfg \
     vendor/realme/RMX2020/proprietary/vendor/firmware/txpowerctrl_19747.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/txpowerctrl_19747.cfg \
-    vendor/realme/RMX2020/proprietary/vendor/firmware/ufs/SAMSUNG-KM8V7001JM-B810.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ufs/SAMSUNG-KM8V7001JM-B810.bin \
-    vendor/realme/RMX2020/proprietary/vendor/firmware/ufs/move_target_ufs_fw_to_opporeserve1.sh:$(TARGET_COPY_OUT_VENDOR)/firmware/ufs/move_target_ufs_fw_to_opporeserve1.sh \
     vendor/realme/RMX2020/proprietary/vendor/firmware/wifi.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi.cfg \
     vendor/realme/RMX2020/proprietary/vendor/firmware/wifi_19741.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi_19741.cfg \
     vendor/realme/RMX2020/proprietary/vendor/firmware/wifi_19747.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi_19747.cfg \
