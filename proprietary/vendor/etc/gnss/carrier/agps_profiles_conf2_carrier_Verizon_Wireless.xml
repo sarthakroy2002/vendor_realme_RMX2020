@@ -18,6 +18,7 @@
 
   <agps_setting
     ignore_si_for_e911="true"
+    agps_nvram_enable="true"
   />
 
   <gnss_setting
