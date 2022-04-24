@@ -516,7 +516,7 @@
     e911_open_gps="false"
     tc10_ignore_fw_config="false"
     lppe_network_location_disable="false"
-    agps_nvram_enable="true"
+    agps_nvram_enable="false"
     lbs_log_enable="false"
     lppe_crowd_source_confident="90"
     ignore_si_for_e911="false"
