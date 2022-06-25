@@ -190,7 +190,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/bin/em_hidl:$(TARGET_COPY_OUT_VENDOR)/bin/em_hidl \
     vendor/realme/RMX2020/proprietary/vendor/bin/epdg_wod:$(TARGET_COPY_OUT_VENDOR)/bin/epdg_wod \
     vendor/realme/RMX2020/proprietary/vendor/bin/exp_lock:$(TARGET_COPY_OUT_VENDOR)/bin/exp_lock \
-    vendor/realme/RMX2020/proprietary/vendor/bin/factoryAta:$(TARGET_COPY_OUT_VENDOR)/bin/factoryAta \
     vendor/realme/RMX2020/proprietary/vendor/bin/fuelgauged:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged \
     vendor/realme/RMX2020/proprietary/vendor/bin/fuelgauged_nvram:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged_nvram \
     vendor/realme/RMX2020/proprietary/vendor/bin/gsm0710muxd:$(TARGET_COPY_OUT_VENDOR)/bin/gsm0710muxd \
@@ -210,7 +209,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/camerahalserver:$(TARGET_COPY_OUT_VENDOR)/bin/hw/camerahalserver \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/camerasloganserver:$(TARGET_COPY_OUT_VENDOR)/bin/hw/camerasloganserver \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/hostapd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/hostapd \
-    vendor/realme/RMX2020/proprietary/vendor/bin/hw/interfaces.factoryInterface@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/interfaces.factoryInterface@1.0-service \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/mtkfusionrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mtkfusionrild \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/vendor.mediatek.hardware.dfps@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.dfps@1.0-service \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/vendor.mediatek.hardware.dplanner@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.dplanner@2.0-service \
@@ -515,7 +513,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/camerasloganserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerasloganserver.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/em_hidl_user.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/em_hidl_user.rc \
-    vendor/realme/RMX2020/proprietary/vendor/etc/init/factorybsp_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/factorybsp_service.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/fuelgauged_nvram_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_nvram_init.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/gsm0710muxd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gsm0710muxd.rc \
@@ -1177,10 +1174,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib64/hw/vendor.oppo.hardware.camera.slogan@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.oppo.hardware.camera.slogan@1.0-impl.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/interfaces.customNvService@1.0-adapter-helper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/interfaces.customNvService@1.0-adapter-helper.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/interfaces.customNvService@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/interfaces.customNvService@1.0.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib64/interfaces.factoryAta@1.0-adapter-helper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/interfaces.factoryAta@1.0-adapter-helper.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib64/interfaces.factoryAta@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/interfaces.factoryAta@1.0.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib64/interfaces.factoryInterface@1.0-adapter-helper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/interfaces.factoryInterface@1.0-adapter-helper.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib64/interfaces.factoryInterface@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/interfaces.factoryInterface@1.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/lbs_hidl_service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lbs_hidl_service-impl.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/lib3a.ae.core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.ae.core.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/lib3a.ae.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.ae.so \
@@ -1197,8 +1190,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib64/lib3a.n3d3a.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.n3d3a.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libBnMtkCodec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libBnMtkCodec.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libFaceBeautyCap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFaceBeautyCap.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib64/libFactoryHALCommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFactoryHALCommon.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib64/libFactoryMetaAta.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFactoryMetaAta.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libJpgEncPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libJpgEncPipe.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMcClient.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libMegviiHumBokehPost-mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMegviiHumBokehPost-mtk.so \
