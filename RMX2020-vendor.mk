@@ -212,8 +212,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/hostapd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/hostapd \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/interfaces.factoryInterface@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/interfaces.factoryInterface@1.0-service \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/mtkfusionrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mtkfusionrild \
-    vendor/realme/RMX2020/proprietary/vendor/bin/hw/power_legacy_test_v_1_0:$(TARGET_COPY_OUT_VENDOR)/bin/hw/power_legacy_test_v_1_0 \
-    vendor/realme/RMX2020/proprietary/vendor/bin/hw/power_native_test_v_1_0:$(TARGET_COPY_OUT_VENDOR)/bin/hw/power_native_test_v_1_0 \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/vendor.mediatek.hardware.dfps@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.dfps@1.0-service \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/vendor.mediatek.hardware.dplanner@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.dplanner@2.0-service \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/vendor.mediatek.hardware.gpu@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.gpu@1.0-service \
