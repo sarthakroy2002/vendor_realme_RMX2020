@@ -24,6 +24,23 @@ cc_prebuilt_library_shared {
 	prefer: true,
 }
 
+cc_prebuilt_library_shared {
+	name: "libpowerhal",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libpowerhal.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
 android_app_import {
 	name: "EngineerMode",
 	owner: "realme",
@@ -93,15 +110,6 @@ prebuilt_etc_xml {
 	name: "oplus_radio_device_manifest",
 	owner: "realme",
 	src: "proprietary/vendor/etc/vintf/manifest/oplus_radio_device_manifest.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "power-mtk-default",
-	owner: "realme",
-	src: "proprietary/vendor/etc/vintf/manifest/power-mtk-default.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
