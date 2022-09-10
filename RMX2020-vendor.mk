@@ -798,11 +798,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/firmware/customfilter/catcher_filter_1_ulwctg_n__Default.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/customfilter/catcher_filter_1_ulwctg_n__Default.bin \
     vendor/realme/RMX2020/proprietary/vendor/firmware/customfilter/catcher_filter_1_ulwctg_n_meta.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/customfilter/catcher_filter_1_ulwctg_n_meta.bin \
     vendor/realme/RMX2020/proprietary/vendor/firmware/em_filter_1_ulwctg_n.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/em_filter_1_ulwctg_n.bin \
-    vendor/realme/RMX2020/proprietary/vendor/firmware/emmc/HYNIX-hB8aP>.bin_crc.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/emmc/HYNIX-hB8aP>.bin_crc.bin \
-    vendor/realme/RMX2020/proprietary/vendor/firmware/emmc/HYNIX-hC8aP>.bin_crc.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/emmc/HYNIX-hC8aP>.bin_crc.bin \
-    vendor/realme/RMX2020/proprietary/vendor/firmware/emmc/HYNIX-hC9aP3.bin_crc.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/emmc/HYNIX-hC9aP3.bin_crc.bin \
-    vendor/realme/RMX2020/proprietary/vendor/firmware/emmc/SAMSUNG-DD68MB.bin_crc.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/emmc/SAMSUNG-DD68MB.bin_crc.bin \
-    vendor/realme/RMX2020/proprietary/vendor/firmware/emmc/SAMSUNG-DH6DAB.bin_crc.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/emmc/SAMSUNG-DH6DAB.bin_crc.bin \
     vendor/realme/RMX2020/proprietary/vendor/firmware/fm_cust.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/fm_cust.cfg \
     vendor/realme/RMX2020/proprietary/vendor/firmware/gt1151_default_firmware1.img:$(TARGET_COPY_OUT_VENDOR)/firmware/gt1151_default_firmware1.img \
     vendor/realme/RMX2020/proprietary/vendor/firmware/gt1151_default_firmware2.img:$(TARGET_COPY_OUT_VENDOR)/firmware/gt1151_default_firmware2.img \
