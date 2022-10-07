@@ -848,7 +848,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/firmware/wifi.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi.cfg \
     vendor/realme/RMX2020/proprietary/vendor/firmware/wifi_19741.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi_19741.cfg \
     vendor/realme/RMX2020/proprietary/vendor/firmware/wifi_19747.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi_19747.cfg \
-    vendor/realme/RMX2020/proprietary/vendor/lib/android.frameworks.faceservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.frameworks.faceservice@1.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
     vendor/realme/RMX2020/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/egl/libGLES_meow.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_meow.so \
