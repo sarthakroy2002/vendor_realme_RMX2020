@@ -914,6 +914,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib/libaalservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaalservice.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaedv.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libakl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libakl.so \
+    vendor/realme/RMX2020/proprietary/vendor/lib/libalsautils-v30.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalsautils-v30.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libarmnn_ndk.mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarmnn_ndk.mtk.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libaudio_engineer_test.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_engineer_test.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libaudio_param_parser-vnd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_param_parser-vnd.so \
@@ -1220,6 +1221,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsprpc.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaedv.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libakl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libakl.so \
+    vendor/realme/RMX2020/proprietary/vendor/lib64/libalsautils-v30.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalsautils-v30.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_beautyshot.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libarcsoft_distortion_correction.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_distortion_correction.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libarcsoft_dualcam_bokeh_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_bokeh_api.so \
