@@ -7,7 +7,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/bin/chargeonlymode:$(TARGET_COPY_OUT_SYSTEM)/bin/chargeonlymode \
-    vendor/realme/RMX2020/proprietary/bin/iwpriv:$(TARGET_COPY_OUT_SYSTEM)/bin/iwpriv \
     vendor/realme/RMX2020/proprietary/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM)/bin/vtservice \
     vendor/realme/RMX2020/proprietary/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.vtservice.rc \
     vendor/realme/RMX2020/proprietary/lib/libcomutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcomutils.so \
@@ -32,7 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/lib/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvcodec_capenc.so \
     vendor/realme/RMX2020/proprietary/lib/libvt_avsync.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvt_avsync.so \
     vendor/realme/RMX2020/proprietary/system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
-    vendor/realme/RMX2020/proprietary/lib64/extractors/libOppomp4extractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/extractors/libOppomp4extractor.so \
     vendor/realme/RMX2020/proprietary/lib64/extractors/libmtkadpcmextractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/extractors/libmtkadpcmextractor.so \
     vendor/realme/RMX2020/proprietary/lib64/extractors/libmtkalacextractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/extractors/libmtkalacextractor.so \
     vendor/realme/RMX2020/proprietary/lib64/extractors/libmtkapeextractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/extractors/libmtkapeextractor.so \
@@ -282,9 +280,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/bin/starter:$(TARGET_COPY_OUT_VENDOR)/bin/starter \
     vendor/realme/RMX2020/proprietary/vendor/bin/stp_dump3:$(TARGET_COPY_OUT_VENDOR)/bin/stp_dump3 \
     vendor/realme/RMX2020/proprietary/vendor/bin/stroke:$(TARGET_COPY_OUT_VENDOR)/bin/stroke \
+    vendor/realme/RMX2020/proprietary/vendor/bin/thermal:$(TARGET_COPY_OUT_VENDOR)/bin/thermal \
     vendor/realme/RMX2020/proprietary/vendor/bin/thermal_manager:$(TARGET_COPY_OUT_VENDOR)/bin/thermal_manager \
     vendor/realme/RMX2020/proprietary/vendor/bin/thermalloadalgod:$(TARGET_COPY_OUT_VENDOR)/bin/thermalloadalgod \
-    vendor/realme/RMX2020/proprietary/vendor/bin/thermal:$(TARGET_COPY_OUT_VENDOR)/bin/thermal \
     vendor/realme/RMX2020/proprietary/vendor/bin/volte_imcb:$(TARGET_COPY_OUT_VENDOR)/bin/volte_imcb \
     vendor/realme/RMX2020/proprietary/vendor/bin/volte_imsm_93:$(TARGET_COPY_OUT_VENDOR)/bin/volte_imsm_93 \
     vendor/realme/RMX2020/proprietary/vendor/bin/volte_md_status:$(TARGET_COPY_OUT_VENDOR)/bin/volte_md_status \
@@ -988,6 +986,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib/liblvimfs.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblvimfs.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/liblvimfs_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblvimfs_wrapper.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libmemsic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmemsic.so \
+    vendor/realme/RMX2020/proprietary/vendor/lib/libmemsic_9d.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmemsic_9d.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libminiui.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminiui.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libmmprofile.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmprofile.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libmnetlink_v104.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmnetlink_v104.so \
@@ -1367,6 +1366,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib64/liblvimfs_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblvimfs_wrapper.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libmegface_rt_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmegface_rt_bokeh.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libmemsic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmemsic.so \
+    vendor/realme/RMX2020/proprietary/vendor/lib64/libmemsic_9d.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmemsic_9d.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libmfllcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmfllcore.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libminiui.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminiui.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libml_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libml_util.so \

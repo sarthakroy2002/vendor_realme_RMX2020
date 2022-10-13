@@ -158,22 +158,13 @@
   "S98675": {
     "itemConfig": {
       "BackMainCamera": {
-        "support": true,
-        "paramconfig": {
-          "outputsize": "4000x3000"
-        }
+        "support": true
       },
       "FrontMainCamera": {
-        "support": true,
-        "paramconfig": {
-          "outputsize": "4608x3456"
-        }
+        "support": true
       },
       "BackWideCamera": {
-        "support": true,
-        "paramconfig": {
-          "outputsize": "3264x2448"
-        }
+        "support": true
       },
       "BackDepthCamera": {
         "support": true,
@@ -195,7 +186,6 @@
         "paramconfig": {
           "cameraId": 6,
           "camera_Rotation":180,
-          "outputsize": "4000x3000",
           "support_takepicture": true,
           "support_cameraCheck": false
         }
@@ -577,10 +567,7 @@
       "support": false
     },
     "BackMainCamera": {
-      "support": true,
-      "paramconfig": {
-        "outputsize": "4096x3072"
-      }
+      "support": true
     },
     "BackWideCamera": {
       "support": false
@@ -642,7 +629,6 @@
       "paramconfig": {
         "cameraId": 4,
         "camera_Rotation":180,
-        "outputsize": "4096x3072",
         "support_takepicture": true,
         "support_cameraCheck": false
       },

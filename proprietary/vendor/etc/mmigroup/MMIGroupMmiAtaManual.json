@@ -94,7 +94,7 @@
     {
       "showName": "Receiver",
       "action": "com.mmigroup.action.audioloop.AUDIOPLAYER",
-      "support": true,
+      "support": false,
       "automatic": false,
       "paramconfig": {
         "volume_rate": 0.98,
@@ -122,7 +122,10 @@
         "is_show_location": false
       },
       "support_background_test": true,
-      "background_Service": "com.factory.mmigroup.item.GPSService"
+      "background_Service": "com.factory.mmigroup.item.GPSService",
+      "S98675":{
+        "support": false
+      }
     },
     {
       "showName": "NFC",
@@ -229,6 +232,9 @@
       "automatic": false,
       "paramconfig": {
         "is_show_storage": true
+      },
+      "S98670":{
+        "support": false
       }
     },
     {
