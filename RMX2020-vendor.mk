@@ -950,8 +950,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib/libcvsd_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvsd_mtk.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libdirect-coredump.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdirect-coredump.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpframework.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib/libffmpeg_omx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libffmpeg_omx.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib/libffmpeg_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libffmpeg_utils.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libfgauge_gm30.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfgauge_gm30.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfile_op.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libfpspolicy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfpspolicy.so \
@@ -1328,8 +1326,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libfeature_lmv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature_lmv.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libfeature_rss.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature_rss.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libfeatureiodrv_mem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeatureiodrv_mem.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib64/libffmpeg_omx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libffmpeg_omx.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib64/libffmpeg_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libffmpeg_utils.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libfft_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfft_vendor.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfile_op.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libforkexecwrap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libforkexecwrap.so \
