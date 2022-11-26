@@ -4,4 +4,4 @@ service camerahalserver /vendor/bin/hw/camerahalserver
     group audio camera input drmrpc sdcard_rw system media graphics
     ioprio rt 4
     capabilities SYS_NICE
-    writepid /dev/cpuset/camera-daemon/tasks /dev/stune/top-app/tasks
+    task_profiles CameraServiceCapacity MaxPerformance

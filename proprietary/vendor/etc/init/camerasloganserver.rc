@@ -3,4 +3,4 @@ service camerasloganserver /vendor/bin/hw/camerasloganserver
     user cameraserver
     group camera inet media sdcard_rw system
     ioprio rt 4
-    writepid /dev/cpuset/foreground/tasks
+    task_profiles ProcessCapacityHigh
