@@ -415,7 +415,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/etc/camera/M_Attribute_Gender_Age_1.0.model.hardcode:$(TARGET_COPY_OUT_VENDOR)/etc/camera/M_Attribute_Gender_Age_1.0.model.hardcode \
     vendor/realme/RMX2020/proprietary/vendor/etc/camera/attribute.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/attribute.model \
     vendor/realme/RMX2020/proprietary/vendor/etc/camera/engineer_camera_config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/engineer_camera_config \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/engineer_camera_config_19747:$(TARGET_COPY_OUT_VENDOR)/etc/camera/engineer_camera_config_19747 \
     vendor/realme/RMX2020/proprietary/vendor/etc/camera/faceBeautyParam/fb_default:$(TARGET_COPY_OUT_VENDOR)/etc/camera/faceBeautyParam/fb_default \
     vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/000.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/000.png \
     vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/000_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/000_pre.bin \
@@ -848,10 +847,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/firmware/tp/19741/xl_auo_ilitek_oppo_signed.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19741/xl_auo_ilitek_oppo_signed.bin \
     vendor/realme/RMX2020/proprietary/vendor/firmware/txpowerctrl.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/txpowerctrl.cfg \
     vendor/realme/RMX2020/proprietary/vendor/firmware/txpowerctrl_19741.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/txpowerctrl_19741.cfg \
-    vendor/realme/RMX2020/proprietary/vendor/firmware/txpowerctrl_19747.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/txpowerctrl_19747.cfg \
     vendor/realme/RMX2020/proprietary/vendor/firmware/wifi.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi.cfg \
     vendor/realme/RMX2020/proprietary/vendor/firmware/wifi_19741.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi_19741.cfg \
-    vendor/realme/RMX2020/proprietary/vendor/firmware/wifi_19747.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi_19747.cfg \
     vendor/realme/RMX2020/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
     vendor/realme/RMX2020/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/egl/libGLES_meow.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_meow.so \
