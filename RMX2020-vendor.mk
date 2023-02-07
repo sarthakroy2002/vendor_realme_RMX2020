@@ -21,9 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/lib/libmtklimiter.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtklimiter.so \
     vendor/realme/RMX2020/proprietary/lib/libmtkperf_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtkperf_client.so \
     vendor/realme/RMX2020/proprietary/lib/libmtkshifter.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtkshifter.so \
-    vendor/realme/RMX2020/proprietary/lib/libperfctl.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libperfctl.so \
-    vendor/realme/RMX2020/proprietary/lib/libpowerhalwrap.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libpowerhalwrap.so \
-    vendor/realme/RMX2020/proprietary/lib/libpowerhalwrap_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libpowerhalwrap_jni.so \
     vendor/realme/RMX2020/proprietary/lib/libsignal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsignal.so \
     vendor/realme/RMX2020/proprietary/lib/libsink.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsink.so \
     vendor/realme/RMX2020/proprietary/lib/libsource.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsource.so \
@@ -39,9 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/lib64/libmtklimiter.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtklimiter.so \
     vendor/realme/RMX2020/proprietary/lib64/libmtkperf_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkperf_client.so \
     vendor/realme/RMX2020/proprietary/lib64/libmtkshifter.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkshifter.so \
-    vendor/realme/RMX2020/proprietary/lib64/libperfctl.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libperfctl.so \
-    vendor/realme/RMX2020/proprietary/lib64/libpowerhalwrap.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libpowerhalwrap.so \
-    vendor/realme/RMX2020/proprietary/lib64/libpowerhalwrap_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libpowerhalwrap_jni.so \
     vendor/realme/RMX2020/proprietary/lib64/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_cap.so \
     vendor/realme/RMX2020/proprietary/lib64/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_capenc.so \
     vendor/realme/RMX2020/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
