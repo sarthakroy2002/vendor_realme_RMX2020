@@ -927,11 +927,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/firmware/soc1_0_ram_bt_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc1_0_ram_bt_1a_1_hdr.bin \
     vendor/realme/RMX2020/proprietary/vendor/firmware/soc1_0_ram_mcu_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc1_0_ram_mcu_1a_1_hdr.bin \
     vendor/realme/RMX2020/proprietary/vendor/firmware/soc1_0_ram_wifi_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc1_0_ram_wifi_1a_1_hdr.bin \
-    vendor/realme/RMX2020/proprietary/vendor/firmware/soc3_0_ram_bt_1_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc3_0_ram_bt_1_1_hdr.bin \
-    vendor/realme/RMX2020/proprietary/vendor/firmware/soc3_0_ram_bt_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc3_0_ram_bt_1a_1_hdr.bin \
-    vendor/realme/RMX2020/proprietary/vendor/firmware/soc3_0_ram_mcu_1_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc3_0_ram_mcu_1_1_hdr.bin \
-    vendor/realme/RMX2020/proprietary/vendor/firmware/soc3_0_ram_mcu_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc3_0_ram_mcu_1a_1_hdr.bin \
-    vendor/realme/RMX2020/proprietary/vendor/firmware/soc3_0_ram_mcu_e1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc3_0_ram_mcu_e1_hdr.bin \
     vendor/realme/RMX2020/proprietary/vendor/firmware/wifi_132780.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi_132780.cfg \
     vendor/realme/RMX2020/proprietary/vendor/firmware/wifi_19741.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi_19741.cfg \
     vendor/realme/RMX2020/proprietary/vendor/lib/arm.graphics-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/arm.graphics-V1-ndk_platform.so \
