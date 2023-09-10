@@ -1247,8 +1247,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib/libwapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwapi.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libwo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwo.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwpa_client.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/monet_hlt_custfront_gc5035_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/monet_hlt_custfront_gc5035_IdxMgr.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/monet_hlt_custfront_gc5035_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/monet_hlt_custfront_gc5035_tuning.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/monet_hlt_depth_ov02a1b_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/monet_hlt_depth_ov02a1b_IdxMgr.so \
