@@ -6,29 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/realme/RMX2020
 
 PRODUCT_COPY_FILES += \
-    vendor/realme/RMX2020/proprietary/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM)/bin/vtservice \
-    vendor/realme/RMX2020/proprietary/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.vtservice.rc \
     vendor/realme/RMX2020/proprietary/etc/nfcee_access.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/nfcee_access.xml \
-    vendor/realme/RMX2020/proprietary/lib/libcomutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcomutils.so \
-    vendor/realme/RMX2020/proprietary/lib/libimsma.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimsma.so \
-    vendor/realme/RMX2020/proprietary/lib/libimsma_adapt.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimsma_adapt.so \
-    vendor/realme/RMX2020/proprietary/lib/libimsma_rtp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimsma_rtp.so \
-    vendor/realme/RMX2020/proprietary/lib/libimsma_socketwrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimsma_socketwrapper.so \
-    vendor/realme/RMX2020/proprietary/lib/libmtk_vt_service.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtk_vt_service.so \
-    vendor/realme/RMX2020/proprietary/lib/libmtk_vt_wrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtk_vt_wrapper.so \
-    vendor/realme/RMX2020/proprietary/lib/libmtkavenhancements.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtkavenhancements.so \
-    vendor/realme/RMX2020/proprietary/lib/libsignal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsignal.so \
-    vendor/realme/RMX2020/proprietary/lib/libsink.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsink.so \
-    vendor/realme/RMX2020/proprietary/lib/libsource.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsource.so \
-    vendor/realme/RMX2020/proprietary/lib/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvcodec_cap.so \
-    vendor/realme/RMX2020/proprietary/lib/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvcodec_capenc.so \
-    vendor/realme/RMX2020/proprietary/lib/libvt_avsync.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvt_avsync.so \
-    vendor/realme/RMX2020/proprietary/system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
-    vendor/realme/RMX2020/proprietary/lib64/libmtk_vt_wrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtk_vt_wrapper.so \
-    vendor/realme/RMX2020/proprietary/lib64/libmtkavenhancements.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkavenhancements.so \
-    vendor/realme/RMX2020/proprietary/lib64/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_cap.so \
-    vendor/realme/RMX2020/proprietary/lib64/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_capenc.so \
-    vendor/realme/RMX2020/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/realme/RMX2020/proprietary/odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service \
     vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_device/audio_device.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_device/audio_device.xml \
     vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_device/common/audio_device.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_device/common/audio_device.xml \
@@ -140,8 +118,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/odm/lib/hw/fingerprint.goodix_G5.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G5.default.so \
     vendor/realme/RMX2020/proprietary/odm/lib/hw/fingerprint.goodix_G6.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G6.default.so \
     vendor/realme/RMX2020/proprietary/odm/lib/hw/fingerprint.silead.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.silead.default.so \
-    vendor/realme/RMX2020/proprietary/odm/lib/libRbsFlow_cap.so:$(TARGET_COPY_OUT_ODM)/lib/libRbsFlow_cap.so \
     vendor/realme/RMX2020/proprietary/odm/lib/libRbsFlow.so:$(TARGET_COPY_OUT_ODM)/lib/libRbsFlow.so \
+    vendor/realme/RMX2020/proprietary/odm/lib/libRbsFlow_cap.so:$(TARGET_COPY_OUT_ODM)/lib/libRbsFlow_cap.so \
     vendor/realme/RMX2020/proprietary/odm/lib/libgf_hal_G2.so:$(TARGET_COPY_OUT_ODM)/lib/libgf_hal_G2.so \
     vendor/realme/RMX2020/proprietary/odm/lib/libgf_hal_G3.so:$(TARGET_COPY_OUT_ODM)/lib/libgf_hal_G3.so \
     vendor/realme/RMX2020/proprietary/odm/lib/libgf_hal_G5.so:$(TARGET_COPY_OUT_ODM)/lib/libgf_hal_G5.so \
@@ -160,8 +138,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/odm/lib64/hw/fingerprint.goodix_G5.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G5.default.so \
     vendor/realme/RMX2020/proprietary/odm/lib64/hw/fingerprint.goodix_G6.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G6.default.so \
     vendor/realme/RMX2020/proprietary/odm/lib64/hw/fingerprint.silead.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.silead.default.so \
-    vendor/realme/RMX2020/proprietary/odm/lib64/libRbsFlow_cap.so:$(TARGET_COPY_OUT_ODM)/lib64/libRbsFlow_cap.so \
     vendor/realme/RMX2020/proprietary/odm/lib64/libRbsFlow.so:$(TARGET_COPY_OUT_ODM)/lib64/libRbsFlow.so \
+    vendor/realme/RMX2020/proprietary/odm/lib64/libRbsFlow_cap.so:$(TARGET_COPY_OUT_ODM)/lib64/libRbsFlow_cap.so \
     vendor/realme/RMX2020/proprietary/odm/lib64/libegis_hal.so:$(TARGET_COPY_OUT_ODM)/lib64/libegis_hal.so \
     vendor/realme/RMX2020/proprietary/odm/lib64/libgf_hal_G2.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal_G2.so \
     vendor/realme/RMX2020/proprietary/odm/lib64/libgf_hal_G3.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal_G3.so \
@@ -193,6 +171,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/odm/vendor/app/mcRegistry/09080000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/09080000000000000000000000000000.tlbin \
     vendor/realme/RMX2020/proprietary/odm/vendor/app/mcRegistry/09150000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/09150000000000000000000000000000.tlbin \
     vendor/realme/RMX2020/proprietary/odm/vendor/app/mcRegistry/511ead0a000000000000000000000000.tabin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/511ead0a000000000000000000000000.tabin \
+    vendor/realme/RMX2020/proprietary/system_ext/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.vtservice.rc \
     vendor/realme/RMX2020/proprietary/system_ext/lib/vendor.mediatek.hardware.audio@6.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.audio@6.1.so \
     vendor/realme/RMX2020/proprietary/system_ext/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
     vendor/realme/RMX2020/proprietary/system_ext/lib/vendor.oplus.hardware.camera.slogan@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.oplus.hardware.camera.slogan@1.0.so \
@@ -260,7 +239,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.nvram@1.1-service \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.pq@2.2-service \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/vendor.trustonic.tee@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.trustonic.tee@1.1-service \
-    vendor/realme/RMX2020/proprietary/vendor/bin/hw/vtservice_hidl:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vtservice_hidl \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/wpa_supplicant:$(TARGET_COPY_OUT_VENDOR)/bin/hw/wpa_supplicant \
     vendor/realme/RMX2020/proprietary/vendor/bin/ipsec_mon:$(TARGET_COPY_OUT_VENDOR)/bin/ipsec_mon \
     vendor/realme/RMX2020/proprietary/vendor/bin/jpegtool:$(TARGET_COPY_OUT_VENDOR)/bin/jpegtool \
@@ -954,7 +932,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/hw/vendor.mediatek.hardware.pq@2.6-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.pq@2.6-impl.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/lib3a.ae.core.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.ae.core.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/lib3a.ae.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.ae.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/lib3a.af.core.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.af.core.so \
@@ -987,7 +964,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib/libNoFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libNoFpsActor.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libPolarrRender.so:$(TARGET_COPY_OUT_VENDOR)/lib/libPolarrRender.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib/libsensorndkbridge-v30.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge-v30.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libSonyIMX230PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX230PdafLibrary.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libSonyIMX230PdafLibraryWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX230PdafLibraryWrapper.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libSonyIMX338PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX338PdafLibrary.so \
@@ -1210,6 +1186,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib/libpq_cust_base.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpq_cust_base.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpq_prot.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/librgbwlightsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib/librgbwlightsensor.so \
+    vendor/realme/RMX2020/proprietary/vendor/lib/libsensorndkbridge-v30.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge-v30.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libsimaka.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsimaka.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeech_enh_lib.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/libspeechparser_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeechparser_vendor.so \
@@ -1320,7 +1297,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.4.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.5.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.6.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.6.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/victor_s5k3p9sp_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/victor_s5k3p9sp_mipi_raw_IdxMgr.so \
     vendor/realme/RMX2020/proprietary/vendor/lib/victor_s5k3p9sp_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/victor_s5k3p9sp_mipi_raw_tuning.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/arm.graphics-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/arm.graphics-V1-ndk_platform.so \
@@ -1382,7 +1358,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libPerfectlyClearCrux.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libPerfectlyClearCrux.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libPolarrRender.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libPolarrRender.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib64/libsensorndkbridge-v30.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge-v30.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libSonyIMX230PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSonyIMX230PdafLibrary.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libSonyIMX230PdafLibraryWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSonyIMX230PdafLibraryWrapper.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libSonyIMX338PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSonyIMX338PdafLibrary.so \
@@ -1668,6 +1643,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib64/librgbwlightsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librgbwlightsensor.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/librilfusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilfusion.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libsensor_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_custom.so \
+    vendor/realme/RMX2020/proprietary/vendor/lib64/libsensorndkbridge-v30.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge-v30.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libsimaka.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimaka.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeech_enh_lib.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/libspeechparser_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeechparser_vendor.so \
@@ -1783,7 +1759,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.4.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.5.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.6.so \
-    vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.wifi.supplicant@2.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.wifi.supplicant@2.1.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.wifi.supplicant@2.2.so \
@@ -1794,9 +1769,28 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib64/victor_s5k3p9sp_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/victor_s5k3p9sp_mipi_raw_tuning.so
 
 PRODUCT_PACKAGES += \
+    vendor.mediatek.hardware.videotelephony@1.0-impl \
+    vendor.mediatek.hardware.videotelephony@1.0 \
+    libcomutils \
+    libimsma \
+    libimsma_adapt \
+    libimsma_rtp \
+    libimsma_socketwrapper \
+    libmtk_vt_service \
+    libmtk_vt_wrapper \
+    libsignal \
+    libsink \
+    libsource \
+    libvcodec_cap \
+    libvcodec_capenc \
+    libvt_avsync \
+    vendor.mediatek.hardware.videotelephony-V1-ndk \
+    vendor.mediatek.hardware.videotelephony@1.0.system_ext \
     vendor.mediatek.hardware.gpu@1.0-service \
     android.hardware.neuralnetworks@1.3-service-mtk-gpu \
     manifest \
     manifest_android.hardware.drm@1.4-service.widevine \
     oplus_appradio_device_manifest \
-    oplus_radio_device_manifest
+    oplus_radio_device_manifest \
+    vtservice_hidl \
+    vtservice
