@@ -6,7 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/realme/RMX2020
 
 PRODUCT_COPY_FILES += \
-    vendor/realme/RMX2020/proprietary/etc/nfcee_access.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/nfcee_access.xml \
     vendor/realme/RMX2020/proprietary/odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service \
     vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_device/audio_device.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_device/audio_device.xml \
     vendor/realme/RMX2020/proprietary/odm/etc/audio/audio_device/common/audio_device.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_device/common/audio_device.xml \
