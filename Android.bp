@@ -1408,7 +1408,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libaalservice.so"],
-			shared_libs: ["libutils", "libcutils", "liblog", "libaal_mtk", "libhardware", "libhidlbase", "libgralloc_extra", "android.frameworks.sensorservice@1.0", "android.hardware.sensors@1.0", "libsensorndkbridge", "libdrm", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libshim_sensors", "libutils", "libcutils", "liblog", "libaal_mtk", "libhardware", "libhidlbase", "libgralloc_extra", "android.frameworks.sensorservice@1.0", "android.hardware.sensors@1.0", "libsensorndkbridge", "libdrm", "libc++", "libc", "libm", "libdl", ],
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libaalservice.so"],
@@ -3529,14 +3529,13 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libhevce_sb.ca7.android.so"],
-			shared_libs: ["libcutils", "liblog", "libvcodec_oal", "libvcodec_utility", "libc", "libm", ],
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libhevce_sb.ca7.android.so"],
-			shared_libs: ["libcutils", "liblog", "libvcodec_oal", "libc++", "libdl", "libc", "libm", ],
 		},
 	},
 	compile_multilib: "both",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5713,14 +5712,13 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libthha.so"],
-			shared_libs: ["libc++", "libdl", "libc", "libm", "liblog", ],
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libthha.so"],
-			shared_libs: ["libc++", "libdl", "libc", "libm", "liblog", ],
 		},
 	},
 	compile_multilib: "both",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5818,14 +5816,13 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libvcodec_oal.so"],
-			shared_libs: ["libmtkperf_client_vendor", "libc++", "libdl", "libc", "libm", ],
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libvcodec_oal.so"],
-			shared_libs: ["liblog", "libc++", "libdl", "libc", "libm", ],
 		},
 	},
 	compile_multilib: "both",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7598,10 +7595,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libHEVCdec_sa.ca7.android.so"],
-			shared_libs: ["libvcodec_oal", "libmtkperf_client_vendor", "libthha", "liblog", "libutils", "libcutils", "libc", "libm", ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7700,10 +7697,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libMtkOmxVdecEx.so"],
-			shared_libs: ["libutils", "libcutils", "liblog", "libui-v32", "libion", "libged", "libion_mtk", "libsync", "android.hardware.graphics.common@1.2", "libdpframework", "libgralloc_extra", "libvcodecdrv", "libvcodec_utility", "libhardware", "vendor.mediatek.hardware.pq@2.5", "libbinder", "libhidlbase", "libhidltransport", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7785,10 +7782,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libh264dec_sa.ca7.so"],
-			shared_libs: ["libcutils", "libvcodec_utility", "libvcodec_oal", "libh264dec_customize", "liblog", "libthha", "libc", "libm", ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7802,10 +7799,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libh264dec_sd.ca7.so"],
-			shared_libs: ["libcutils", "libvcodec_utility", "libvcodec_oal", "libh264dec_customize", "liblog", "libthha", "libc", "libm", ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7819,10 +7816,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libh264dec_se.ca7.so"],
-			shared_libs: ["libcutils", "libvcodec_utility", "libvcodec_oal", "libh264dec_customize", "liblog", "libthha", "libc", "libm", ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7836,10 +7833,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libh264enc_sa.ca7.so"],
-			shared_libs: ["libcutils", "libutils", "liblog", "libvcodec_oal", "libvcodec_utility", "libc++", "libdl", "libc", "libm", ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7853,10 +7850,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libmnl.so"],
-			shared_libs: ["libcutils", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7870,10 +7867,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libmp4enc_sa.ca7.so"],
-			shared_libs: ["libcutils", "liblog", "libvcodec_utility", "libvcodec_oal", "libc++", "libdl", "libc", "libm", ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7887,10 +7884,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libmp4enc_xa.ca7.so"],
-			shared_libs: ["libcutils", "liblog", "libvcodec_utility", "libvcodec_oal", "libc++", "libdl", "libc", "libm", ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7938,10 +7935,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libvc1dec_sa.ca7.so"],
-			shared_libs: ["libcutils", "liblog", "libvcodec_oal", "libvcodec_utility", "libc++", "libdl", "libc", "libm", ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8023,10 +8020,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libvp8dec_sa.ca7.so"],
-			shared_libs: ["liblog", "libvcodec_oal", "libc++", "libdl", "libc", "libm", ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8040,10 +8037,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libvp8enc_sa.ca7.so"],
-			shared_libs: ["liblog", "libvcodec_oal", "libc", "libm", ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8057,10 +8054,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libvp9dec_sa.ca7.so"],
-			shared_libs: ["libcutils", "liblog", "libvcodec_oal", "libthha", "libc++", "libdl", "libc", "libm", ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8108,7 +8105,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so"],
-			shared_libs: ["libshim_camera_metadata", "libmtkcam_device3_hidl", "liblog", "libutils", "libcutils", "libladder", "libhardware", "libhidlbase", "libhidltransport", "android.hardware.camera.common@1.0", "android.hardware.camera.provider@2.4", "android.hardware.camera.provider@2.5", "android.hardware.camera.provider@2.6", "android.hardware.camera.device@1.0", "android.hardware.camera.device@3.2", "libmtkcam_metadata", "libmtkcam_modulehelper", "libmtkcam_stdutils", "libmtkcam_debugutils", "libmtkcam_ulog", "libmtkcam_featureutils", "libcamera_metadata", "libfeatureiodrv_mem", "libmtkcam_diputils", "libmtkcam_metastore", "libmtkcam_hwutils", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libcamera_metadata_shim", "libmtkcam_device3_hidl", "liblog", "libutils", "libcutils", "libladder", "libhardware", "libhidlbase", "libhidltransport", "android.hardware.camera.common@1.0", "android.hardware.camera.provider@2.4", "android.hardware.camera.provider@2.5", "android.hardware.camera.provider@2.6", "android.hardware.camera.device@1.0", "android.hardware.camera.device@3.2", "libmtkcam_metadata", "libmtkcam_modulehelper", "libmtkcam_stdutils", "libmtkcam_debugutils", "libmtkcam_ulog", "libmtkcam_featureutils", "libcamera_metadata", "libfeatureiodrv_mem", "libmtkcam_diputils", "libmtkcam_metastore", "libmtkcam_hwutils", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
