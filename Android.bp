@@ -1408,11 +1408,11 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libaalservice.so"],
-			shared_libs: ["libshim_sensors", "libutils", "libcutils", "liblog", "libaal_mtk", "libhardware", "libhidlbase", "libgralloc_extra", "android.frameworks.sensorservice@1.0", "android.hardware.sensors@1.0", "libsensorndkbridge", "libdrm", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["android.hardware.sensors@1.0-convert-shared", "libutils", "libcutils", "liblog", "libaal_mtk", "libhardware", "libhidlbase", "libgralloc_extra", "android.frameworks.sensorservice@1.0", "android.hardware.sensors@1.0", "libsensorndkbridge", "libdrm", "libc++", "libc", "libm", "libdl", ],
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libaalservice.so"],
-			shared_libs: ["libshim_sensors", "libutils", "libcutils", "liblog", "libaal_mtk", "libhardware", "libhidlbase", "libgralloc_extra", "android.frameworks.sensorservice@1.0", "android.hardware.sensors@1.0", "libsensorndkbridge", "libdrm", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["android.hardware.sensors@1.0-convert-shared", "libutils", "libcutils", "liblog", "libaal_mtk", "libhardware", "libhidlbase", "libgralloc_extra", "android.frameworks.sensorservice@1.0", "android.hardware.sensors@1.0", "libsensorndkbridge", "libdrm", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "both",
@@ -2290,11 +2290,11 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libcam.utils.sensorprovider.so"],
-			shared_libs: ["liblog", "libmtkcam_ulog", "libutils", "libcutils", "libmtkcam_stdutils", "android.frameworks.sensorservice@1.0", "android.hardware.sensors@1.0", "libhidlbase", "libhidltransport", "libsensorndkbridge", "libhardware", "libmtkcam_modulehelper", "libcamalgo.gyro", "libmtkcam_imgbuf", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["android.hardware.sensors@1.0-convert-shared", "liblog", "libmtkcam_ulog", "libutils", "libcutils", "libmtkcam_stdutils", "android.frameworks.sensorservice@1.0", "android.hardware.sensors@1.0", "libhidlbase", "libhidltransport", "libsensorndkbridge", "libhardware", "libmtkcam_modulehelper", "libcamalgo.gyro", "libmtkcam_imgbuf", "libc++", "libc", "libm", "libdl", ],
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcam.utils.sensorprovider.so"],
-			shared_libs: ["libshim_sensors", "liblog", "libmtkcam_ulog", "libutils", "libcutils", "libmtkcam_stdutils", "android.frameworks.sensorservice@1.0", "android.hardware.sensors@1.0", "libhidlbase", "libhidltransport", "libsensorndkbridge", "libhardware", "libmtkcam_modulehelper", "libcamalgo.gyro", "libmtkcam_imgbuf", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["android.hardware.sensors@1.0-convert-shared", "liblog", "libmtkcam_ulog", "libutils", "libcutils", "libmtkcam_stdutils", "android.frameworks.sensorservice@1.0", "android.hardware.sensors@1.0", "libhidlbase", "libhidltransport", "libsensorndkbridge", "libhardware", "libmtkcam_modulehelper", "libcamalgo.gyro", "libmtkcam_imgbuf", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "both",
@@ -11760,7 +11760,7 @@ cc_prebuilt_binary {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/bin/mnld"],
-			shared_libs: ["libshim_sensors", "libmnl", "libcurl", "libcutils", "libnvram", "libcrypto", "libssl", "libz", "liblog", "libhardware", "libladder", "libDR", "libutils", "android.frameworks.sensorservice@1.0", "android.hardware.sensors@1.0", "libhidlbase", "libhidltransport", "libsensorndkbridge", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["android.hardware.sensors@1.0-convert-shared", "libmnl", "libcurl", "libcutils", "libnvram", "libcrypto", "libssl", "libz", "liblog", "libhardware", "libladder", "libDR", "libutils", "android.frameworks.sensorservice@1.0", "android.hardware.sensors@1.0", "libhidlbase", "libhidltransport", "libsensorndkbridge", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "32",
