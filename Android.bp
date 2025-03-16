@@ -736,7 +736,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/lib3a.flash.so"],
-			shared_libs: ["libdl", "libc", ],
+			shared_libs: ["liblog", "libdl", "libc", ],
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/lib3a.flash.so"],
