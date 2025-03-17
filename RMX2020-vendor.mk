@@ -893,6 +893,7 @@ PRODUCT_PACKAGES += \
     libratconfig \
     librilfusion \
     libsensor_custom \
+    libutils-v30 \
     libwifi-hal-mtk \
     libwifitest \
     libwvhidl \

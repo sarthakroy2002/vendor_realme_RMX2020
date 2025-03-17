@@ -5775,14 +5775,13 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libutinterface_custom_md.so"],
-			shared_libs: ["libverno", "libdl", "liblog", "libc", "libm", ],
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libutinterface_custom_md.so"],
-			shared_libs: ["libverno", "libdl", "liblog", "libc", "libm", ],
 		},
 	},
 	compile_multilib: "both",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5796,14 +5795,13 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libutinterface_md.so"],
-			shared_libs: ["libutinterface_custom_md", "libc", "libcutils", "libxml2", "libssl", "libcrypto", "libcurl_xcap_md", "liblog", "libdl", "libm", ],
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libutinterface_md.so"],
-			shared_libs: ["libutinterface_custom_md", "libc", "libcutils", "libxml2", "libssl", "libcrypto", "libcurl_xcap_md", "liblog", "libdl", "libm", ],
 		},
 	},
 	compile_multilib: "both",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9541,6 +9539,23 @@ cc_prebuilt_library_shared {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsensor_custom.so"],
 			shared_libs: ["libhardware", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libutils-v30",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libutils-v30.so"],
+			shared_libs: ["libprocessgroup_shim", "libcutils", "liblog", "libprocessgroup", "libvndksupport", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
