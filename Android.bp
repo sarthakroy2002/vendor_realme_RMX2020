@@ -5365,27 +5365,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libudf",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libudf.so"],
-			shared_libs: ["liblog", "libbase", "libunwindstack", "libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libudf.so"],
-			shared_libs: ["liblog", "libbase", "libunwindstack", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libutinterface_custom_md",
 	owner: "realme",
 	strip: {
@@ -7196,7 +7175,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/audio.primary.mt6768.so"],
-			shared_libs: ["libhidlbase", "vendor.mediatek.hardware.mtkpower@1.0", "lib_aurisys_lvimfs", "liblvimfs", "liblvimfs_wrapper", "liblog", "libcutils", "libutils", "libalsautils-mtk", "libhardware_legacy", "libhardware", "libaudioutils", "libtinyalsa", "libtinyxml", "libaudiotoolkit_vendor", "libmedia_helper-v30", "libladder", "android.hardware.audio@6.0", "android.hardware.audio.common-util", "android.hardware.audio.common@6.0", "android.hardware.audio.common@6.0-util", "vendor.mediatek.hardware.audio@6.1", "libaudio_engineer_test", "libaedv", "libktveffect", "libktvreverb", "libktvsoundtouch", "libktvdrc", "libktveq", "libktvvolume", "libktveffect_rec", "libktvns", "liboplus_audio_config", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libshim_audio", "libhidlbase", "vendor.mediatek.hardware.mtkpower@1.0", "lib_aurisys_lvimfs", "liblvimfs", "liblvimfs_wrapper", "liblog", "libcutils", "libutils", "libalsautils-mtk", "libhardware_legacy", "libhardware", "libaudioutils", "libtinyalsa", "libtinyxml", "libaudiotoolkit_vendor", "libmedia_helper", "libladder", "android.hardware.audio@6.0", "android.hardware.audio.common-util", "android.hardware.audio.common@6.0", "android.hardware.audio.common@6.0-util", "vendor.mediatek.hardware.audio@6.1", "libaudio_engineer_test", "libaedv", "libktveffect", "libktvreverb", "libktvsoundtouch", "libktvdrc", "libktveq", "libktvvolume", "libktveffect_rec", "libktvns", "liboplus_audio_config", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "32",
@@ -9467,6 +9446,23 @@ cc_prebuilt_library_shared {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsensor_custom.so"],
 			shared_libs: ["libhardware", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libudf",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libudf.so"],
+			shared_libs: ["liblog", "libbase", "libunwindstack", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",

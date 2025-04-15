@@ -672,7 +672,6 @@ PRODUCT_PACKAGES += \
     libtflite_mtk \
     libtflite_mtk_static_R \
     libthha \
-    libudf \
     libutinterface_custom_md \
     libutinterface_md \
     libvcodec_oal \
@@ -893,6 +892,7 @@ PRODUCT_PACKAGES += \
     libratconfig \
     librilfusion \
     libsensor_custom \
+    libudf \
     libutils-v30 \
     libwifi-hal-mtk \
     libwifitest \
