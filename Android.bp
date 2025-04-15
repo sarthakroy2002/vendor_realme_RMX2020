@@ -186,72 +186,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "audio.primary.mt6768",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/hw/audio.primary.mt6768.so"],
-			shared_libs: ["libhidlbase", "vendor.mediatek.hardware.mtkpower@1.0", "lib_aurisys_lvimfs", "liblvimfs", "liblvimfs_wrapper", "liblog", "libcutils", "libutils", "libalsautils-mtk", "libhardware_legacy", "libhardware", "libaudioutils", "libtinyalsa", "libtinyxml", "libaudiotoolkit_vendor", "libmedia_helper-v30", "libladder", "android.hardware.audio@6.0", "android.hardware.audio.common-util", "android.hardware.audio.common@6.0", "android.hardware.audio.common@6.0-util", "vendor.mediatek.hardware.audio@6.1", "libaudio_engineer_test", "libaedv", "libktveffect", "libktvreverb", "libktvsoundtouch", "libktvdrc", "libktveq", "libktvvolume", "libktveffect_rec", "libktvns", "liboplus_audio_config", "libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/hw/audio.primary.mt6768.so"],
-			shared_libs: ["libhidlbase", "vendor.mediatek.hardware.mtkpower@1.0", "lib_aurisys_lvimfs", "liblvimfs", "liblvimfs_wrapper", "liblog", "libcutils", "libutils", "libalsautils", "libhardware_legacy", "libhardware", "libaudioutils", "libtinyalsa", "libtinyxml", "libaudiotoolkit_vendor", "libmedia_helper", "libladder", "android.hardware.audio@6.0", "android.hardware.audio.common-util", "android.hardware.audio.common@6.0", "android.hardware.audio.common@6.0-util", "vendor.mediatek.hardware.audio@6.1", "libaudio_engineer_test", "libaedv", "libktveffect", "libktvreverb", "libktvsoundtouch", "libktvdrc", "libktveq", "libktvvolume", "libktveffect_rec", "libktvns", "liboplus_audio_config", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	relative_install_path: "hw",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "audio.r_submix.mt6768",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/hw/audio.r_submix.mt6768.so"],
-			shared_libs: ["liblog", "libcutils", "libmedia_helper", "libutils", "libnbaio_mono", "libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/hw/audio.r_submix.mt6768.so"],
-			shared_libs: ["liblog", "libcutils", "libmedia_helper", "libutils", "libnbaio_mono", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	relative_install_path: "hw",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "audio.usb.mt6768",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/hw/audio.usb.mt6768.so"],
-			shared_libs: ["liblog", "libcutils", "libutils", "libalsautils-mtk", "libaudioutils", "libtinyalsa", "libtinycompress", "libaudiocustparam_vendor", "libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/hw/audio.usb.mt6768.so"],
-			shared_libs: ["liblog", "libcutils", "libutils", "libalsautils-mtk", "libaudioutils", "libtinyalsa", "libtinycompress", "libaudiocustparam_vendor", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	relative_install_path: "hw",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "dfps.mt6768",
 	owner: "realme",
 	strip: {
@@ -1463,27 +1397,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libalsautils-mtk",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libalsautils-mtk.so"],
-			shared_libs: ["liblog", "libcutils", "libtinyalsa", "libaudioutils", "libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libalsautils-mtk.so"],
-			shared_libs: ["liblog", "libcutils", "libtinyalsa", "libaudioutils", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libarcsoft_distortion_correction",
 	owner: "realme",
 	strip: {
@@ -1602,258 +1515,6 @@ cc_prebuilt_library_shared {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libarcsoft_lensstaindetection.so"],
 			shared_libs: ["libmpbase", "liblog", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libaudio_engineer_test",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libaudio_engineer_test.so"],
-			shared_libs: ["libcutils", "liblog", "libutils", "libtinyalsa", "libexpat", "libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libaudio_engineer_test.so"],
-			shared_libs: ["libcutils", "liblog", "libutils", "libtinyalsa", "libexpat", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libaudio_param_parser-vnd",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libaudio_param_parser-vnd.so"],
-			shared_libs: ["libutils", "libcutils", "liblog", "libbinder", "libaudiocustparam_vendor", "libaudioprimarydevicehalifclient", "libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libaudio_param_parser-vnd.so"],
-			shared_libs: ["libutils", "libcutils", "liblog", "libbinder", "libaudiocustparam_vendor", "libaudioprimarydevicehalifclient", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libaudiocompensationfilter_vendor",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libaudiocompensationfilter_vendor.so"],
-			shared_libs: ["libcustom_nvram", "libcutils", "liblog", "libutils", "libnvram", "libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libaudiocompensationfilter_vendor.so"],
-			shared_libs: ["libcustom_nvram", "libcutils", "liblog", "libutils", "libnvram", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libaudiocompensationfilterc",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libaudiocompensationfilterc.so"],
-			shared_libs: ["libcustom_nvram", "libnvram", "libcutils", "libutils", "libaudiocustparam_vendor", "liblog", "libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libaudiocompensationfilterc.so"],
-			shared_libs: ["libcustom_nvram", "libnvram", "libcutils", "libutils", "libaudiocustparam_vendor", "liblog", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libaudiocomponentengine_vendor",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libaudiocomponentengine_vendor.so"],
-			shared_libs: ["libcutils", "liblog", "libutils", "libaudiodcrflt_vendor", "libblisrc32_vendor", "libmtklimiter_vendor", "libmtkshifter_vendor", "libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libaudiocomponentengine_vendor.so"],
-			shared_libs: ["libcutils", "liblog", "libutils", "libaudiodcrflt_vendor", "libblisrc32_vendor", "libmtklimiter_vendor", "libmtkshifter_vendor", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libaudiocomponentenginec",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libaudiocomponentenginec.so"],
-			shared_libs: ["libcutils", "libutils", "libblisrc32_vendor", "libmtklimiter_vendor", "libmtkshifter_vendor", "liblog", "libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libaudiocomponentenginec.so"],
-			shared_libs: ["libcutils", "libutils", "libblisrc32_vendor", "libmtklimiter_vendor", "libmtkshifter_vendor", "liblog", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libaudiocustparam_vendor",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libaudiocustparam_vendor.so"],
-			shared_libs: ["libcutils", "liblog", "libutils", "libnvram", "libcustom_nvram", "libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libaudiocustparam_vendor.so"],
-			shared_libs: ["libcutils", "liblog", "libutils", "libnvram", "libcustom_nvram", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libaudiodcrflt_vendor",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libaudiodcrflt_vendor.so"],
-			shared_libs: ["liblog", "libcutils", "libmtk_drvb", "libutils", "libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libaudiodcrflt_vendor.so"],
-			shared_libs: ["liblog", "libcutils", "libmtk_drvb", "libutils", "libm", "libc++", "libc", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libaudiofmtconv",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libaudiofmtconv.so"],
-			shared_libs: ["libcutils", "libutils", "libblisrc32_vendor", "libmtkshifter_vendor", "liblog", "libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libaudiofmtconv.so"],
-			shared_libs: ["libcutils", "libutils", "libblisrc32_vendor", "libmtkshifter_vendor", "liblog", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libaudioloudc",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libaudioloudc.so"],
-			shared_libs: ["libaudiocompensationfilterc", "libbessound_hd_mtk_vendor", "libcutils", "libutils", "liblog", "libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libaudioloudc.so"],
-			shared_libs: ["libaudiocompensationfilterc", "libbessound_hd_mtk_vendor", "libcutils", "libutils", "liblog", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libaudioprimarydevicehalifclient",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libaudioprimarydevicehalifclient.so"],
-			shared_libs: ["libcutils", "liblog", "libutils", "libbase", "libhwbinder", "libhidlbase", "android.hardware.audio@6.0", "android.hardware.audio.common@6.0", "android.hardware.audio.common@6.0-util", "libmedia_helper", "libbinder", "libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libaudioprimarydevicehalifclient.so"],
-			shared_libs: ["libcutils", "liblog", "libutils", "libbase", "libhwbinder", "libhidlbase", "android.hardware.audio@6.0", "android.hardware.audio.common@6.0", "android.hardware.audio.common@6.0-util", "libmedia_helper", "libbinder", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libaudiotoolkit_vendor",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libaudiotoolkit_vendor.so"],
-			shared_libs: ["liblog", "libcutils", "libutils", "libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libaudiotoolkit_vendor.so"],
-			shared_libs: ["liblog", "libcutils", "libutils", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "both",
@@ -5327,27 +4988,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "liboplus_audio_config",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/liboplus_audio_config.so"],
-			shared_libs: ["libcutils", "liblog", "libutils", "libexpat", "libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/liboplus_audio_config.so"],
-			shared_libs: ["libcutils", "liblog", "libutils", "libexpat", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "liboppo_arcSoftBokehEngine_new",
 	owner: "realme",
 	strip: {
@@ -5720,27 +5360,6 @@ cc_prebuilt_library_shared {
 	},
 	compile_multilib: "both",
 	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libtinyxml",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libtinyxml.so"],
-			shared_libs: ["libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libtinyxml.so"],
-			shared_libs: ["libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
 	prefer: true,
 	soc_specific: true,
 }
@@ -7569,6 +7188,60 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "audio.primary.mt6768",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/hw/audio.primary.mt6768.so"],
+			shared_libs: ["libhidlbase", "vendor.mediatek.hardware.mtkpower@1.0", "lib_aurisys_lvimfs", "liblvimfs", "liblvimfs_wrapper", "liblog", "libcutils", "libutils", "libalsautils-mtk", "libhardware_legacy", "libhardware", "libaudioutils", "libtinyalsa", "libtinyxml", "libaudiotoolkit_vendor", "libmedia_helper-v30", "libladder", "android.hardware.audio@6.0", "android.hardware.audio.common-util", "android.hardware.audio.common@6.0", "android.hardware.audio.common@6.0-util", "vendor.mediatek.hardware.audio@6.1", "libaudio_engineer_test", "libaedv", "libktveffect", "libktvreverb", "libktvsoundtouch", "libktvdrc", "libktveq", "libktvvolume", "libktveffect_rec", "libktvns", "liboplus_audio_config", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	relative_install_path: "hw",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "audio.r_submix.mt6768",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/hw/audio.r_submix.mt6768.so"],
+			shared_libs: ["liblog", "libcutils", "libmedia_helper", "libutils", "libnbaio_mono", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	relative_install_path: "hw",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "audio.usb.mt6768",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/hw/audio.usb.mt6768.so"],
+			shared_libs: ["liblog", "libcutils", "libutils", "libalsautils-mtk", "libaudioutils", "libtinyalsa", "libtinycompress", "libaudiocustparam_vendor", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	relative_install_path: "hw",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libDR",
 	owner: "realme",
 	strip: {
@@ -7739,6 +7412,227 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libalsautils-mtk",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libalsautils-mtk.so"],
+			shared_libs: ["liblog", "libcutils", "libtinyalsa", "libaudioutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libaudio_engineer_test",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libaudio_engineer_test.so"],
+			shared_libs: ["libcutils", "liblog", "libutils", "libtinyalsa", "libexpat", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libaudio_param_parser-vnd",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libaudio_param_parser-vnd.so"],
+			shared_libs: ["libutils", "libcutils", "liblog", "libbinder", "libaudiocustparam_vendor", "libaudioprimarydevicehalifclient", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libaudiocompensationfilter_vendor",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libaudiocompensationfilter_vendor.so"],
+			shared_libs: ["libcustom_nvram", "libcutils", "liblog", "libutils", "libnvram", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libaudiocompensationfilterc",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libaudiocompensationfilterc.so"],
+			shared_libs: ["libcustom_nvram", "libnvram", "libcutils", "libutils", "libaudiocustparam_vendor", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libaudiocomponentengine_vendor",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libaudiocomponentengine_vendor.so"],
+			shared_libs: ["libcutils", "liblog", "libutils", "libaudiodcrflt_vendor", "libblisrc32_vendor", "libmtklimiter_vendor", "libmtkshifter_vendor", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libaudiocomponentenginec",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libaudiocomponentenginec.so"],
+			shared_libs: ["libcutils", "libutils", "libblisrc32_vendor", "libmtklimiter_vendor", "libmtkshifter_vendor", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libaudiocustparam_vendor",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libaudiocustparam_vendor.so"],
+			shared_libs: ["libcutils", "liblog", "libutils", "libnvram", "libcustom_nvram", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libaudiodcrflt_vendor",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libaudiodcrflt_vendor.so"],
+			shared_libs: ["liblog", "libcutils", "libmtk_drvb", "libutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libaudiofmtconv",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libaudiofmtconv.so"],
+			shared_libs: ["libcutils", "libutils", "libblisrc32_vendor", "libmtkshifter_vendor", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libaudioloudc",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libaudioloudc.so"],
+			shared_libs: ["libaudiocompensationfilterc", "libbessound_hd_mtk_vendor", "libcutils", "libutils", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libaudioprimarydevicehalifclient",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libaudioprimarydevicehalifclient.so"],
+			shared_libs: ["libcutils", "liblog", "libutils", "libbase", "libhwbinder", "libhidlbase", "android.hardware.audio@6.0", "android.hardware.audio.common@6.0", "android.hardware.audio.common@6.0-util", "libmedia_helper", "libbinder", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libaudiotoolkit_vendor",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libaudiotoolkit_vendor.so"],
+			shared_libs: ["liblog", "libcutils", "libutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libfgauge_gm30",
 	owner: "realme",
 	strip: {
@@ -7892,6 +7786,23 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "liboplus_audio_config",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/liboplus_audio_config.so"],
+			shared_libs: ["libcutils", "liblog", "libutils", "libexpat", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libstorage_otp",
 	owner: "realme",
 	strip: {
@@ -7918,6 +7829,23 @@ cc_prebuilt_library_shared {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libthermalalgo.so"],
 			shared_libs: ["libcutils", "libutils", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libtinyxml",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libtinyxml.so"],
+			shared_libs: ["libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "32",

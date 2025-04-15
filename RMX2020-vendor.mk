@@ -426,9 +426,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0-impl-mediatek \
     android.hardware.graphics.allocator@4.0-impl-mediatek \
     android.hardware.graphics.mapper@4.0-impl-mediatek \
-    audio.primary.mt6768 \
-    audio.r_submix.mt6768 \
-    audio.usb.mt6768 \
     dfps.mt6768 \
     gps.default \
     kmsetkey.trustonic \
@@ -486,25 +483,12 @@ PRODUCT_PACKAGES += \
     libaalservice \
     libaedv \
     libakm \
-    libalsautils-mtk \
     libarcsoft_distortion_correction \
     libarcsoft_dualcam_bokeh_api \
     libarcsoft_dualcam_refocus_left \
     libarcsoft_dualcam_refocus_preview \
     libarcsoft_dualcam_refocus_right \
     libarcsoft_lensstaindetection \
-    libaudio_engineer_test \
-    libaudio_param_parser-vnd \
-    libaudiocompensationfilter_vendor \
-    libaudiocompensationfilterc \
-    libaudiocomponentengine_vendor \
-    libaudiocomponentenginec \
-    libaudiocustparam_vendor \
-    libaudiodcrflt_vendor \
-    libaudiofmtconv \
-    libaudioloudc \
-    libaudioprimarydevicehalifclient \
-    libaudiotoolkit_vendor \
     libaurisysdemo \
     libbessound_hd_mtk_vendor \
     libblisrc32_vendor \
@@ -670,7 +654,6 @@ PRODUCT_PACKAGES += \
     libnvram_platform \
     libnvram_sec \
     libocam_common \
-    liboplus_audio_config \
     liboppo_arcSoftBokehEngine_new \
     liboppo_platform_hwi \
     libpixelflinger \
@@ -689,7 +672,6 @@ PRODUCT_PACKAGES += \
     libtflite_mtk \
     libtflite_mtk_static_R \
     libthha \
-    libtinyxml \
     libudf \
     libutinterface_custom_md \
     libutinterface_md \
@@ -777,6 +759,9 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.pq@2.6 \
     victor_s5k3p9sp_mipi_raw_IdxMgr \
     victor_s5k3p9sp_mipi_raw_tuning \
+    audio.primary.mt6768 \
+    audio.r_submix.mt6768 \
+    audio.usb.mt6768 \
     libDR \
     libHEVCdec_sa.ca7.android \
     libMtkOmxAdpcmDec \
@@ -787,6 +772,19 @@ PRODUCT_PACKAGES += \
     libMtkOmxVdecEx \
     libMtkOmxVenc \
     libMtkOmxWmaDec \
+    libalsautils-mtk \
+    libaudio_engineer_test \
+    libaudio_param_parser-vnd \
+    libaudiocompensationfilter_vendor \
+    libaudiocompensationfilterc \
+    libaudiocomponentengine_vendor \
+    libaudiocomponentenginec \
+    libaudiocustparam_vendor \
+    libaudiodcrflt_vendor \
+    libaudiofmtconv \
+    libaudioloudc \
+    libaudioprimarydevicehalifclient \
+    libaudiotoolkit_vendor \
     libfgauge_gm30 \
     libh264dec_customize \
     libh264dec_sa.ca7 \
@@ -796,8 +794,10 @@ PRODUCT_PACKAGES += \
     libmnl \
     libmp4enc_sa.ca7 \
     libmp4enc_xa.ca7 \
+    liboplus_audio_config \
     libstorage_otp \
     libthermalalgo \
+    libtinyxml \
     libvc1dec_sa.ca7 \
     libvcodec_utility \
     libvcodecdrv \
