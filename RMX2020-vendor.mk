@@ -301,8 +301,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/android.hardware.sensors@2.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@2.0-service-mediatek.rc \
-    vendor/realme/RMX2020/proprietary/vendor/etc/init/atcid.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atcid.rc \
-    vendor/realme/RMX2020/proprietary/vendor/etc/init/audiocmdservice_atci.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/audiocmdservice_atci.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/fuelgauged_nvram_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_nvram_init.rc \
@@ -900,7 +898,6 @@ PRODUCT_PACKAGES += \
     libwvdrmengine \
     libmtkcam_streaminfo_plugin-p1stt \
     vendor.mediatek.hardware.aee@1.0 \
-    vendor.mediatek.hardware.atci@1.0 \
     vendor.mediatek.hardware.camera.atms@1.0 \
     vendor.mediatek.hardware.camera.frhandler@1.0 \
     vendor.mediatek.hardware.camera.lomoeffect@1.0 \
@@ -923,7 +920,7 @@ PRODUCT_PACKAGES += \
     libmtk_vt_service \
     libmtk_vt_wrapper \
     libsignal \
-    libsink \
+    libsink-mtk \
     libsource \
     libvcodec_cap \
     libvcodec_capenc \
@@ -957,8 +954,6 @@ PRODUCT_PACKAGES += \
     oplus_appradio_device_manifest.xml \
     oplus_radio_device_manifest.xml \
     vendor.mediatek.hardware.gpu@1.0-service.xml \
-    atcid \
-    audiocmdservice_atci \
     autobt \
     bip \
     ccci_fsd \

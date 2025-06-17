@@ -9592,23 +9592,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.mediatek.hardware.atci@1.0",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/vendor.mediatek.hardware.atci@1.0.so"],
-			shared_libs: ["libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "vendor.mediatek.hardware.camera.atms@1.0",
 	owner: "realme",
 	strip: {
@@ -9877,10 +9860,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/libimsma.so"],
+			shared_libs: ["libbinder", "libcutils", "libgui", "libmedia", "libstagefright", "libstagefright_foundation", "libui", "libutils", "libsink-mtk", "libsource", "libvcodec_cap", "libimsma_rtp", "libcomutils", "liblog", "libsignal", "libnetd_client", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
-	check_elf_files: false,
 	prefer: true,
 	system_ext_specific: true,
 }
@@ -9988,14 +9971,14 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libsink",
+	name: "libsink-mtk",
 	owner: "realme",
 	strip: {
 		none: true,
 	},
 	target: {
 		android_arm64: {
-			srcs: ["proprietary/system_ext/lib64/libsink.so"],
+			srcs: ["proprietary/system_ext/lib64/libsink-mtk.so"],
 			shared_libs: ["libbinder", "libcutils", "libgui", "libmedia", "libstagefright", "libstagefright_foundation", "libui", "libutils", "libcomutils", "libvcodec_cap", "libvt_avsync", "liblog", "libmedia_omx", "libaudioclient", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
@@ -10608,40 +10591,6 @@ prebuilt_etc_xml {
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.mediatek.hardware.gpu@1.0-service.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-cc_prebuilt_binary {
-	name: "atcid",
-	owner: "realme",
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/bin/atcid"],
-			shared_libs: ["libmtkcutils", "libmtkutils", "libmtkrillog", "libmtkproperty", "vendor.mediatek.hardware.atci@1.0", "libhidlbase", "libhidltransport", "libhwbinder", "libnvram", "libfile_op", "libwifitest", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	strip: {
-		none: true,
-	},
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_binary {
-	name: "audiocmdservice_atci",
-	owner: "realme",
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/bin/audiocmdservice_atci"],
-			shared_libs: ["libcutils", "libutils", "libbinder", "liblog", "libaudiocompensationfilter_vendor", "libaudioprimarydevicehalifclient", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "32",
-	strip: {
-		none: true,
-	},
-	prefer: true,
 	soc_specific: true,
 }
 
