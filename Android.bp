@@ -10932,7 +10932,7 @@ cc_prebuilt_binary {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/bin/hw/mtkfusionrild"],
-			shared_libs: ["libmtkrillog", "libmtkproperty", "libmtkcutils", "librilfusion", "libmtkrilutils", "libsysenv", "libmtkconfigutils", "liblog", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libutils-v32", "libmtkrillog", "libmtkproperty", "libmtkcutils", "librilfusion", "libmtkrilutils", "libsysenv", "libmtkconfigutils", "liblog", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
